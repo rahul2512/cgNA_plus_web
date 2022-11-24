@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#set -x
+
+APPNAME=cgdna_web
+APPHOME=/home/phv/work/EPFL/webapps/$APPNAME
+LOCDIR=$APPHOME
+
+TARGET=cgdna
+REMDIR=$APPNAME
+
+DRYRUN=-n
+DRYRUN=
+
+cd $LOCDIR
+
+rsync $DRYRUN -av \
+  --delete-after \
+  --exclude=$APPNAME.conf \
+  --exclude=data \
+  --exclude=bin \
+  --exclude=tmp \
+  --exclude=*.swp \
+  --exclude=*.SAV \
+  --exclude=*.OLD \
+  *  ${TARGET}:$REMDIR
+

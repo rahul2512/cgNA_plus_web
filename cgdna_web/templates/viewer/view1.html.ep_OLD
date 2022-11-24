@@ -1,0 +1,445 @@
+% title 'cgdna view1';
+% layout 'default';
+
+<script>
+function cgDNAweb () {
+    this.model = undefined;
+    this.view = undefined;
+    this.controller = undefined;
+    this.charts = undefined;
+}
+
+cgDNAweb.prototype = {
+    init : function () {
+        this.model = new dnaModel();
+        this.view = new dnaView(this.model, "viewer");
+        this.charts = new dnaCharts();
+        this.controller = new dnaController(this.model, this.view, this.charts);
+
+        this.view.init();
+        this.controller.init();
+        this.controller.initControls();
+        this.charts.init();
+    }/*,
+
+    readParameterSetFromFile : function (filename) {
+        if (filename === undefined) {
+            console.log("Filename is undefined.");
+        }
+        this.model.readParameterSetFromFile(filename);
+    }
+    */
+};
+
+dnaController.prototype.onSubmit = function (event, id) {
+        //event.preventDefault();
+        var seq = document.getElementById("seq_input".concat(id.toString())).value;
+        //var param = document.getElementById("select_paramset".concat(id.toString())).value;
+        var param_query = "#slide".concat(id.toString())+" .search_wrapper .params_dd_label";
+        //console.log(param_query);
+        var param = window.getComputedStyle(document.querySelector("#slide".concat(id.toString())+" .search_wrapper .params_dd_label"), ':after').content;
+        //console.log(param);
+        //console.log(seq);
+        //console.log("id:", "loading"+id.toString());
+          
+        var that = this;
+        //$( "#loading"+id.toString() ).show();
+        $.ajax({
+           'async': true,
+           'type': "POST",
+           'global': false,
+           'dataType': 'JSON',
+           'url': "/data2",
+           'data': { 'seq_input': seq,
+                     'param_input': param},
+           'success': function (data) {
+                if( data.error === 'none' ) {
+                    that.model.loadConfigurationFromJSON(data, id);
+                    that.view.buildRenderObject(that.model.dna_molecules[id], id);
+                    that.charts.addData(id, data.sequence, data.shapes);
+                } else {
+                    //TODO PUT THINGS HERE
+                }
+               //$("#loading".concat(id.toString())).hide();
+           },
+           'error': function (response) {
+               //$("#loading".concat(id.toString())).hide();
+           }
+        });
+
+        return false;
+};
+
+var program = new cgDNAweb();
+
+document.addEventListener('DOMContentLoaded', function () {
+    program.init();
+
+    var ctnt1 = document.getElementById("tab1_content");
+    var ctnt2 = document.getElementById("tab2_content");
+    var ctnt3 = document.getElementById("tab3_content");
+    var ctnt4 = document.getElementById("tab4_content");
+    var ctnt5 = document.getElementById("tab5_content");
+
+    var canvas = document.getElementById('viewer');
+    canvas.width = Math.max(ctnt1.clientWidth, ctnt2.clientWidth);//, ctnt3.clientWidth);
+    canvas.height = Math.max(ctnt1.clientHeight, ctnt2.clientHeight);//, ctnt3.clientHeight);
+});
+
+window.onload = function () {
+    //program.init();
+
+    $("#loading1").hide();
+    $("#loading2").hide();
+    $("#loading3").hide();
+    $("#loading4").hide();
+}
+
+</script>
+    <input type="checkbox" id="slide_header"></input> 
+
+    <input type="radio" id="button1" name="tab" class="input" checked="checked"></input> 
+    <input type="radio" id="button2" name="tab" class="input"></input> 
+    <input type="radio" id="button3" name="tab" class="input"></input> 
+    <input type="radio" id="button4" name="tab" class="input"></input> 
+    <input type="radio" id="button5" name="tab" class="input"></input> 
+    
+    
+    <header id="header">
+        <div class="top_wrapper">
+            <div class="title_wrapper">
+                <h1 class="noselect"> cgDNAweb </h1>
+            </div>
+
+            <div class="input_wrapper"> 
+                <div id="slide_wrapper">
+
+                    <input type="radio" name="controls" id="input1_radio" checked="checked"></input>
+                    <input type="radio" name="controls" id="input2_radio"></input>
+                    <input type="radio" name="controls" id="input3_radio"></input>
+                    <input type="radio" name="controls" id="input4_radio"></input>
+
+                    <div id="input_slider"> 
+                        <div class="slide" id="slide1"> 
+                            <div class="search_wrapper">
+                                <input type="text" class="field" id="seq_input1" spellcheck="false" contenteditable="true" placeholder="Type Sequence..."></input>
+                                <div class="params_dropdown_wrapper">
+                                    <input type="radio" id="input1_radio_ps1" name="paramset"/>
+                                    <input type="radio" id="input1_radio_ps2" name="paramset"/>
+                                    <input type="radio" id="input1_radio_ps3" name="paramset"/>
+                                    <input type="radio" id="input1_radio_ps4" name="paramset"/>
+            
+                                    <span class="params_dd_label"></span>
+                                    <ul class="params_dropdown noselect">
+                                        <li> <label for="input1_radio_ps1">Paramset 1</label> </li>
+                                        <li> <label for="input1_radio_ps2">Paramset 2</label> </li>
+                                        <li> <label for="input1_radio_ps3">Paramset 3</label> </li>
+                                        <li> <label for="input1_radio_ps4">Paramset 4</label> </li>
+                                    </ul>
+                                </div>
+                                <button type="submit" id="submit_seq1">View</button>
+                            </div>
+                        </div> <!-- /slide1 -->
+
+                        <div class="slide" id="slide2"> 
+                            <div class="search_wrapper">
+                                <input type="text" class="field" id="seq_input2" spellcheck="false" contenteditable="true" placeholder="Type Sequence..."></input>
+                                <div class="params_dropdown_wrapper">
+                                    <input type="radio" id="input2_radio_ps1" name="paramset"/>
+                                    <input type="radio" id="input2_radio_ps2" name="paramset"/>
+                                    <input type="radio" id="input2_radio_ps3" name="paramset"/>
+                                    <input type="radio" id="input2_radio_ps4" name="paramset"/>
+            
+                                    <span class="params_dd_label"></span>
+                                    <ul class="params_dropdown noselect">
+                                        <li> <label for="input2_radio_ps1">Paramset 1</label> </li>
+                                        <li> <label for="input2_radio_ps2">Paramset 2</label> </li>
+                                        <li> <label for="input2_radio_ps3">Paramset 3</label> </li>
+                                        <li> <label for="input2_radio_ps4">Paramset 4</label> </li>
+                                    </ul>
+                                </div>
+                                <button type="submit" id="submit_seq2">View</button>
+                            </div>
+                        </div> <!-- /slide2 -->
+
+                        <div class="slide" id="slide3"> 
+                            <div class="search_wrapper">
+                                <input type="text" class="field" id="seq_input3" spellcheck="false" contenteditable="true" placeholder="Type Sequence..."></input>
+                                <div class="params_dropdown_wrapper">
+                                    <input type="radio" id="input3_radio_ps1" name="paramset"/>
+                                    <input type="radio" id="input3_radio_ps2" name="paramset"/>
+                                    <input type="radio" id="input3_radio_ps3" name="paramset"/>
+                                    <input type="radio" id="input3_radio_ps4" name="paramset"/>
+            
+                                    <span class="params_dd_label"></span>
+                                    <ul class="params_dropdown noselect">
+                                        <li> <label for="input3_radio_ps1">Paramset 1</label> </li>
+                                        <li> <label for="input3_radio_ps2">Paramset 2</label> </li>
+                                        <li> <label for="input3_radio_ps3">Paramset 3</label> </li>
+                                        <li> <label for="input3_radio_ps4">Paramset 4</label> </li>
+                                    </ul>
+                                </div>
+                                <button type="submit" id="submit_seq3">View</button>
+                            </div>
+                        </div> <!-- /slide3 -->
+
+
+                        <div class="slide" id="slide4"> 
+                            <div class="search_wrapper">
+                                <input type="text" class="field" id="seq_input4" spellcheck="false" contenteditable="true" placeholder="Type Sequence..."></input>
+                                <div class="params_dropdown_wrapper">
+                                    <input type="radio" id="input4_radio_ps1" name="paramset"/>
+                                    <input type="radio" id="input4_radio_ps2" name="paramset"/>
+                                    <input type="radio" id="input4_radio_ps3" name="paramset"/>
+                                    <input type="radio" id="input4_radio_ps4" name="paramset"/>
+            
+                                    <span class="params_dd_label"></span>
+                                    <ul class="params_dropdown noselect">
+                                        <li> <label for="input4_radio_ps1">Paramset 1</label> </li>
+                                        <li> <label for="input4_radio_ps2">Paramset 2</label> </li>
+                                        <li> <label for="input4_radio_ps3">Paramset 3</label> </li>
+                                        <li> <label for="input4_radio_ps4">Paramset 4</label> </li>
+                                    </ul>
+                                </div>
+                                <button type="submit" id="submit_seq4">View</button>
+                            </div>
+                        </div> <!-- /slide4 -->
+
+                    </div>
+
+                    <div id="slide_controls">
+                        <label for="input1_radio"></label>
+                        <label for="input2_radio"></label>
+                        <label for="input3_radio"></label>
+                        <label for="input4_radio"></label>
+                    </div>
+                    
+
+                    <div class="active_slide noselect"> 
+                        <div class="active_slide_positioning noselect">
+                            <label for="input1_radio"></label>
+                            <label for="input2_radio"></label>
+                            <label for="input3_radio"></label>
+                            <label for="input4_radio"></label>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+<!-- NAVBAR -->
+        <div class="nav noselect">
+            <label for="button1" class="label" id="label1">
+            <span>
+                <i class="fa fa-eye fa-lg fa-fw" aria-hidden="true"></i>  View
+            </span>
+            </label>
+            <label for="button2" class="label" id="label2">
+            <span>
+                <i class="fa fa-line-chart fa-lg fa-fw" aria-hidden="true"></i>
+                Plots
+            </span>
+            </label>
+            <div class="dropdown">
+            <!--<label for="button3" class="label" id="label3"> -->
+                <span>
+                    <i class="fa fa-wrench fa-lg fa-fw" aria-hidden="true"></i>
+                    Settings
+                    <i class="fa fa-caret-down fa-lg fa-fw" aria-hidden="true"></i>
+                </span>
+                <ul>
+                    <li>
+                        Background<br>
+                            <input type="radio" name="bgcolour" id="bg_black" value="black" checked> <label for="bg_black">Black</label><br>
+                            <input type="radio" name="bgcolour" id="bg_white" value="white"> <label for="bg_white">White</label><br>
+                    </li>
+                    <li>
+                        Nucleotides<br>
+                            <input type="checkbox" name="basetype" id="type_base" value="base" checked> <label for="type_base">bases</label><br>
+                            <input type="checkbox" name="basetype" id="type_basepair" value="basepair"> <label for="type_basepair">basepairs</label><br>
+                            <input type="checkbox" name="basetype" id="type_atoms" value="atoms"> <label for="type_atoms">atoms</label><br>
+                            <input id="check_backbone" type="checkbox" checked> <label for="check_backbone">backbones</label><br>
+                    </li>
+                    <li>
+                        Frames<br>
+                            <input id="check_baseframes" type="checkbox"> <label for="check_baseframes">base</label><br>
+                            <input id="check_basepairframes" type="checkbox"> <label for="check_basepairframes">basepair</label><br>
+                            <input id="check_phosphateframes" type="checkbox"> <label for="check_phosphateframes">phosphate</label><br>
+                    </li>
+                    <li>
+                            <button type="submit" id="submit_viewer_settings">Refresh</button>
+                    </li>
+                </ul>
+            <!--    </label> -->
+            </div>
+            <label for="button4" class="label" id="label4">
+            <span>
+                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                Contact
+            </span>
+            </label>
+            <label for="button5" class="label" id="label5">
+            <span>
+                <i class="fa fa-info fa-lg fa-fw" aria-hidden="true"></i>
+                About
+            </span>
+            </label>
+            <div class="dropdown">
+                <span>Export <i class="fa fa-caret-down fa-lg fa-fw" aria-hidden="true"></i> </span>
+                <ul>
+                    <li id="download_coords_pdb">Atom coords as PDB</li>
+                    <li id="download_coords_fra">Frame coords as fra</li>
+                    <li id="download_coords_bp_fra">BP frame coords as fra</li>
+                    <li id="download_charts_svg">Plots/shapes as SVG</li>
+                    <li id="download_charts_txt">Shapes as text</li>
+                    <li id="download_stiff_csc">K in CSC</li>
+                </ul>
+            </div>
+            <label for="slide_header" id="slide_label"></label>
+        </div>
+    </header>
+
+<!--VIEWER -->
+    <div class="canvas_content" id="tab1_content">
+        <div id="canvas_div">
+            <canvas id="viewer"></canvas>
+        </div>
+    </div>
+
+<!--PLOTS -->
+    <div class="content" id="tab2_content">
+
+        <div class="plot-content">
+            <h1 class="page-title">Internal Coordinates</h1>
+            <h2 class="page-subtitle">Rotations data format</h2>
+                    <input type="radio" name="chart_coords" id="coords_c+" value="degrees" checked> <label for="coords_c+">In degrees</label>
+                    <input type="radio" name="chart_coords" id="coords_cg" value="internal"> <label for="coords_cg">In cgDNA internal coordinates</label>
+                    <button type="submit" id="submit_plots_settings">Refresh</button>
+
+            <div id="chart_table_intras">
+                <h2 class="page-subtitle">Intras</h2>
+                <br>
+                <div id="buckle"    class="chart"></div>
+                <div id="propeller" class="chart"></div>
+                <div id="opening"   class="chart"></div>
+
+                <br>
+                <div id="shear"   class="chart"></div>
+                <div id="stretch" class="chart"></div>
+                <div id="stagger" class="chart"></div>
+                <br>
+            </div>
+            <div id="chart_table_inters">
+                <h2 class="page-subtitle">Inters</h2>
+                <br>
+                <div id="tilt"  class="chart"></div>
+                <div id="roll"  class="chart"></div>
+                <div id="twist" class="chart"></div>
+                <br>
+                <div id="shift" class="chart"></div>
+                <div id="slide" class="chart"></div>
+                <div id="rise"  class="chart"></div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="tab4_content">
+        <div class="text-content">
+            <h1 class="page-title">Contact</h1>
+            <p>Some links.</p>
+        </div>
+    </div>
+
+    <div class="content" id="tab5_content">
+        <div class="text-content">
+            <h1 class="page-title">About</h1>
+            <h2 class="page-subtitle">cgDNA</h2>
+            <p>cgDNA is a coarse grained rigid base model for DNA. Parameters are estimated using Molecular Dynamics simulations, more information can be found on the <a href="http://lcvmwww.epfl.ch/research/cgDNA/">cgDNA website</a>. </p>
+            <h2 class="page-subtitle">Usage</h2>
+            <p>Fill in a DNA sequence in the input form at the top of the screen, in the header. For multiple inputs, click one of the arrows to switch to another input form. A maximum of four sequences can be given.</p>
+            <p>The input format is either a string of nucleotides {A,C,G,T}, (upper or lower case, and with or without spaces) or, for tandem repeats, put a sequence between parentheses, and put a number after an underscore, e.g. (AG)_100 for a poly(AG) molecule with 200 basepairs. </p>
+            <h2 class="page-subtitle">Viewer controls</h2>
+            The controls for the 3D viewer are mainly mouse-based:
+            <dl>
+                <dt>Rotate</dt>
+                <dd>left click and drag</dd>
+                <dt>Zoom</dt>
+                <dd>middle mouse click, scroll</dd>
+                <dt>Pan</dt>
+                <dd>shift+left click and drag</dd>
+                <dt>Context</dt>
+                <dd>right click</dd>
+            </dl>
+
+            <h2 class="page-subtitle">Parameter sets</h2>
+            <p>cgDNA uses a parameter set with entries estimated from MD simulations for the internal shape of the DNA, and the stiffnesses of the interactions between individual, and consecutive, bases of the molecules. 
+            <p>As a default, parameter set 3 is chosen, however, should the user feel that another is in order, he/she can choose to pick another.
+            <ul>
+                <li> Parameter set 1 <ul>
+                    <li>ABC sequence library</li>
+                    <li>100 nanoseconds of Amber MD time series</li>
+                    <li>bsc0 force field</li>
+                    <li>150mM of K+ counter-ions</li>
+                    <li>Estimated with maximum entropy</li>
+                </ul></li>
+                <li> Parameter set 2 <ul>
+                    <li>ABC sequence library</li>
+                    <li>1 microsecond of Amber MD time series</li>
+                    <li>bsc0 force field</li>
+                    <li>150mM of K+ counter-ions</li>
+                    <li>Estimated with maximum relative entropy</li>
+                </ul></li>
+                <li> Parameter set 3 <ul>
+                    <li>Palindromic sequence library</li>
+                    <li>2 microseconds of Amber MD time series</li>
+                    <li>bsc1 force field</li>
+                    <li>150mM of K+ counter-ions</li>
+                    <li>Estimated with maximum relative entropy</li>
+                </ul></li>
+                <li> Parameter set 4 <ul>
+                    <li>Palindromic sequence library</li>
+                    <li>3 microseconds of Amber MD time series</li>
+                    <li>bsc1 force field</li>
+                    <li>150mM of K+ counter-ions</li>
+                    <li>Estimated with maximum relative entropy</li>
+                </ul></li>
+            </ul>
+            <h2 class="page-subtitle">Output</h2>
+            <p>Given the input sequence, and a selected parameter set from the dropdown menu next to the sequence input, you can view the ground state of the DNA in the 'View' tab. In the 'Plots' tab, you can view the values of the internal coordinates along the input sequence(s).
+            <p> It is possible to export the configuration and other data in multiple ways, by selecting an entry in the 'Export' menu. From there, the following options are available:
+            <dl>
+                <dt>Atom coordinates as PDB file</dt>
+                <dd>This will download a .pdb file will all of the heavy atoms in the DNA bases. These atoms have positions as specified by the Tsukuba convention. The phosphodiesther backbones are not provided.</dd>
+                <br>
+                <dt>Frame coordinates as .fra file</dt>
+                <br>
+                <dt>Basepair frame coordinates as .fra file</dt>
+                <br>
+                <dt>Shapes as SVG</dt>
+                <dd>Downloads a zipped file with all the plots of the internal coordinates as they are shown in the 'Plots' tab.</dd>
+                <br>
+                <dt>Shapes as text</dt>
+                <br>
+                <dt>Stiffness matrix in symmetric CSC format</dt>
+                <dd>This will download a zipped file with all the stiffness matrices of the input sequences in symmetric compressed sparse column format. This is the same as the normal CSC (or CSR) format, but only contains the values on the upper triangular matrix.</dd>
+            </dl>
+            <h2 class="page-subtitle">Resources used</h2>
+            <p>This website used <a href="https://threejs.org/">three.js</a> for visualisation of DNA. Plots are generated with the help of <a href="https://d3js.org/">d3.js</a>. Symbols shown are from <a href="http://fontawesome.io/">Font Awesome</a>. Zips are generated with <a href="https://gildas-lormeau.github.io/zip.js/">zip.js</a>. Files are saved with <a href="https://github.com/eligrey/FileSaver.js/">FileSaver.js.</a> Linear algebra calculations done with <a href="http://www.numericjs.com/">numeric.js.</a></p> 
+        </div>
+
+    </div>
+
+    <!-- CONTEXTMENU -->
+
+    <div id="contextdiv">
+        <div class="cmenu-item"><a id="center_base"><i class="fa fa-align-center fa-fw" aria-hidden="true"></i>Center on this base</a></li>
+        <div class="cmenu-item"><a id="center_bp"><i class="fa fa-align-justify fa-fw" aria-hidden="true"></i>Center on this basepair</a></li>
+        <div class="cmenu-item"><a id="view_origin"><i class="fa fa-eye fa-fw" aria-hidden="true"></i>Look at center/origin</a></li>
+        <label class="cmenu-item" for="button2"><a id="goto_plots"><i class="fa fa-line-chart fa-fw" aria-hidden="true"></i>Check shapes</a></li>
+        <label class="cmenu-item" for="button5"><a id="goto_about"><i class="fa fa-info fa-fw" aria-hidden="true"></i>About</a></li>
+    </div>
+

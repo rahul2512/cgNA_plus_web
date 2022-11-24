@@ -1,0 +1,2048 @@
+[20200728 11:36:59] [info] Listening at "http://*:3457"
+[20200728 11:36:59] [info] Manager 28733 started
+[20200728 11:36:59] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20200728 15:11:04] [info] Manager 28733 stopped
+[20200728 15:11:13] [info] Listening at "http://*:3457"
+[20200728 15:11:13] [info] Manager 29055 started
+[20200728 15:11:13] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20200728 20:12:09] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200728 20:12:09] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200728 20:12:09] [info] service time (0.147155s, 6.796/s)
+[20200728 21:10:59] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200728 21:10:59] [info] dataprovider: processing param_id="PS4", seq_id=G_12
+[20200728 21:10:59] [info] service time (0.091693s, 10.906/s)
+[20200729 15:01:53] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200729 15:01:53] [info] dataprovider: processing param_id="PS4", seq_id=A_4
+[20200729 15:01:53] [info] service time (0.07238s, 13.816/s)
+[20200731 13:54:54] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200731 13:54:54] [info] dataprovider: processing param_id="PS4", seq_id=C_12
+[20200731 13:54:54] [info] service time (0.121726s, 8.215/s)
+[20200731 13:56:56] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200731 13:56:56] [error] no seq_id or param_id, returning dummy response
+[20200731 13:56:56] [info] service time (0.001896s, 527.426/s)
+[20200731 13:56:56] [info] dataprovider: processing param_id="PS4", seq_id=
+[20200731 13:56:56] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200731 13:56:56] [error] no seq_id or param_id, returning dummy response
+[20200731 13:56:56] [info] service time (0.006595s, 151.630/s)
+[20200731 13:56:56] [info] dataprovider: processing param_id="PS4", seq_id=
+[20200731 13:56:56] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200731 13:56:56] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200801 11:44:25] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:44:25] [info] dataprovider: processing param_id="PS4", seq_id=A_20
+[20200801 11:44:25] [info] service time (0.055819s, 17.915/s)
+[20200801 11:44:31] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:44:31] [info] dataprovider: processing param_id="PS4", seq_id=G_20
+[20200801 11:44:31] [info] service time (0.04703s, 21.263/s)
+[20200801 11:45:06] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:45:06] [info] dataprovider: processing param_id="PS4", seq_id=A_10G_10
+[20200801 11:45:07] [info] service time (0.065368s, 15.298/s)
+[20200801 11:46:09] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:46:09] [info] dataprovider: processing param_id="PS4", seq_id=GTGAAAAAAAAAGC
+[20200801 11:46:09] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:46:09] [info] dataprovider: processing param_id="PS4", seq_id=GTGAAAAAAAAAGC
+[20200801 11:46:09] [info] service time (0.062071s, 16.111/s)
+[20200801 11:46:09] [info] service time (0.098578s, 10.144/s)
+[20200801 11:46:18] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:46:18] [info] dataprovider: processing param_id="PS4", seq_id=GTGAAAATAAAAGC$
+[20200801 11:46:18] [info] service time (0.026872s, 37.213/s)
+[20200801 11:46:19] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:46:19] [info] dataprovider: processing param_id="PS4", seq_id=GTGAAAATAAAAGC
+[20200801 11:46:19] [info] service time (0.053204s, 18.796/s)
+[20200801 11:48:41] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:48:41] [info] dataprovider: processing param_id="PS4", seq_id=(A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200801 11:48:41] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:48:41] [info] dataprovider: processing param_id="PS4", seq_id=(A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200801 11:48:41] [info] service time (0.114892s, 8.704/s)
+[20200801 11:48:41] [info] service time (0.133225s, 7.506/s)
+[20200801 11:48:55] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:48:55] [info] dataprovider: processing param_id="PS1", seq_id=(A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200801 11:48:55] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:48:55] [info] dataprovider: processing param_id="PS1", seq_id=(A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200801 11:48:55] [info] service time (0.131841s, 7.585/s)
+[20200801 11:48:55] [info] service time (0.147522s, 6.779/s)
+[20200801 11:49:08] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:49:08] [info] dataprovider: processing param_id="PS2", seq_id=(A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200801 11:49:08] [info] service time (0.161512s, 6.191/s)
+[20200801 11:49:15] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:49:15] [info] dataprovider: processing param_id="PS3", seq_id=(A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200801 11:49:15] [info] service time (0.100251s, 9.975/s)
+[20200801 11:49:19] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:49:19] [info] dataprovider: processing param_id="PS4", seq_id=(A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200801 11:49:19] [info] service time (0.110155s, 9.078/s)
+[20200801 11:51:06] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:51:06] [info] dataprovider: processing param_id="PS4", seq_id=(A5CACG2)1
+[20200801 11:51:06] [info] service time (0.024267s, 41.208/s)
+[20200801 11:51:29] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:51:29] [info] dataprovider: processing param_id="PS4", seq_id=(A_5CACG_2)_1
+[20200801 11:51:29] [info] service time (0.062116s, 16.099/s)
+[20200801 11:51:54] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:51:54] [info] dataprovider: processing param_id="PS4", seq_id=(A_7GAG_2)_10
+[20200801 11:51:54] [info] service time (0.104033s, 9.612/s)
+[20200801 11:52:10] [info] if_loggedin: granting access to /data2 to generic user at 84.226.191.112
+[20200801 11:52:10] [info] dataprovider: processing param_id="PS4", seq_id=(A_5CACG_2)_11
+[20200801 11:52:10] [info] service time (0.113759s, 8.791/s)
+[20200807 09:46:06] [info] if_loggedin: granting access to /data2 to generic user at 133.63.21.1
+[20200807 09:46:06] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20200807 09:46:06] [info] service time (0.267577s, 3.737/s)
+[20200807 09:46:17] [info] if_loggedin: granting access to /data2 to generic user at 133.63.21.1
+[20200807 09:46:17] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20200807 09:46:17] [info] service time (0.094601s, 10.571/s)
+[20200807 09:47:42] [info] if_loggedin: granting access to /data3 to generic user at 133.63.21.1
+[20200807 09:47:42] [error] no seq_id or param_id, returning dummy response
+[20200807 09:47:42] [info] if_loggedin: granting access to /data3 to generic user at 133.63.21.1
+[20200807 09:47:42] [info] service time (0.001049s, 953.289/s)
+[20200807 09:47:42] [info] processing seq_id: 
+[20200807 09:47:42] [info] processing param_id: "PS4"
+[20200807 09:47:42] [info] processing seq_id: (ACTG_5A)_2 [C] A G_10 T
+[20200807 09:47:42] [info] processing param_id: "PS4"
+[20200807 09:47:42] [info] if_loggedin: granting access to /data3 to generic user at 133.63.21.1
+[20200807 09:47:42] [info] if_loggedin: granting access to /data3 to generic user at 133.63.21.1
+[20200807 09:47:42] [error] no seq_id or param_id, returning dummy response
+[20200807 09:47:42] [error] no seq_id or param_id, returning dummy response
+[20200807 09:47:42] [info] service time (0.002337s, 427.899/s)
+[20200807 09:47:42] [info] service time (0.002432s, 411.184/s)
+[20200807 09:47:42] [info] processing seq_id: 
+[20200807 09:47:42] [info] processing seq_id: 
+[20200807 09:47:42] [info] processing param_id: "PS4"
+[20200807 09:47:42] [info] processing param_id: "PS4"
+[20200807 09:47:42] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200807 09:47:42] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200807 09:47:42] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200807 09:47:42] [info] service time (0.15498s, 6.452/s)
+[20200807 20:57:16] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20200807 20:57:16] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20200807 20:57:16] [info] service time (0.001067s, 937.207/s)
+[20200807 20:57:16] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20200813 12:10:16] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.92
+[20200813 12:10:16] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200813 12:10:16] [info] service time (0.207511s, 4.819/s)
+[20200814 16:27:21] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:27:21] [info] dataprovider: processing param_id=PS4, seq_id=B
+[20200814 16:27:21] [info] service time (0.025414s, 39.348/s)
+[20200814 16:27:24] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:27:24] [info] dataprovider: processing param_id=PS4, seq_id=ACAB
+[20200814 16:27:24] [info] service time (0.021989s, 45.477/s)
+[20200814 16:27:24] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:27:24] [info] dataprovider: processing param_id=PS4, seq_id=ACAB
+[20200814 16:27:24] [info] service time (0.014351s, 69.682/s)
+[20200814 16:28:00] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:28:00] [info] dataprovider: processing param_id=PS4, seq_id=ATTAC
+[20200814 16:28:00] [info] service time (0.041696s, 23.983/s)
+[20200814 16:28:06] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:28:06] [info] dataprovider: processing param_id=PS4, seq_id=(ATTAC)_2
+[20200814 16:28:06] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:28:06] [info] dataprovider: processing param_id=PS4, seq_id=(ATTAC)_2
+[20200814 16:28:06] [info] service time (0.102909s, 9.717/s)
+[20200814 16:28:06] [info] service time (0.099348s, 10.066/s)
+[20200814 16:28:14] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:28:14] [info] dataprovider: processing param_id=PS4, seq_id=(ATTAC)_3
+[20200814 16:28:14] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:28:14] [info] dataprovider: processing param_id=PS4, seq_id=(ATTAC)_3
+[20200814 16:28:14] [info] service time (0.088028s, 11.360/s)
+[20200814 16:28:14] [info] service time (0.085034s, 11.760/s)
+[20200814 16:31:31] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:31:31] [info] dataprovider: processing param_id=PS4, seq_id=(CATTA)_3
+[20200814 16:31:31] [info] service time (0.045082s, 22.182/s)
+[20200814 16:31:54] [info] if_loggedin: granting access to /data2 to generic user at 109.31.16.233
+[20200814 16:31:54] [info] dataprovider: processing param_id=PS4, seq_id=(GTAAT)_3
+[20200814 16:31:54] [info] service time (0.067929s, 14.721/s)
+[20200817 16:39:11] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:39:11] [info] dataprovider: processing param_id=PS4, seq_id=A_20
+[20200817 16:39:11] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:39:11] [info] dataprovider: processing param_id=PS4, seq_id=A_20
+[20200817 16:39:12] [info] service time (0.382494s, 2.614/s)
+[20200817 16:39:12] [info] service time (0.391468s, 2.554/s)
+[20200817 16:41:45] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:41:45] [info] dataprovider: processing param_id=PS4, seq_id=A_10G_10
+[20200817 16:41:45] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:41:45] [info] dataprovider: processing param_id=PS4, seq_id=A_10G_10
+[20200817 16:41:45] [info] service time (0.057176s, 17.490/s)
+[20200817 16:41:45] [info] service time (0.13562s, 7.374/s)
+[20200817 16:43:18] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:43:18] [info] dataprovider: processing param_id=PS2, seq_id=GTGAAAAAAAAAGC
+[20200817 16:43:18] [info] service time (0.055669s, 17.963/s)
+[20200817 16:43:33] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:43:33] [info] dataprovider: processing param_id=PS2, seq_id=GTGAAAATAAAAGC
+[20200817 16:43:33] [info] service time (0.051344s, 19.476/s)
+[20200817 16:50:57] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:50:57] [info] dataprovider: processing param_id=PS4, seq_id= (A5G5T5C5G)2A5G5T5C5G(A5G5T5C5G)2
+[20200817 16:50:57] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:50:57] [info] dataprovider: processing param_id=PS4, seq_id= (A5G5T5C5G)2A5G5T5C5G(A5G5T5C5G)2
+[20200817 16:50:57] [info] service time (0.020567s, 48.622/s)
+[20200817 16:50:57] [info] service time (0.026236s, 38.116/s)
+[20200817 16:51:22] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:51:22] [info] dataprovider: processing param_id=PS4, seq_id= (A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200817 16:51:22] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:51:22] [info] dataprovider: processing param_id=PS4, seq_id= (A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200817 16:51:22] [info] service time (0.115432s, 8.663/s)
+[20200817 16:51:22] [info] service time (0.125148s, 7.991/s)
+[20200817 16:52:14] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:52:14] [info] dataprovider: processing param_id=PS1, seq_id= (A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200817 16:52:14] [info] service time (0.142769s, 7.004/s)
+[20200817 16:52:21] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:52:21] [info] dataprovider: processing param_id=PS2, seq_id= (A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200817 16:52:21] [info] service time (0.110553s, 9.045/s)
+[20200817 16:52:28] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:52:28] [info] dataprovider: processing param_id=PS3, seq_id= (A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200817 16:52:28] [info] service time (0.113015s, 8.848/s)
+[20200817 16:52:34] [info] if_loggedin: granting access to /data2 to generic user at 85.218.94.95
+[20200817 16:52:34] [info] dataprovider: processing param_id=PS4, seq_id= (A_5G_5T_5C_5G)_2A_5G_5T_5C_5G(A_5G_5T_5C_5G)_2
+[20200817 16:52:34] [info] service time (0.063184s, 15.827/s)
+[20200818 10:31:48] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200818 10:31:48] [info] dataprovider: processing param_id="PS4", seq_id=tctctct
+[20200818 10:31:48] [info] service time (0.090475s, 11.053/s)
+[20200819 10:58:10] [info] if_loggedin: granting access to /data2 to generic user at 128.179.157.57
+[20200819 10:58:10] [info] dataprovider: processing param_id="PS4", seq_id=ACGTGTCAGTGT
+[20200819 10:58:10] [info] service time (0.092232s, 10.842/s)
+[20200819 12:47:41] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200819 12:47:41] [error] no seq_id or param_id, returning dummy response
+[20200819 12:47:41] [info] service time (0.007292s, 137.137/s)
+[20200819 12:47:41] [info] dataprovider: processing param_id="PS4", seq_id=
+[20200819 12:47:41] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200819 12:47:41] [error] no seq_id or param_id, returning dummy response
+[20200819 12:47:41] [info] service time (0.007856s, 127.291/s)
+[20200819 12:47:41] [info] dataprovider: processing param_id="PS4", seq_id=
+[20200819 12:47:41] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200819 12:47:41] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200821 17:18:39] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200821 17:18:39] [info] dataprovider: processing param_id="PS4", seq_id=agagag
+[20200821 17:18:39] [info] service time (0.091835s, 10.889/s)
+[20200824 08:22:31] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200824 08:22:31] [info] dataprovider: processing param_id="PS4", seq_id=ggttaatc
+[20200824 08:22:31] [info] service time (0.087609s, 11.414/s)
+[20200824 09:53:14] [info] if_loggedin: granting access to /data2 to generic user at 128.179.167.216
+[20200824 09:53:14] [info] dataprovider: processing param_id=PS4, seq_id=cgcg
+[20200824 09:53:14] [info] service time (0.091473s, 10.932/s)
+[20200824 09:53:23] [info] if_loggedin: granting access to /data2 to generic user at 128.179.167.216
+[20200824 09:53:23] [info] dataprovider: processing param_id=PS4, seq_id=cgcgcgcgcgcg
+[20200824 09:53:23] [info] if_loggedin: granting access to /data2 to generic user at 128.179.167.216
+[20200824 09:53:23] [info] dataprovider: processing param_id=PS4, seq_id=cgcgcgcgcgcg
+[20200824 09:53:24] [info] service time (0.146812s, 6.811/s)
+[20200824 09:53:24] [info] service time (0.151214s, 6.613/s)
+[20200824 10:01:01] [info] if_loggedin: granting access to /data2 to generic user at 128.179.167.216
+[20200824 10:01:01] [info] dataprovider: processing param_id=PS4, seq_id=A_6T_6
+[20200824 10:01:01] [info] if_loggedin: granting access to /data2 to generic user at 128.179.167.216
+[20200824 10:01:01] [info] dataprovider: processing param_id=PS4, seq_id=A_6T_6
+[20200824 10:01:01] [info] service time (0.152351s, 6.564/s)
+[20200824 10:01:01] [info] service time (0.161s, 6.211/s)
+[20200824 10:01:46] [info] if_loggedin: granting access to /data2 to generic user at 128.179.179.83
+[20200824 10:01:46] [info] dataprovider: processing param_id="PS4", seq_id=A_6T_6
+[20200824 10:01:46] [info] service time (0.070243s, 14.236/s)
+[20200824 10:06:26] [info] if_loggedin: granting access to /data2 to generic user at 128.179.179.83
+[20200824 10:06:26] [info] dataprovider: processing param_id="PS4", seq_id=atcg
+[20200824 10:06:26] [info] service time (0.083487s, 11.978/s)
+[20200824 10:16:56] [info] if_loggedin: granting access to /data2 to generic user at 128.179.179.83
+[20200824 10:16:56] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200824 10:16:56] [info] service time (0.101678s, 9.835/s)
+[20200824 10:31:03] [info] if_loggedin: granting access to /data2 to generic user at 128.179.179.83
+[20200824 10:31:03] [info] dataprovider: processing param_id="PS4", seq_id=a_5ta_6
+[20200824 10:31:03] [info] service time (0.092361s, 10.827/s)
+[20200824 10:43:24] [info] if_loggedin: granting access to /data2 to generic user at 128.179.179.83
+[20200824 10:43:24] [info] dataprovider: processing param_id="PS4", seq_id=A_6T_6
+[20200824 10:43:24] [info] service time (0.087258s, 11.460/s)
+[20200824 11:07:34] [info] if_loggedin: granting access to /data2 to generic user at 128.179.179.83
+[20200824 11:07:34] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200824 11:07:34] [info] service time (0.081803s, 12.224/s)
+[20200824 11:08:48] [info] if_loggedin: granting access to /data2 to generic user at 128.179.179.83
+[20200824 11:08:48] [info] dataprovider: processing param_id="PS4", seq_id=A_5Ta_6
+[20200824 11:08:48] [info] service time (0.071715s, 13.944/s)
+[20200824 16:23:03] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:23:03] [info] dataprovider: processing param_id="PS4", seq_id=ATATA
+[20200824 16:23:03] [info] service time (0.075582s, 13.231/s)
+[20200824 16:23:17] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:23:17] [info] dataprovider: processing param_id="PS4", seq_id=ATATACG
+[20200824 16:23:17] [info] service time (0.064866s, 15.416/s)
+[20200824 16:23:19] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:23:19] [info] dataprovider: processing param_id="PS4", seq_id=ATATACG
+[20200824 16:23:19] [info] service time (0.054968s, 18.192/s)
+[20200824 16:23:31] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:23:31] [info] dataprovider: processing param_id="PS4", seq_id=ATATACGGCGCG
+[20200824 16:23:31] [info] service time (0.086823s, 11.518/s)
+[20200824 16:36:04] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:36:04] [info] dataprovider: processing param_id="PS4", seq_id=ATATACGGCGCGGCGCGCGCCCC
+[20200824 16:36:04] [info] service time (0.070136s, 14.258/s)
+[20200824 16:36:23] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:36:23] [info] dataprovider: processing param_id="PS4", seq_id=ATATACGGAAAAAACGAAAAAAAAGCGGCGCGCGCCCC
+[20200824 16:36:23] [info] service time (0.109619s, 9.123/s)
+[20200824 16:36:49] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:36:49] [info] dataprovider: processing param_id="PS4", seq_id=ATATACGGAAAAAACGAAAAAAAAGCAAAAAAAAGGCGCGCGCCCC
+[20200824 16:36:49] [info] service time (0.11642s, 8.590/s)
+[20200824 16:37:32] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:37:32] [info] dataprovider: processing param_id="PS4", seq_id=ATATACGGAAAAAACGAAAAAAAAGCAAAAAAAAGGAAAACGCCCC
+[20200824 16:37:32] [info] service time (0.107605s, 9.293/s)
+[20200824 16:37:34] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:37:34] [info] dataprovider: processing param_id="PS4", seq_id=ATATACGGAAAAAACGAAAAAAAAGCAAAAAAAAGGAAAACGCCCC
+[20200824 16:37:34] [info] service time (0.118684s, 8.426/s)
+[20200824 16:40:30] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:40:30] [info] dataprovider: processing param_id="PS4", seq_id=(a_5 g_5 t_5 c_5 g)_2 a_5 g_5 t_5 c_5 [g](a_5 g_5 t_5 c_5 g)_2
+[20200824 16:40:30] [info] service time (0.119958s, 8.336/s)
+[20200824 16:40:50] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:40:50] [info] dataprovider: processing param_id="PS4", seq_id=(a_5 g_5 t_5 c_5 g)_2 a_5 g_5 t_5 c_5 [g](a_5 g_5 t_5 c_5 g)_2
+[20200824 16:40:50] [info] service time (0.147771s, 6.767/s)
+[20200824 16:41:09] [info] if_loggedin: granting access to /data2 to generic user at 188.69.197.238
+[20200824 16:41:09] [info] dataprovider: processing param_id="PS4", seq_id=(a_5 g_5 t_5 c_5 g)_2 a_5 g_5 t_5 c_5 [g](a_5 g_5 t_5 c_5 g)_2
+[20200824 16:41:09] [info] service time (0.116804s, 8.561/s)
+[20200825 11:20:43] [info] if_loggedin: granting access to /data2 to generic user at 188.69.223.27
+[20200825 11:20:43] [info] dataprovider: processing param_id="PS4", seq_id=aacccccccccccccccccccctttttttttttttttttttttggggggggggggggggg
+[20200825 11:20:44] [info] service time (0.132375s, 7.554/s)
+[20200826 14:38:09] [info] Listening at "http://*:3457"
+[20200826 14:38:09] [info] Manager 730 started
+[20200826 14:38:09] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20200826 14:39:33] [info] if_loggedin: granting access to /data2 to generic user at 193.247.83.6
+[20200826 14:39:33] [info] dataprovider: processing param_id="PS4", seq_id=AAAA
+[20200826 14:39:33] [info] service time (0.272855s, 3.665/s)
+[20200826 15:24:10] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200826 15:24:10] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200826 15:24:10] [info] service time (0.053548s, 18.675/s)
+[20200826 15:24:24] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200826 15:24:24] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200826 15:24:24] [info] dataprovider: processing param_id="PS4", seq_id=A_24
+[20200826 15:24:24] [info] dataprovider: processing param_id="PS4", seq_id=A_24
+[20200826 15:24:24] [info] service time (0.068224s, 14.658/s)
+[20200826 15:24:24] [info] service time (0.082921s, 12.060/s)
+[20200827 14:42:10] [info] if_loggedin: granting access to /data2 to generic user at 88.222.32.73
+[20200827 14:42:10] [info] dataprovider: processing param_id="PS4", seq_id=(a_5 g_5 t_5 c_5 g)_2 a_5 g_5 t_5 c_5 [g](a_5 g_5 t_5 c_5 g)_2
+[20200827 14:42:10] [info] service time (0.112006s, 8.928/s)
+[20200828 16:46:22] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200828 16:46:22] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200828 16:46:22] [info] service time (0.0514s, 19.455/s)
+[20200830 11:03:29] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200830 11:03:29] [info] dataprovider: processing param_id=PS4, seq_id=C_90
+[20200830 11:03:29] [info] service time (0.081812s, 12.223/s)
+[20200830 11:03:50] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200830 11:03:50] [info] dataprovider: processing param_id=PS4, seq_id=T_90
+[20200830 11:03:50] [info] service time (0.105948s, 9.439/s)
+[20200830 11:05:35] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200830 11:05:35] [info] dataprovider: processing param_id=PS4, seq_id=(Ct)_45
+[20200830 11:05:35] [info] service time (0.112768s, 8.868/s)
+[20200830 11:05:36] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200830 11:05:36] [info] dataprovider: processing param_id=PS4, seq_id=(Ct)_45
+[20200830 11:05:37] [info] service time (0.100317s, 9.968/s)
+[20200830 20:57:38] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20200830 20:57:38] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20200830 20:57:38] [info] service time (0.001958s, 510.725/s)
+[20200830 20:57:38] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20200831 13:35:39] [info] if_loggedin: granting access to /data2 to generic user at 128.178.14.8
+[20200831 13:35:39] [info] dataprovider: processing param_id="PS4", seq_id=GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+[20200831 13:35:39] [info] service time (0.197658s, 5.059/s)
+[20200831 13:36:09] [info] if_loggedin: granting access to /data2 to generic user at 128.178.14.8
+[20200831 13:36:09] [info] dataprovider: processing param_id="PS4", seq_id=TAGAGCGATTTATCTTCTGAACCAGACTCTTGTCATTTGTTTTGGTAAAGAGAAAAGTTTTTCCATCGATTTTATGAATATACAAATAATTGGAGCCAACCTGCAGGTGATGATTATCAGCCAGCAGAGAATTAAGGAAAACAGACAGGTTTATTGAGCGCTTATCTTTCCCTTTATTTTTGCTGCGGTAAGTCGCATAAAAACCATTCTTCATAATTCAATCCATTTACTATGTTATGTTCTGAGGGGAGTGAAAATTCCCCTAATTCGATGAAGATTCTTGCTCAATTGTTATCAGCT
+[20200831 13:36:09] [info] service time (0.18276s, 5.472/s)
+[20200831 14:52:01] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200831 14:52:01] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[20200831 14:52:01] [info] service time (0.08169s, 12.241/s)
+[20200901 10:04:14] [info] if_loggedin: granting access to /data2 to generic user at 91.166.125.15
+[20200901 10:04:14] [info] dataprovider: processing param_id="PS4", seq_id=ATATATATTA
+[20200901 10:04:14] [info] service time (0.06224s, 16.067/s)
+[20200901 16:00:13] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200901 16:00:13] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200901 16:00:13] [info] service time (0.047874s, 20.888/s)
+[20200909 11:57:27] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200909 11:57:27] [info] dataprovider: processing param_id="PS4", seq_id=attattatt
+[20200909 11:57:28] [info] service time (0.154531s, 6.471/s)
+[20200909 11:58:19] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200909 11:58:19] [info] dataprovider: processing param_id="PS4", seq_id=gccgccgcc
+[20200909 11:58:19] [info] service time (0.060661s, 16.485/s)
+[20200910 11:10:04] [info] Manager 730 stopped
+[20200910 12:21:57] [info] Listening at "http://*:3457"
+[20200910 12:21:57] [info] Manager 683 started
+[20200910 12:21:57] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20200910 12:22:29] [info] if_loggedin: granting access to /data2 to generic user at 128.179.165.65
+[20200910 12:22:29] [info] dataprovider: processing param_id="PS4", seq_id=ATTCATTG
+[20200910 12:22:29] [info] service time (0.186542s, 5.361/s)
+[20200910 13:22:36] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200910 13:22:36] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20200910 13:22:36] [info] service time (0.06035s, 16.570/s)
+[20200910 13:23:25] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200910 13:23:25] [info] dataprovider: processing param_id="PS4", seq_id=(AA CGCTGC AT)_2
+[20200910 13:23:25] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200910 13:23:25] [info] dataprovider: processing param_id="PS4", seq_id=(AA CGCTGC AT)_2
+[20200910 13:23:25] [info] service time (0.043113s, 23.195/s)
+[20200910 13:23:25] [info] service time (0.060701s, 16.474/s)
+[20200910 13:32:16] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20200910 13:32:16] [info] dataprovider: processing param_id="PS4", seq_id=AATT
+[20200910 13:32:16] [info] service time (0.05072s, 19.716/s)
+[20200911 03:23:54] [info] if_loggedin: granting access to /data2 to generic user at 73.129.28.150
+[20200911 03:23:54] [info] dataprovider: processing param_id="PS4", seq_id=(GCGCGCGCGC)_14
+[20200911 03:23:55] [info] service time (0.170039s, 5.881/s)
+[20200911 03:24:19] [info] if_loggedin: granting access to /data2 to generic user at 73.129.28.150
+[20200911 03:24:19] [info] dataprovider: processing param_id="PS4", seq_id=(GCGCGCGCGC)_14GCGCGCG
+[20200911 03:24:20] [info] service time (0.090423s, 11.059/s)
+[20200911 03:24:41] [info] if_loggedin: granting access to /data2 to generic user at 73.129.28.150
+[20200911 03:24:41] [error] no seq_id or param_id, returning dummy response
+[20200911 03:24:41] [info] service time (0.001502s, 665.779/s)
+[20200911 03:24:41] [info] dataprovider: processing param_id="PS4", seq_id=
+[20200911 03:24:41] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20200911 03:25:10] [info] if_loggedin: granting access to /data2 to generic user at 73.129.28.150
+[20200911 03:25:10] [info] dataprovider: processing param_id="PS4", seq_id=(GCGCGCGCGC)_14 GCGCGCG
+[20200911 03:25:10] [info] service time (0.114254s, 8.752/s)
+[20200911 03:30:58] [info] if_loggedin: granting access to /data2 to generic user at 73.129.28.150
+[20200911 03:30:58] [info] dataprovider: processing param_id="PS4", seq_id=(ATATATATAT)_14 ATATATA
+[20200911 03:30:58] [info] service time (0.082105s, 12.180/s)
+[20200916 12:27:16] [info] if_loggedin: granting access to /data2 to generic user at 128.179.149.27
+[20200916 12:27:16] [info] dataprovider: processing param_id=PS4, seq_id=A_100
+[20200916 12:27:16] [info] service time (0.063638s, 15.714/s)
+[20200916 12:36:47] [info] if_loggedin: granting access to /data2 to generic user at 128.179.149.27
+[20200916 12:36:47] [info] dataprovider: processing param_id=PS4, seq_id=A_200
+[20200916 12:36:47] [info] if_loggedin: granting access to /data2 to generic user at 128.179.149.27
+[20200916 12:36:47] [info] dataprovider: processing param_id=PS4, seq_id=A_200
+[20200916 12:36:47] [info] service time (0.169479s, 5.900/s)
+[20200916 12:36:47] [info] service time (0.179178s, 5.581/s)
+[20200916 12:36:50] [info] if_loggedin: granting access to /data2 to generic user at 128.179.149.27
+[20200916 12:36:50] [info] dataprovider: processing param_id=PS4, seq_id=A_200
+[20200916 12:36:51] [info] service time (0.123712s, 8.083/s)
+[20200916 12:37:55] [info] if_loggedin: granting access to /data2 to generic user at 128.179.149.27
+[20200916 12:37:55] [info] dataprovider: processing param_id=PS4, seq_id=(AAAAAGGGGG)_20
+[20200916 12:37:55] [info] service time (0.103101s, 9.699/s)
+[20200916 12:39:00] [info] if_loggedin: granting access to /data2 to generic user at 128.179.149.27
+[20200916 12:39:00] [info] dataprovider: processing param_id=PS4, seq_id=(GGGGG)_20
+[20200916 12:39:00] [info] service time (0.067689s, 14.773/s)
+[20200916 12:39:20] [info] if_loggedin: granting access to /data2 to generic user at 128.179.149.27
+[20200916 12:39:20] [info] dataprovider: processing param_id=PS4, seq_id=(GGGGG)_40
+[20200916 12:39:20] [info] service time (0.107626s, 9.291/s)
+[20200916 13:40:20] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.70
+[20200916 13:40:20] [info] dataprovider: processing param_id="PS4", seq_id=(ATATATATAT)_20
+[20200916 13:40:21] [info] service time (0.170839s, 5.853/s)
+[20200916 13:42:27] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.70
+[20200916 13:42:27] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAA)_20
+[20200916 13:42:27] [info] service time (0.093629s, 10.680/s)
+[20200916 13:47:07] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.70
+[20200916 13:47:07] [info] dataprovider: processing param_id="PS4", seq_id=(ATATATATA)_20
+[20200916 13:47:08] [info] service time (0.176369s, 5.670/s)
+[20200918 23:46:02] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.35
+[20200918 23:46:02] [info] dataprovider: processing param_id="PS4", seq_id=TAGAGCGATT TATCTTCTGA ACCAGACTCT TGTCATTTGT TTTGGTAAAG AGAAAAGTTT TTCCATCGAT TTTATGAATA TACAAATAAT TGGAGCCAAC CTGCAGGTGA TGATTATCAG CCAGCAGAGA ATTAAGGAAA ACAGACAGGT TTATTGAGCG CTTATCTTTC CCTTTATTTT TGCTGCGGTA AGTCGCATAA AAACCATTCT TCATAATTCA ATCCATTTAC TATGTTATGT TCTGAGGGGA GTGAAAATTC CCCTAATTCG ATGAAGATTCTTGCTCAATTGTTATCAGCT
+[20200918 23:46:03] [info] service time (0.141239s, 7.080/s)
+[20200918 23:46:28] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.35
+[20200918 23:46:28] [info] dataprovider: processing param_id="PS4", seq_id=(GG)_150
+[20200918 23:46:28] [info] service time (0.133771s, 7.475/s)
+[20200922 14:40:35] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200922 14:40:35] [info] dataprovider: processing param_id="PS4", seq_id=A_4T_4
+[20200922 14:40:35] [info] service time (0.126675s, 7.894/s)
+[20200922 14:41:42] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200922 14:41:42] [info] dataprovider: processing param_id="PS4", seq_id=A_4T_4
+[20200922 14:41:42] [info] service time (0.041591s, 24.044/s)
+[20200922 14:42:08] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20200922 14:42:08] [info] dataprovider: processing param_id="PS4", seq_id=G_8
+[20200922 14:42:08] [info] service time (0.051192s, 19.534/s)
+[20200923 02:27:45] [info] if_loggedin: granting access to /data2 to generic user at 68.33.94.5
+[20200923 02:27:45] [info] dataprovider: processing param_id="PS4", seq_id= (ACTG_5A)_2 [C] A G_10 T 
+[20200923 02:27:45] [info] service time (0.067172s, 14.887/s)
+[20200923 16:45:10] [info] if_loggedin: granting access to /data2 to generic user at 150.244.160.107
+[20200923 16:45:10] [info] dataprovider: processing param_id="PS4", seq_id=GCAAACGTTTGC
+[20200923 16:45:10] [info] service time (0.044022s, 22.716/s)
+[20200925 20:58:33] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20200925 20:58:33] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20200925 20:58:33] [info] service time (0.000793s, 1261.034/s)
+[20200925 20:58:33] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20200929 10:53:25] [info] if_loggedin: granting access to /data2 to generic user at 5.20.101.54
+[20200929 10:53:25] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20200929 10:53:25] [info] service time (0.04758s, 21.017/s)
+[20201004 11:35:17] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.91
+[20201004 11:35:17] [info] dataprovider: processing param_id="PS4", seq_id=(GG)
+[20201004 11:35:17] [info] service time (0.01995s, 50.125/s)
+[20201004 11:35:49] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.91
+[20201004 11:35:49] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.91
+[20201004 11:35:49] [info] dataprovider: processing param_id="PS4", seq_id=(GG)_10
+[20201004 11:35:49] [info] dataprovider: processing param_id="PS4", seq_id=(GG)_10
+[20201004 11:35:50] [info] service time (0.077794s, 12.854/s)
+[20201004 11:35:50] [info] service time (0.087524s, 11.425/s)
+[20201004 11:36:07] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.91
+[20201004 11:36:07] [info] dataprovider: processing param_id="PS4", seq_id=(AA)_10
+[20201004 11:36:07] [info] service time (0.052139s, 19.180/s)
+[20201004 11:36:19] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.91
+[20201004 11:36:19] [error] no seq_id or param_id, returning dummy response
+[20201004 11:36:19] [info] service time (0.005913s, 169.119/s)
+[20201004 11:36:19] [info] dataprovider: processing param_id="PS4", seq_id=
+[20201004 11:36:19] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201004 11:36:29] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.91
+[20201004 11:36:29] [info] dataprovider: processing param_id="PS4", seq_id=(GG)_100
+[20201004 11:36:29] [info] service time (0.162472s, 6.155/s)
+[20201004 11:37:50] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.91
+[20201004 11:37:50] [info] dataprovider: processing param_id="PS4", seq_id=(AA)_100
+[20201004 11:37:50] [info] service time (0.155403s, 6.435/s)
+[20201004 15:02:32] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201004 15:02:32] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201004 15:02:33] [info] service time (0.043084s, 23.210/s)
+[20201004 15:05:04] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201004 15:05:04] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201004 15:05:04] [info] service time (0.04481s, 22.316/s)
+[20201005 07:46:02] [info] if_loggedin: granting access to /data2 to generic user at 150.244.160.231
+[20201005 07:46:02] [info] dataprovider: processing param_id="PS4", seq_id=ACTCATCGACTGTATTGTGCTCGGTAGATTGAAGGAGTAGCTTAGTCCTCATAAAGCGGACGAACATCGTTGCTAGAAAATCCCTGGAATGCACGTAGAT
+[20201005 07:46:02] [info] service time (0.07212s, 13.866/s)
+[20201006 12:00:01] [info] if_loggedin: granting access to /data2 to generic user at 196.203.187.40
+[20201006 12:00:01] [info] dataprovider: processing param_id="PS4", seq_id=GCTGGATGTCGCTTACGACAATATTCCTTAGGGGCACCGCTACATTGACACATCCAGC
+[20201006 12:00:01] [info] service time (0.125851s, 7.946/s)
+[20201006 12:19:33] [info] if_loggedin: granting access to /data2 to generic user at 196.203.187.57
+[20201006 12:19:33] [info] dataprovider: processing param_id="PS4", seq_id=GCTGGATGTCGCTTACGACAATATTCCTTAGGGGCACCGCTACATTGACACATCCAGC
+[20201006 12:19:33] [info] service time (0.05574s, 17.940/s)
+[20201007 10:21:26] [info] if_loggedin: granting access to /data2 to generic user at 51.154.49.228
+[20201007 10:21:26] [info] dataprovider: processing param_id=PS4, seq_id=(a_5 g_5 t_5 c_5 g)_2 a_5 g_5 t_5 c_5 [g](a_5 g_5 t_5 c_5 g)_2
+[20201007 10:21:26] [info] service time (0.070869s, 14.111/s)
+[20201007 13:11:03] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201007 13:11:03] [info] dataprovider: processing param_id="PS4", seq_id=A_60
+[20201007 13:11:03] [info] service time (0.07223s, 13.845/s)
+[20201007 19:52:59] [info] if_loggedin: granting access to /data2 to generic user at 165.225.34.106
+[20201007 19:52:59] [info] dataprovider: processing param_id="PS4", seq_id=ATCGTCTGGA
+[20201007 19:53:00] [info] service time (0.049996s, 20.002/s)
+[20201007 19:57:22] [info] if_loggedin: granting access to /data2 to generic user at 165.225.34.106
+[20201007 19:57:22] [info] dataprovider: processing param_id="PS4", seq_id=AGCGTAAGTC
+[20201007 19:57:22] [info] service time (0.049123s, 20.357/s)
+[20201007 19:58:06] [info] if_loggedin: granting access to /data2 to generic user at 165.225.34.106
+[20201007 19:58:06] [info] dataprovider: processing param_id="PS4", seq_id=ATCGTCTGGA
+[20201007 19:58:06] [info] service time (0.046879s, 21.332/s)
+[20201008 13:47:20] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201008 13:47:20] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201008 13:47:21] [info] service time (0.044072s, 22.690/s)
+[20201008 13:49:58] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201008 13:49:58] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201008 13:49:58] [info] dataprovider: processing param_id="PS4", seq_id=A_20
+[20201008 13:49:58] [info] dataprovider: processing param_id="PS4", seq_id=A_20
+[20201008 13:49:58] [info] service time (0.059584s, 16.783/s)
+[20201008 13:49:58] [info] service time (0.059904s, 16.693/s)
+[20201008 14:01:03] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201008 14:01:03] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201008 14:01:03] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201008 14:01:03] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201008 14:01:03] [info] service time (0.040183s, 24.886/s)
+[20201008 14:01:03] [info] service time (0.045703s, 21.880/s)
+[20201009 01:30:35] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.197
+[20201009 01:30:35] [info] dataprovider: processing param_id="PS4", seq_id=ATACTACTA
+[20201009 01:30:36] [info] service time (0.054484s, 18.354/s)
+[20201009 12:31:27] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201009 12:31:27] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201009 12:31:27] [info] service time (0.039446s, 25.351/s)
+[20201009 12:37:04] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201009 12:37:04] [info] dataprovider: processing param_id="PS4", seq_id=A_60
+[20201009 12:37:04] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201009 12:37:04] [info] dataprovider: processing param_id="PS4", seq_id=A_60
+[20201009 12:37:04] [info] service time (0.053937s, 18.540/s)
+[20201009 12:37:04] [info] service time (0.056614s, 17.663/s)
+[20201009 13:14:38] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201009 13:14:38] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201009 13:14:38] [info] service time (0.049407s, 20.240/s)
+[20201009 13:14:55] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201009 13:14:55] [info] dataprovider: processing param_id="PS4", seq_id=A_6T_6
+[20201009 13:14:55] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201009 13:14:55] [info] dataprovider: processing param_id="PS4", seq_id=A_6T_6
+[20201009 13:14:55] [info] service time (0.040848s, 24.481/s)
+[20201009 13:14:55] [info] service time (0.034753s, 28.774/s)
+[20201009 18:13:37] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201009 18:13:37] [info] dataprovider: processing param_id="PS4", seq_id=ATAT
+[20201009 18:13:37] [info] service time (0.038551s, 25.940/s)
+[20201012 13:07:01] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.132
+[20201012 13:07:01] [info] dataprovider: processing param_id="PS4", seq_id=AAAAA
+[20201012 13:07:01] [info] service time (0.043081s, 23.212/s)
+[20201012 13:07:46] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.132
+[20201012 13:07:46] [info] dataprovider: processing param_id="PS4", seq_id=CCCC
+[20201012 13:07:46] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.132
+[20201012 13:07:46] [info] dataprovider: processing param_id="PS4", seq_id=CCCC
+[20201012 13:07:46] [info] service time (0.049543s, 20.184/s)
+[20201012 13:07:46] [info] service time (0.053255s, 18.778/s)
+[20201012 13:08:06] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.132
+[20201012 13:08:06] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.132
+[20201012 13:08:06] [info] dataprovider: processing param_id="PS4", seq_id=GGG
+[20201012 13:08:06] [info] dataprovider: processing param_id="PS4", seq_id=GGG
+[20201012 13:08:06] [info] service time (0.04202s, 23.798/s)
+[20201012 13:08:06] [info] service time (0.046219s, 21.636/s)
+[20201012 13:08:10] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.132
+[20201012 13:08:10] [info] dataprovider: processing param_id="PS4", seq_id=ATCG
+[20201012 13:08:10] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.132
+[20201012 13:08:10] [info] dataprovider: processing param_id="PS4", seq_id=ATCG
+[20201012 13:08:10] [info] service time (0.049711s, 20.116/s)
+[20201012 13:08:10] [info] service time (0.058666s, 17.046/s)
+[20201012 16:49:44] [info] if_loggedin: granting access to /data2 to generic user at 188.61.119.168
+[20201012 16:49:44] [info] dataprovider: processing param_id="PS4", seq_id=(atg)_9
+[20201012 16:49:44] [info] service time (0.041296s, 24.215/s)
+[20201013 11:23:52] [info] if_loggedin: granting access to /data2 to generic user at 78.56.192.157
+[20201013 11:23:52] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20201013 11:23:52] [info] service time (0.058892s, 16.980/s)
+[20201013 13:44:34] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201013 13:44:34] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201013 13:44:34] [info] service time (0.055913s, 17.885/s)
+[20201013 13:48:06] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201013 13:48:06] [info] dataprovider: processing param_id="PS4", seq_id=A_120
+[20201013 13:48:06] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201013 13:48:06] [info] dataprovider: processing param_id="PS4", seq_id=A_120
+[20201013 13:48:06] [info] service time (0.075043s, 13.326/s)
+[20201013 13:48:06] [info] service time (0.100136s, 9.986/s)
+[20201013 23:52:42] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201013 23:52:42] [info] dataprovider: processing param_id="PS4", seq_id=ACGACTGACTGAC
+[20201013 23:52:42] [info] service time (0.047196s, 21.188/s)
+[20201014 13:03:33] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201014 13:03:33] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201014 13:03:33] [info] service time (0.043835s, 22.813/s)
+[20201014 17:45:36] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201014 17:45:36] [info] dataprovider: processing param_id="PS4", seq_id=AACGTACGTACG
+[20201014 17:45:36] [info] service time (0.049581s, 20.169/s)
+[20201015 12:59:24] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201015 12:59:24] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201015 12:59:24] [info] service time (0.049942s, 20.023/s)
+[20201015 15:11:01] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201015 15:11:01] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201015 15:11:01] [info] service time (0.049356s, 20.261/s)
+[20201026 12:08:24] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201026 12:08:24] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201026 12:08:24] [info] service time (0.225447s, 4.436/s)
+[20201026 20:55:23] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201026 20:55:23] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201026 20:55:23] [info] service time (0.000989s, 1011.122/s)
+[20201026 20:55:23] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201027 13:55:55] [info] if_loggedin: granting access to /data2 to generic user at 128.179.167.123
+[20201027 13:55:55] [info] dataprovider: processing param_id="PS4", seq_id=A G_10 T
+[20201027 13:55:56] [info] service time (0.063036s, 15.864/s)
+[20201027 15:35:33] [info] if_loggedin: granting access to /data2 to generic user at 178.39.192.56
+[20201027 15:35:33] [info] dataprovider: processing param_id=PS4, seq_id=Aaatgcgt
+[20201027 15:35:33] [info] service time (0.049388s, 20.248/s)
+[20201029 19:37:31] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201029 19:37:31] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201029 19:37:31] [info] service time (0.092131s, 10.854/s)
+[20201031 15:28:08] [info] if_loggedin: granting access to /data/autosuggest-remote to generic user at 91.241.19.235
+[20201031 15:28:08] [error] cannot read /home/debruin/cgdna_web/data/autosuggest-remote.json : No such file or directory
+[20201031 15:28:08] [info] service time (0.001849s, 540.833/s)
+[20201031 15:28:08] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201031 16:17:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201031 16:17:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201031 16:17:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201031 17:53:30] [info] if_loggedin: granting access to /data/adminer to generic user at 91.241.19.235
+[20201031 17:53:30] [error] cannot read /home/debruin/cgdna_web/data/adminer.json : No such file or directory
+[20201031 17:53:30] [info] service time (0.005814s, 171.999/s)
+[20201031 17:53:30] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201031 19:53:06] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201102 00:02:09] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201102 00:02:09] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201102 00:02:09] [info] service time (0.001694s, 590.319/s)
+[20201102 00:02:09] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201102 00:02:09] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201102 00:02:09] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201102 00:02:09] [info] service time (0.001791s, 558.347/s)
+[20201102 00:02:09] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201106 20:15:13] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 20:15:13] [info] dataprovider: processing param_id="PS4", seq_id=ATCCGACTGGCACCGGCAATGTCGCTGTTCCAAAAAAAAAAA
+[20201106 20:15:13] [info] service time (0.146633s, 6.820/s)
+[20201106 20:17:07] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 20:17:07] [info] dataprovider: processing param_id="PS4", seq_id=ATCCGACTGGCACCGGCAATGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAA
+[20201106 20:17:07] [info] service time (0.136069s, 7.349/s)
+[20201106 20:18:14] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 20:18:14] [info] dataprovider: processing param_id="PS4", seq_id=ATCCGACTGGCACCGGCAATGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAAGTCGCTGTTCCAAAAAAAAAAA
+[20201106 20:18:14] [info] service time (0.123124s, 8.122/s)
+[20201106 20:23:04] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 20:23:04] [info] dataprovider: processing param_id="PS4", seq_id=GGGCGGCCGCGTATAGGGTCCATCACATAAGGGATGAACTC
+[20201106 20:23:04] [info] service time (0.046632s, 21.445/s)
+[20201106 20:23:38] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 20:23:38] [info] dataprovider: processing param_id="PS4", seq_id=GGGCGGCCGCGTATAGGGTCCATCACATAAGGGATGAACTC
+[20201106 20:23:38] [info] service time (0.064288s, 15.555/s)
+[20201106 21:29:26] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 21:29:26] [info] dataprovider: processing param_id="PS4", seq_id=GGCACGTGTCAGATATATACATCCTTTTTTTTTTTGGAACAGCGACATTG
+[20201106 21:29:26] [info] service time (0.076355s, 13.097/s)
+[20201106 21:31:52] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 21:31:52] [info] dataprovider: processing param_id="PS4", seq_id=AGCGGCCTCGGCACCGGGATTCTCCAGGGCGGCCGCGTATAGGGTCCATC
+[20201106 21:31:52] [info] service time (0.078226s, 12.783/s)
+[20201106 21:58:24] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 21:58:24] [info] dataprovider: processing param_id="PS4", seq_id=CCTTTTTTTTTTTGGAACAGCGACATTG
+[20201106 21:58:24] [info] service time (0.05821s, 17.179/s)
+[20201106 21:59:31] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 21:59:31] [info] dataprovider: processing param_id="PS4", seq_id=CAGGGCGGCCGCGTATAGGGTCCATC
+[20201106 21:59:31] [info] service time (0.046871s, 21.335/s)
+[20201106 22:25:00] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 22:25:00] [info] dataprovider: processing param_id="PS4", seq_id=TCCTTTTTTTTTTTGGAACAGCGACATTGCCGGTGCCAGTCGGAT
+[20201106 22:25:00] [info] service time (0.053352s, 18.743/s)
+[20201106 22:26:31] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.78
+[20201106 22:26:31] [info] dataprovider: processing param_id="PS4", seq_id=TCAGGGCGGCCGCGTAAACAGCGACATTGCCGGTGCCAGTCGGAT
+[20201106 22:26:31] [info] service time (0.054905s, 18.213/s)
+[20201108 13:07:35] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201108 13:07:35] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201108 13:07:35] [info] service time (0.061185s, 16.344/s)
+[20201109 18:16:10] [info] if_loggedin: granting access to /data2 to generic user at 176.199.209.193
+[20201109 18:16:10] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_
+[20201109 18:16:10] [info] service time (0.058252s, 17.167/s)
+[20201111 16:38:47] [info] if_loggedin: granting access to /data2 to generic user at 178.39.186.180
+[20201111 16:38:47] [info] dataprovider: processing param_id=PS4, seq_id=agtag
+[20201111 16:38:47] [info] service time (0.047608s, 21.005/s)
+[20201111 17:14:06] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201111 17:14:06] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201111 17:14:06] [info] service time (0.04201s, 23.804/s)
+[20201112 16:51:52] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:51:52] [info] dataprovider: processing param_id="PS4", seq_id=UUUUTTTAAGC
+[20201112 16:51:52] [info] service time (0.023875s, 41.885/s)
+[20201112 16:52:03] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:03] [info] dataprovider: processing param_id="PS4", seq_id=AAAATTTAAGC
+[20201112 16:52:03] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:03] [info] dataprovider: processing param_id="PS4", seq_id=AAAATTTAAGC
+[20201112 16:52:03] [info] service time (0.053442s, 18.712/s)
+[20201112 16:52:03] [info] service time (0.079461s, 12.585/s)
+[20201112 16:52:06] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:06] [info] dataprovider: processing param_id="PS4", seq_id=AAAUTTTAAGC
+[20201112 16:52:06] [info] service time (0.017416s, 57.418/s)
+[20201112 16:52:09] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:09] [info] dataprovider: processing param_id="PS1", seq_id=AAAUTTTAAGC
+[20201112 16:52:09] [info] service time (0.021616s, 46.262/s)
+[20201112 16:52:12] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:12] [info] dataprovider: processing param_id="PS2", seq_id=AAAUTTTAAGC
+[20201112 16:52:12] [info] service time (0.016629s, 60.136/s)
+[20201112 16:52:15] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:15] [info] dataprovider: processing param_id="PS3", seq_id=AAAUTTTAAGC
+[20201112 16:52:15] [info] service time (0.025629s, 39.018/s)
+[20201112 16:52:22] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:22] [info] dataprovider: processing param_id="PS4", seq_id=DU
+[20201112 16:52:22] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:22] [info] dataprovider: processing param_id="PS4", seq_id=DU
+[20201112 16:52:22] [info] service time (0.021389s, 46.753/s)
+[20201112 16:52:22] [info] service time (0.023843s, 41.941/s)
+[20201112 16:52:23] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:23] [info] dataprovider: processing param_id="PS4", seq_id=DU
+[20201112 16:52:23] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:23] [info] dataprovider: processing param_id="PS4", seq_id=DU
+[20201112 16:52:23] [info] service time (0.022922s, 43.626/s)
+[20201112 16:52:23] [info] service time (0.026251s, 38.094/s)
+[20201112 16:52:25] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:25] [info] dataprovider: processing param_id="PS4", seq_id=A
+[20201112 16:52:25] [info] service time (0.017702s, 56.491/s)
+[20201112 16:52:27] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:27] [info] dataprovider: processing param_id="PS4", seq_id=A
+[20201112 16:52:27] [info] service time (0.022649s, 44.152/s)
+[20201112 16:52:31] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:31] [info] dataprovider: processing param_id="PS4", seq_id=AT
+[20201112 16:52:31] [info] service time (0.03597s, 27.801/s)
+[20201112 16:52:36] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:36] [info] dataprovider: processing param_id="PS4", seq_id=T
+[20201112 16:52:36] [info] service time (0.028325s, 35.305/s)
+[20201112 16:52:37] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:37] [info] dataprovider: processing param_id="PS4", seq_id=T
+[20201112 16:52:37] [info] service time (0.024813s, 40.301/s)
+[20201112 16:52:37] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:37] [info] dataprovider: processing param_id="PS4", seq_id=T
+[20201112 16:52:37] [info] service time (0.023063s, 43.359/s)
+[20201112 16:52:41] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:41] [info] dataprovider: processing param_id="PS4", seq_id=TU
+[20201112 16:52:41] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:41] [info] dataprovider: processing param_id="PS4", seq_id=TU
+[20201112 16:52:41] [info] service time (0.017616s, 56.767/s)
+[20201112 16:52:41] [info] service time (0.020679s, 48.358/s)
+[20201112 16:52:53] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:52:53] [info] dataprovider: processing param_id="PS4", seq_id=TG
+[20201112 16:52:53] [info] service time (0.045425s, 22.014/s)
+[20201112 16:53:02] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:53:02] [info] dataprovider: processing param_id="PS4", seq_id=TGC
+[20201112 16:53:02] [info] service time (0.04865s, 20.555/s)
+[20201112 16:53:05] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:53:05] [info] dataprovider: processing param_id="PS4", seq_id=TGCT
+[20201112 16:53:05] [info] service time (0.041992s, 23.814/s)
+[20201112 16:53:08] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:53:08] [info] dataprovider: processing param_id="PS4", seq_id=TGCTA
+[20201112 16:53:08] [info] service time (0.039322s, 25.431/s)
+[20201112 16:53:17] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20201112 16:53:17] [info] dataprovider: processing param_id="PS4", seq_id=TGCTAG
+[20201112 16:53:17] [info] service time (0.046725s, 21.402/s)
+[20201113 12:38:28] [info] if_loggedin: granting access to /data2 to generic user at 131.220.81.118
+[20201113 12:38:28] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20201113 12:38:28] [info] service time (0.056092s, 17.828/s)
+[20201115 16:38:52] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 16:38:52] [info] dataprovider: processing param_id="PS4", seq_id=TTTTTTTTTTTGGAACAGCGACATTG
+[20201115 16:38:52] [info] service time (0.053312s, 18.758/s)
+[20201115 17:09:46] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:09:46] [info] dataprovider: processing param_id="PS4", seq_id=TTTTTTTTTTTGGAACAGCGACATTG
+[20201115 17:09:46] [info] service time (0.049655s, 20.139/s)
+[20201115 17:10:24] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:10:24] [info] dataprovider: processing param_id="PS4", seq_id=GGGCGGCCGCGTAAACAGCGACATTG
+[20201115 17:10:24] [info] service time (0.051681s, 19.349/s)
+[20201115 17:12:44] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:12:44] [info] dataprovider: processing param_id="PS4", seq_id=TGTGCATGTATTGAACAGCGACATTG
+[20201115 17:12:44] [info] service time (0.051929s, 19.257/s)
+[20201115 17:13:46] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:13:46] [info] dataprovider: processing param_id="PS4", seq_id=TGTGCATGTATTGAACAGCGACATTG
+[20201115 17:13:46] [info] service time (0.045096s, 22.175/s)
+[20201115 17:14:05] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:14:05] [info] dataprovider: processing param_id="PS4", seq_id=TGTGGCGGCCGCGAACAGCGACATTG
+[20201115 17:14:05] [info] service time (0.044754s, 22.344/s)
+[20201115 17:14:47] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:14:47] [info] dataprovider: processing param_id="PS4", seq_id=GGGCGGCCGCGTATAGGGTCCATC
+[20201115 17:14:47] [info] service time (0.051538s, 19.403/s)
+[20201115 17:15:03] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:15:03] [info] dataprovider: processing param_id="PS4", seq_id=TTTTTTTTTTTGGTAGGGTCCATC 
+[20201115 17:15:03] [info] service time (0.044076s, 22.688/s)
+[20201115 17:15:17] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:15:17] [info] dataprovider: processing param_id="PS4", seq_id=GGGCGGCCGCGTATAGGGTCCATC
+[20201115 17:15:17] [info] service time (0.057933s, 17.261/s)
+[20201115 17:15:34] [info] if_loggedin: granting access to /data2 to generic user at 131.117.155.81
+[20201115 17:15:34] [info] dataprovider: processing param_id="PS4", seq_id=GGCATGTATTGTATAGGGTCCATC
+[20201115 17:15:34] [info] service time (0.044983s, 22.231/s)
+[20201116 12:27:45] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:27:45] [info] dataprovider: processing param_id="PS4", seq_id=ATGC
+[20201116 12:27:45] [info] service time (0.04423s, 22.609/s)
+[20201116 12:28:04] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:28:04] [info] dataprovider: processing param_id="PS4", seq_id=ATGC
+[20201116 12:28:04] [info] service time (0.070894s, 14.106/s)
+[20201116 12:32:54] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:32:54] [info] dataprovider: processing param_id="PS4", seq_id=CCTTTTTTTTTTTGGAACAGCGACATTG
+[20201116 12:32:54] [info] service time (0.049119s, 20.359/s)
+[20201116 12:33:35] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:33:35] [info] dataprovider: processing param_id="PS4", seq_id=CCGGGCGGCCGCGTAAACAGCGACATTG
+[20201116 12:33:35] [info] service time (0.063262s, 15.807/s)
+[20201116 12:34:02] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:34:02] [info] dataprovider: processing param_id="PS4", seq_id=CCTTTTTTTTTTTGGAACAGCGACATTG
+[20201116 12:34:02] [info] service time (0.047659s, 20.982/s)
+[20201116 12:36:37] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:36:37] [info] dataprovider: processing param_id="PS4", seq_id=GGGCGGCCGCGTAAACAGCGACATTG
+[20201116 12:36:37] [info] service time (0.053163s, 18.810/s)
+[20201116 12:36:48] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:36:48] [info] dataprovider: processing param_id="PS4", seq_id=TTTTTTTTTTTGGAACAGCGACATTG
+[20201116 12:36:48] [info] service time (0.047176s, 21.197/s)
+[20201116 12:55:04] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:55:04] [info] dataprovider: processing param_id="PS4", seq_id=CCGGGCGGCCGCGTAAACAGCGACATTG
+[20201116 12:55:04] [info] service time (0.049691s, 20.124/s)
+[20201116 12:55:10] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:55:10] [info] dataprovider: processing param_id="PS4", seq_id=CCTTTTTTTTTTTGGAACAGCGACATTG
+[20201116 12:55:10] [info] service time (0.061983s, 16.133/s)
+[20201116 12:55:27] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:55:27] [info] dataprovider: processing param_id="PS4", seq_id=CCCCGGGCGGCCGCGTAAACAGCGACATTG
+[20201116 12:55:27] [info] service time (0.045439s, 22.008/s)
+[20201116 12:55:31] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 12:55:31] [info] dataprovider: processing param_id="PS4", seq_id=CCCCTTTTTTTTTTTGGAACAGCGACATTG
+[20201116 12:55:31] [info] service time (0.064435s, 15.520/s)
+[20201116 13:46:33] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 13:46:33] [info] dataprovider: processing param_id="PS4", seq_id=CATCCTTTTTTTTTTTGGAACAGCGACATTG
+[20201116 13:46:33] [info] service time (0.053125s, 18.824/s)
+[20201116 13:48:36] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 13:48:36] [info] dataprovider: processing param_id="PS4", seq_id=CATCAGGGCGGCCGCGTAAACAGCGACATTG
+[20201116 13:48:36] [info] service time (0.090212s, 11.085/s)
+[20201116 14:02:57] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.44
+[20201116 14:02:57] [info] dataprovider: processing param_id="PS4", seq_id=AGCT
+[20201116 14:02:57] [info] service time (0.039058s, 25.603/s)
+[20201116 15:42:16] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 15:42:16] [info] dataprovider: processing param_id="PS4", seq_id=CTCCAGGGCGGCCGCGTATAGGGTCCATC
+[20201116 15:42:16] [info] service time (0.06672s, 14.988/s)
+[20201116 15:43:15] [info] if_loggedin: granting access to /data2 to generic user at 131.117.152.126
+[20201116 15:43:15] [info] dataprovider: processing param_id="PS4", seq_id=CTCCCTTTTTTTTTTTGGTAGGGTCCATC
+[20201116 15:43:15] [info] service time (0.065397s, 15.291/s)
+[20201117 09:25:33] [info] Manager 683 stopped
+[20201117 09:25:46] [info] Listening at "http://*:3457"
+[20201117 09:25:46] [info] Manager 30520 started
+[20201117 09:25:46] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20201117 09:26:09] [info] if_loggedin: granting access to /view2 to generic user at 128.179.253.181
+[20201117 09:26:57] [info] if_loggedin: granting access to /view2 to generic user at 128.179.253.181
+[20201117 09:43:46] [info] Manager 30520 stopped
+[20201117 09:43:49] [info] Listening at "http://*:3457"
+[20201117 09:43:49] [info] Manager 30666 started
+[20201117 09:43:49] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20201117 09:48:09] [info] Manager 30666 stopped
+[20201117 09:48:10] [info] Listening at "http://*:3457"
+[20201117 09:48:10] [info] Manager 30739 started
+[20201117 09:48:10] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20201117 09:49:25] [info] if_loggedin: granting access to /view2 to generic user at 128.179.253.181
+[20201117 11:13:50] [info] if_loggedin: granting access to /data2 to generic user at 62.203.94.248
+[20201117 11:13:50] [info] dataprovider: processing param_id="PS4", seq_id=aaacccgg
+[20201117 11:13:50] [info] service time (0.057848s, 17.287/s)
+[20201117 12:29:53] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.117
+[20201117 12:29:53] [info] dataprovider: processing param_id="PS4", seq_id=A_12
+[20201117 12:29:53] [info] service time (0.049887s, 20.045/s)
+[20201118 10:52:44] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201118 10:52:44] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201118 10:52:44] [info] service time (0.003508s, 285.063/s)
+[20201118 10:52:44] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201118 10:52:44] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201118 10:52:44] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201118 10:52:44] [info] service time (0.006549s, 152.695/s)
+[20201118 10:52:44] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201118 17:11:13] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.183
+[20201118 17:11:13] [info] dataprovider: processing param_id=PS4, seq_id=AAAAA
+[20201118 17:11:13] [info] service time (0.061229s, 16.332/s)
+[20201119 15:17:21] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201119 15:17:21] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201119 15:17:21] [info] service time (0.049965s, 20.014/s)
+[20201120 16:26:48] [info] if_loggedin: granting access to /data2 to generic user at 193.136.124.160
+[20201120 16:26:48] [info] dataprovider: processing param_id="PS4", seq_id=AATTGA
+[20201120 16:26:48] [info] service time (0.039121s, 25.562/s)
+[20201120 16:27:08] [info] if_loggedin: granting access to /data2 to generic user at 193.136.124.160
+[20201120 16:27:08] [info] dataprovider: processing param_id="PS4", seq_id=AATTG[A]5
+[20201120 16:27:08] [info] service time (0.031282s, 31.967/s)
+[20201120 16:27:08] [info] if_loggedin: granting access to /data2 to generic user at 193.136.124.160
+[20201120 16:27:08] [info] dataprovider: processing param_id="PS4", seq_id=AATTG[A]5
+[20201120 16:27:08] [info] service time (0.019937s, 50.158/s)
+[20201120 16:27:15] [info] if_loggedin: granting access to /data2 to generic user at 193.136.124.160
+[20201120 16:27:15] [info] if_loggedin: granting access to /data2 to generic user at 193.136.124.160
+[20201120 16:27:15] [info] dataprovider: processing param_id="PS4", seq_id=AATTG[A]
+[20201120 16:27:15] [info] dataprovider: processing param_id="PS4", seq_id=AATTG[A]
+[20201120 16:27:15] [info] service time (0.060697s, 16.475/s)
+[20201120 16:27:15] [info] service time (0.062417s, 16.021/s)
+[20201120 20:57:09] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201120 20:57:09] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201120 20:57:09] [info] service time (0.00188s, 531.915/s)
+[20201120 20:57:09] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201120 20:57:09] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201120 20:57:09] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201120 20:57:09] [info] service time (0.000871s, 1148.106/s)
+[20201120 20:57:09] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201124 06:54:14] [info] Manager 30739 stopped
+[20201124 09:48:18] [info] Listening at "http://*:3457"
+[20201124 09:48:18] [info] Manager 734 started
+[20201124 09:48:18] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20201126 19:34:23] [info] if_loggedin: granting access to /data2 to generic user at 70.138.98.93
+[20201126 19:34:23] [info] dataprovider: processing param_id="PS4", seq_id=AATTTTCCACGAATATGACATGG
+[20201126 19:34:23] [info] service time (0.262444s, 3.810/s)
+[20201126 19:34:42] [info] if_loggedin: granting access to /data2 to generic user at 70.138.98.93
+[20201126 19:34:42] [info] dataprovider: processing param_id="PS4", seq_id=AATTTTCCACGAATATGACA_TGG
+[20201126 19:34:42] [info] service time (0.050001s, 20.000/s)
+[20201127 19:45:42] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:45:42] [info] dataprovider: processing param_id="PS4", seq_id=A4T4
+[20201127 19:45:42] [info] service time (0.023346s, 42.834/s)
+[20201127 19:45:48] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:45:48] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:45:48] [info] dataprovider: processing param_id="PS4", seq_id=A_4T_4
+[20201127 19:45:48] [info] dataprovider: processing param_id="PS4", seq_id=A_4T_4
+[20201127 19:45:48] [info] service time (0.059993s, 16.669/s)
+[20201127 19:45:49] [info] service time (0.068345s, 14.632/s)
+[20201127 19:46:02] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:46:02] [info] dataprovider: processing param_id="PS4", seq_id=T_4A_4
+[20201127 19:46:02] [info] service time (0.041939s, 23.844/s)
+[20201127 19:46:15] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:46:15] [info] dataprovider: processing param_id="PS4", seq_id=(T_4A_4)_30
+[20201127 19:46:15] [info] service time (0.166882s, 5.992/s)
+[20201127 19:46:27] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:46:27] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:46:27] [info] dataprovider: processing param_id="PS4", seq_id=(A_4T_4)_30
+[20201127 19:46:27] [info] dataprovider: processing param_id="PS4", seq_id=(A_4T_4)_30
+[20201127 19:46:27] [info] service time (0.170481s, 5.866/s)
+[20201127 19:46:27] [info] service time (0.180584s, 5.538/s)
+[20201127 19:46:48] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:46:48] [info] dataprovider: processing param_id="PS4", seq_id=(A_4T_4)_15
+[20201127 19:46:48] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:46:48] [info] dataprovider: processing param_id="PS4", seq_id=(A_4T_4)_15
+[20201127 19:46:48] [info] service time (0.082174s, 12.169/s)
+[20201127 19:46:48] [info] service time (0.110967s, 9.012/s)
+[20201127 19:46:54] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.26
+[20201127 19:46:54] [info] dataprovider: processing param_id="PS4", seq_id=(T_4A_4)_15
+[20201127 19:46:54] [info] service time (0.070331s, 14.218/s)
+[20201129 15:11:40] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201129 15:11:40] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201129 15:11:40] [info] service time (0.046272s, 21.611/s)
+[20201202 14:21:05] [info] if_loggedin: granting access to /data2 to generic user at 178.39.190.186
+[20201202 14:21:05] [info] dataprovider: processing param_id=PS4, seq_id=ATATAG
+[20201202 14:21:05] [info] service time (0.108105s, 9.250/s)
+[20201203 14:34:14] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.58
+[20201203 14:34:14] [info] dataprovider: processing param_id="PS4", seq_id=ACGTGACG
+[20201203 14:34:14] [info] service time (0.057342s, 17.439/s)
+[20201203 14:35:16] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:16] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:16] [error] no seq_id or param_id, returning dummy response
+[20201203 14:35:16] [info] service time (0.00198s, 505.051/s)
+[20201203 14:35:16] [info] processing seq_id: 
+[20201203 14:35:16] [info] processing param_id: "PS4"
+[20201203 14:35:16] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:16] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:16] [info] processing seq_id: ACGTGACG
+[20201203 14:35:16] [info] processing param_id: "PS4"
+[20201203 14:35:16] [error] no seq_id or param_id, returning dummy response
+[20201203 14:35:16] [error] no seq_id or param_id, returning dummy response
+[20201203 14:35:16] [info] service time (0.061863s, 16.165/s)
+[20201203 14:35:16] [info] service time (0.052574s, 19.021/s)
+[20201203 14:35:16] [info] processing seq_id: 
+[20201203 14:35:16] [info] processing param_id: "PS4"
+[20201203 14:35:16] [info] processing seq_id: 
+[20201203 14:35:16] [info] processing param_id: "PS4"
+[20201203 14:35:16] [info] service time (0.146126s, 6.843/s)
+[20201203 14:35:16] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201203 14:35:16] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201203 14:35:16] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201203 14:35:23] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:23] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:23] [error] no seq_id or param_id, returning dummy response
+[20201203 14:35:23] [info] service time (0.000859s, 1164.144/s)
+[20201203 14:35:23] [info] processing seq_id: 
+[20201203 14:35:23] [info] processing param_id: "PS4"
+[20201203 14:35:23] [error] no seq_id or param_id, returning dummy response
+[20201203 14:35:23] [info] service time (0.001779s, 562.114/s)
+[20201203 14:35:23] [info] processing seq_id: 
+[20201203 14:35:23] [info] processing param_id: "PS4"
+[20201203 14:35:23] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:23] [info] processing seq_id: ACGTGACG
+[20201203 14:35:23] [info] processing param_id: "PS4"
+[20201203 14:35:23] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.58
+[20201203 14:35:23] [error] no seq_id or param_id, returning dummy response
+[20201203 14:35:23] [info] service time (0.000797s, 1254.705/s)
+[20201203 14:35:23] [info] processing seq_id: 
+[20201203 14:35:23] [info] processing param_id: "PS4"
+[20201203 14:35:23] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201203 14:35:23] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201203 14:35:23] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201203 14:35:23] [info] service time (0.043106s, 23.199/s)
+[20201203 14:44:07] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.58
+[20201203 14:44:07] [info] dataprovider: processing param_id="PS4", seq_id=ACGTGCA
+[20201203 14:44:07] [info] service time (0.033211s, 30.111/s)
+[20201204 09:14:32] [info] if_loggedin: granting access to /data2 to generic user at 128.179.254.171
+[20201204 09:14:32] [info] dataprovider: processing param_id=PS4, seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20201204 09:14:32] [info] service time (0.064638s, 15.471/s)
+[20201204 12:01:57] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201204 12:01:57] [info] dataprovider: processing param_id="PS4", seq_id=Aaaaaa
+[20201204 12:01:57] [info] service time (0.046787s, 21.373/s)
+[20201207 14:34:29] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201207 14:34:29] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201207 14:34:29] [info] service time (0.139496s, 7.169/s)
+[20201208 13:39:40] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201208 13:39:40] [info] dataprovider: processing param_id="PS4", seq_id=A_6
+[20201208 13:39:40] [info] service time (0.041651s, 24.009/s)
+[20201209 18:37:25] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201209 18:37:25] [info] dataprovider: processing param_id="PS4", seq_id=caatggagtac
+[20201209 18:37:25] [info] service time (0.037207s, 26.877/s)
+[20201209 18:37:37] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201209 18:37:37] [info] processing seq_id: caatggagtac
+[20201209 18:37:37] [info] processing param_id: "PS4"
+[20201209 18:37:37] [info] service time (0.043578s, 22.947/s)
+[20201209 18:37:37] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201209 18:37:37] [error] no seq_id or param_id, returning dummy response
+[20201209 18:37:37] [info] service time (0.001172s, 853.242/s)
+[20201209 18:37:37] [info] processing seq_id: 
+[20201209 18:37:37] [info] processing param_id: "PS4"
+[20201209 18:37:37] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201209 18:37:37] [error] no seq_id or param_id, returning dummy response
+[20201209 18:37:37] [info] service time (0.001161s, 861.326/s)
+[20201209 18:37:37] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201209 18:37:37] [error] no seq_id or param_id, returning dummy response
+[20201209 18:37:37] [info] service time (0.005837s, 171.321/s)
+[20201209 18:37:37] [info] processing seq_id: 
+[20201209 18:37:37] [info] processing param_id: "PS4"
+[20201209 18:37:37] [info] processing seq_id: 
+[20201209 18:37:37] [info] processing param_id: "PS4"
+[20201209 18:37:37] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201209 18:37:37] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201209 18:37:37] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201209 19:03:26] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201209 19:03:26] [info] dataprovider: processing param_id="PS4", seq_id=caatggagtac
+[20201209 19:03:26] [info] service time (0.042607s, 23.470/s)
+[20201210 15:53:11] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 15:53:11] [info] dataprovider: processing param_id="PS4", seq_id=aaa
+[20201210 15:53:11] [info] service time (0.044504s, 22.470/s)
+[20201210 15:54:54] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 15:54:54] [info] dataprovider: processing param_id="PS4", seq_id=AAAAAA
+[20201210 15:54:54] [info] service time (0.044657s, 22.393/s)
+[20201210 15:54:57] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 15:54:57] [info] dataprovider: processing param_id="PS4", seq_id=AAAAAA
+[20201210 15:54:57] [info] service time (0.060596s, 16.503/s)
+[20201210 15:55:03] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 15:55:03] [info] dataprovider: processing param_id="PS4", seq_id=AAAAAAAAA
+[20201210 15:55:03] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 15:55:03] [info] dataprovider: processing param_id="PS4", seq_id=AAAAAAAAA
+[20201210 15:55:03] [info] service time (0.046465s, 21.522/s)
+[20201210 15:55:03] [info] service time (0.035957s, 27.811/s)
+[20201210 15:56:06] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 15:56:06] [info] dataprovider: processing param_id="PS4", seq_id=CAATGGAGTAC
+[20201210 15:56:06] [info] service time (0.040409s, 24.747/s)
+[20201210 15:58:20] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 15:58:20] [info] dataprovider: processing param_id="PS4", seq_id=AAAAAAAAAA
+[20201210 15:58:20] [info] service time (0.041342s, 24.188/s)
+[20201210 16:05:08] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 16:05:08] [info] dataprovider: processing param_id="PS4", seq_id=CGCGAATTCGCG
+[20201210 16:05:08] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 16:05:08] [info] dataprovider: processing param_id="PS4", seq_id=CGCGAATTCGCG
+[20201210 16:05:09] [info] service time (0.04747s, 21.066/s)
+[20201210 16:05:09] [info] service time (0.038961s, 25.667/s)
+[20201210 16:18:12] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 16:18:12] [info] dataprovider: processing param_id="PS4", seq_id=CAATGGAGTAC
+[20201210 16:18:12] [info] service time (0.043862s, 22.799/s)
+[20201210 16:20:59] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 16:20:59] [info] dataprovider: processing param_id="PS4", seq_id=gcgcaatggagtacgc
+[20201210 16:20:59] [info] service time (0.043823s, 22.819/s)
+[20201210 16:55:48] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201210 16:55:48] [info] dataprovider: processing param_id="PS4", seq_id=gc
+[20201210 16:55:48] [info] service time (0.04765s, 20.986/s)
+[20201210 16:56:06] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201210 16:56:06] [info] processing seq_id: gc
+[20201210 16:56:06] [info] processing param_id: "PS4"
+[20201210 16:56:06] [info] service time (0.036128s, 27.679/s)
+[20201210 16:56:06] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201210 16:56:06] [error] no seq_id or param_id, returning dummy response
+[20201210 16:56:06] [info] service time (0.000801s, 1248.439/s)
+[20201210 16:56:06] [info] processing seq_id: 
+[20201210 16:56:06] [info] processing param_id: "PS4"
+[20201210 16:56:06] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201210 16:56:06] [error] no seq_id or param_id, returning dummy response
+[20201210 16:56:06] [info] service time (0.000905s, 1104.972/s)
+[20201210 16:56:06] [info] processing seq_id: 
+[20201210 16:56:06] [info] processing param_id: "PS4"
+[20201210 16:56:06] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201210 16:56:06] [error] no seq_id or param_id, returning dummy response
+[20201210 16:56:06] [info] service time (0.000649s, 1540.832/s)
+[20201210 16:56:06] [info] processing seq_id: 
+[20201210 16:56:06] [info] processing param_id: "PS4"
+[20201210 16:56:06] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201210 16:56:06] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201210 16:56:06] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201210 20:21:43] [info] if_loggedin: granting access to /data/autosuggest-remote to generic user at 91.241.19.122
+[20201210 20:21:43] [error] cannot read /home/debruin/cgdna_web/data/autosuggest-remote.json : No such file or directory
+[20201210 20:21:43] [info] service time (0.001542s, 648.508/s)
+[20201210 20:21:43] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201210 21:12:41] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201210 21:12:41] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201210 21:12:41] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201210 22:25:51] [info] if_loggedin: granting access to /data/adminer to generic user at 91.241.19.122
+[20201210 22:25:51] [error] cannot read /home/debruin/cgdna_web/data/adminer.json : No such file or directory
+[20201210 22:25:51] [info] service time (0.000905s, 1104.972/s)
+[20201210 22:25:51] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201211 01:12:27] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20201211 09:20:30] [info] if_loggedin: granting access to /data2 to generic user at 106.204.142.36
+[20201211 09:20:30] [info] dataprovider: processing param_id="PS4", seq_id=GCATCGATACGACG
+[20201211 09:20:30] [info] service time (0.049129s, 20.355/s)
+[20201211 15:41:20] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.58
+[20201211 15:41:20] [info] dataprovider: processing param_id="PS4", seq_id=cgcgaattcgcg
+[20201211 15:41:20] [info] service time (0.046453s, 21.527/s)
+[20201211 17:41:31] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201211 17:41:31] [info] dataprovider: processing param_id="PS4", seq_id=CGCGAATTCGCG
+[20201211 17:41:31] [info] service time (0.046236s, 21.628/s)
+[20201211 17:41:57] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201211 17:41:57] [info] processing seq_id: CGCGAATTCGCG
+[20201211 17:41:57] [info] processing param_id: "PS4"
+[20201211 17:41:57] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201211 17:41:57] [error] no seq_id or param_id, returning dummy response
+[20201211 17:41:57] [info] service time (0.000703s, 1422.475/s)
+[20201211 17:41:57] [info] processing seq_id: 
+[20201211 17:41:57] [info] processing param_id: "PS4"
+[20201211 17:41:57] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201211 17:41:57] [error] no seq_id or param_id, returning dummy response
+[20201211 17:41:57] [info] service time (0.000835s, 1197.605/s)
+[20201211 17:41:57] [info] processing seq_id: 
+[20201211 17:41:57] [info] processing param_id: "PS4"
+[20201211 17:41:57] [info] if_loggedin: granting access to /data3 to generic user at 138.246.3.42
+[20201211 17:41:57] [error] no seq_id or param_id, returning dummy response
+[20201211 17:41:57] [info] service time (0.001106s, 904.159/s)
+[20201211 17:41:57] [info] processing seq_id: 
+[20201211 17:41:57] [info] processing param_id: "PS4"
+[20201211 17:41:57] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201211 17:41:57] [info] service time (0.063251s, 15.810/s)
+[20201211 17:41:57] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201211 17:41:57] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20201213 21:00:38] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201213 21:00:38] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201213 21:00:38] [info] service time (0.00107s, 934.579/s)
+[20201213 21:00:38] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201213 21:00:39] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20201213 21:00:39] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20201213 21:00:39] [info] service time (0.000908s, 1101.322/s)
+[20201213 21:00:39] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20201216 14:59:23] [info] if_loggedin: granting access to /data2 to generic user at 128.179.253.106
+[20201216 14:59:23] [info] dataprovider: processing param_id=PS4, seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20201216 14:59:23] [info] service time (0.049841s, 20.064/s)
+[20201216 16:57:59] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201216 16:57:59] [info] dataprovider: processing param_id="PS4", seq_id=CCGAATTCGG
+[20201216 16:57:59] [info] service time (0.054436s, 18.370/s)
+[20201216 17:09:16] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201216 17:09:16] [info] dataprovider: processing param_id="PS4", seq_id=CCGAAATGGC
+[20201216 17:09:16] [info] service time (0.054496s, 18.350/s)
+[20201216 17:33:39] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201216 17:33:39] [info] dataprovider: processing param_id="PS4", seq_id=ccgaaaacgg
+[20201216 17:33:40] [info] service time (0.063704s, 15.698/s)
+[20201216 17:41:49] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201216 17:41:49] [info] dataprovider: processing param_id="PS4", seq_id=CCGTTAACGG
+[20201216 17:41:49] [info] service time (0.050124s, 19.951/s)
+[20201216 17:45:43] [info] if_loggedin: granting access to /data2 to generic user at 138.246.3.42
+[20201216 17:45:43] [info] dataprovider: processing param_id="PS4", seq_id=CCGACGTCGG
+[20201216 17:45:43] [info] service time (0.053179s, 18.804/s)
+[20201216 20:06:29] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201216 20:06:29] [info] dataprovider: processing param_id=PS4, seq_id=AATTGGGGCCAA
+[20201216 20:06:29] [info] service time (0.044768s, 22.337/s)
+[20201216 20:07:30] [info] if_loggedin: granting access to /data2 to generic user at 82.161.53.55
+[20201216 20:07:30] [info] dataprovider: processing param_id=PS4, seq_id=GGGGGAAATTT
+[20201216 20:07:30] [info] service time (0.037005s, 27.023/s)
+[20201218 11:15:10] [info] Manager 734 stopped
+[20201218 11:17:49] [info] Listening at "http://*:3357"
+[20201218 11:17:49] [info] Manager 24221 started
+[20201218 11:17:49] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20201218 11:18:09] [info] Manager 24221 stopped
+[20201218 11:25:04] [info] Listening at "http://*:3357"
+[20201218 11:25:04] [info] Manager 24302 started
+[20201218 11:25:04] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20201218 11:25:44] [info] Manager 24302 stopped
+[20201218 11:26:06] [info] Listening at "http://*:3457"
+[20201218 11:26:06] [info] Manager 24330 started
+[20201218 11:26:06] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20201218 11:26:42] [info] Manager 24330 stopped
+[20211010 10:41:40] [info] Listening at "http://*:3457"
+[20211010 10:41:40] [info] Manager 700 started
+[20211010 10:41:40] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20211010 18:27:04] [info] if_loggedin: granting access to /view2 to generic user at 85.25.185.103
+[20211011 11:30:11] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211011 11:30:11] [info] dataprovider: processing param_id="PS4", seq_id=g_24
+[20211011 11:30:11] [info] service time (0.235583s, 4.245/s)
+[20211013 20:51:02] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211013 20:51:02] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211013 20:51:02] [info] service time (0.004806s, 208.073/s)
+[20211013 20:51:02] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211013 20:51:02] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211013 20:51:02] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211013 20:51:02] [info] service time (0.000718s, 1392.758/s)
+[20211013 20:51:02] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 04:05:27] [info] if_loggedin: granting access to /data2 to generic user at 137.219.202.34
+[20211014 04:05:27] [info] dataprovider: processing param_id="PS4", seq_id=GGCGGCAAGAAGCCGCCAAAGAAAGAAAGAAAGCCGCCGAAGAACGGCGG
+[20211014 04:05:27] [info] service time (0.101348s, 9.867/s)
+[20211014 04:05:38] [info] if_loggedin: granting access to /data2 to generic user at 137.219.202.34
+[20211014 04:05:38] [info] dataprovider: processing param_id="PS4", seq_id=GGCGGCAAGAAGCCGCCAAAGAAAGAAAGAAAGCCGCCGAAGAACGGCGG
+[20211014 04:05:38] [info] service time (0.090588s, 11.039/s)
+[20211014 10:24:46] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211014 10:24:46] [info] dataprovider: processing param_id="PS4", seq_id=G_24
+[20211014 10:24:46] [info] service time (0.071978s, 13.893/s)
+[20211014 10:24:59] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211014 10:24:59] [info] dataprovider: processing param_id="PS4", seq_id=A_24
+[20211014 10:24:59] [info] service time (0.085543s, 11.690/s)
+[20211014 15:12:25] [info] if_loggedin: granting access to /data/owncloud to generic user at 34.89.201.61
+[20211014 15:12:25] [error] cannot read /home/debruin/cgdna_web/data/owncloud.json : No such file or directory
+[20211014 15:12:25] [info] service time (0.006329s, 158.003/s)
+[20211014 15:12:25] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:12:25] [info] if_loggedin: granting access to /data/nextcloud to generic user at 34.89.201.61
+[20211014 15:12:25] [error] cannot read /home/debruin/cgdna_web/data/nextcloud.json : No such file or directory
+[20211014 15:12:25] [info] service time (0.005332s, 187.547/s)
+[20211014 15:12:25] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:22:49] [info] if_loggedin: granting access to /data/nanoadmin to generic user at 35.246.170.180
+[20211014 15:22:49] [error] cannot read /home/debruin/cgdna_web/data/nanoadmin.json : No such file or directory
+[20211014 15:22:49] [info] service time (0.001528s, 654.450/s)
+[20211014 15:22:49] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:22:49] [info] if_loggedin: granting access to /data/nanoadmin to generic user at 35.246.170.180
+[20211014 15:22:49] [error] cannot read /home/debruin/cgdna_web/data/nanoadmin.json : No such file or directory
+[20211014 15:22:49] [info] service time (0.001177s, 849.618/s)
+[20211014 15:22:49] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:23:39] [info] if_loggedin: granting access to /data/adminusers to generic user at 35.246.170.180
+[20211014 15:23:39] [error] cannot read /home/debruin/cgdna_web/data/adminusers.json : No such file or directory
+[20211014 15:23:39] [info] service time (0.00165s, 606.061/s)
+[20211014 15:23:39] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:23:40] [info] if_loggedin: granting access to /data/adminusers to generic user at 35.246.170.180
+[20211014 15:23:40] [error] cannot read /home/debruin/cgdna_web/data/adminusers.json : No such file or directory
+[20211014 15:23:40] [info] service time (0.001215s, 823.045/s)
+[20211014 15:23:40] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:27:39] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:39] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:39] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:39] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:39] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:39] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:40] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:40] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:46] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:46] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:46] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:46] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:46] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:46] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:46] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:27:47] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:11] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:11] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:11] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:11] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:12] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:12] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:12] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:12] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:18] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:18] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:29:19] [error] auth: could not find login credentials wamusername and/or wampassword in request parameters
+[20211014 15:30:48] [info] if_loggedin: granting access to /data/owncloud to generic user at 34.89.201.61
+[20211014 15:30:48] [error] cannot read /home/debruin/cgdna_web/data/owncloud.json : No such file or directory
+[20211014 15:30:48] [info] service time (0.001545s, 647.249/s)
+[20211014 15:30:48] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:30:48] [info] if_loggedin: granting access to /data/nextcloud to generic user at 34.89.201.61
+[20211014 15:30:48] [error] cannot read /home/debruin/cgdna_web/data/nextcloud.json : No such file or directory
+[20211014 15:30:48] [info] service time (0.001664s, 600.962/s)
+[20211014 15:30:48] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:37:25] [info] if_loggedin: granting access to /data/owncloud to generic user at 34.89.201.61
+[20211014 15:37:25] [error] cannot read /home/debruin/cgdna_web/data/owncloud.json : No such file or directory
+[20211014 15:37:25] [info] service time (0.00491s, 203.666/s)
+[20211014 15:37:25] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:37:25] [info] if_loggedin: granting access to /data/nextcloud to generic user at 34.89.201.61
+[20211014 15:37:25] [error] cannot read /home/debruin/cgdna_web/data/nextcloud.json : No such file or directory
+[20211014 15:37:25] [info] service time (0.006152s, 162.549/s)
+[20211014 15:37:25] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:37:25] [info] if_loggedin: granting access to /data/owncloud to generic user at 34.89.201.61
+[20211014 15:37:25] [error] cannot read /home/debruin/cgdna_web/data/owncloud.json : No such file or directory
+[20211014 15:37:25] [info] service time (0.000656s, 1524.390/s)
+[20211014 15:37:25] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 15:37:25] [info] if_loggedin: granting access to /data/nextcloud to generic user at 34.89.201.61
+[20211014 15:37:25] [error] cannot read /home/debruin/cgdna_web/data/nextcloud.json : No such file or directory
+[20211014 15:37:25] [info] service time (0.000998s, 1002.004/s)
+[20211014 15:37:25] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211014 18:58:24] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.161
+[20211017 02:33:02] [info] if_loggedin: granting access to /view2 to generic user at 185.191.171.2
+[20211019 13:20:53] [info] if_loggedin: granting access to /view2 to generic user at 216.244.66.246
+[20211019 21:03:20] [info] if_loggedin: granting access to /data2 to generic user at 94.224.208.169
+[20211019 21:03:20] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20211019 21:03:20] [info] service time (0.059866s, 16.704/s)
+[20211020 15:05:29] [info] if_loggedin: granting access to /view2 to generic user at 34.65.57.89
+[20211020 20:51:59] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211020 20:51:59] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211020 20:51:59] [info] service time (0.001626s, 615.006/s)
+[20211020 20:51:59] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211020 20:51:59] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211020 20:51:59] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211020 20:51:59] [info] service time (0.001105s, 904.977/s)
+[20211020 20:51:59] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211021 01:58:53] [info] if_loggedin: granting access to /view2 to generic user at 199.47.82.21
+[20211022 19:26:21] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.191
+[20211023 21:26:22] [info] if_loggedin: granting access to /view2 to generic user at 54.36.148.86
+[20211029 15:57:35] [info] if_loggedin: granting access to /data2 to generic user at 166.216.158.83
+[20211029 15:57:35] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20211029 15:57:35] [info] service time (0.083421s, 11.987/s)
+[20211102 09:31:43] [info] if_loggedin: granting access to /view2 to generic user at 185.191.171.37
+[20211105 06:55:00] [info] if_loggedin: granting access to /view2 to generic user at 207.46.13.94
+[20211107 04:29:20] [info] if_loggedin: granting access to /view2 to generic user at 17.121.113.199
+[20211107 20:50:18] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211107 20:50:18] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211107 20:50:18] [info] service time (0.001783s, 560.852/s)
+[20211107 20:50:18] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211107 20:50:18] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211107 20:50:18] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211107 20:50:18] [info] service time (0.001024s, 976.562/s)
+[20211107 20:50:18] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211111 10:53:11] [info] if_loggedin: granting access to /data2 to generic user at 185.10.224.50
+[20211111 10:53:11] [info] dataprovider: processing param_id="PS4", seq_id=CATAGATGG
+[20211111 10:53:12] [info] service time (0.101727s, 9.830/s)
+[20211111 10:55:58] [info] if_loggedin: granting access to /data2 to generic user at 185.10.224.50
+[20211111 10:55:58] [info] if_loggedin: granting access to /data2 to generic user at 185.10.224.50
+[20211111 10:55:58] [info] dataprovider: processing param_id="PS4", seq_id=GATAGATGG
+[20211111 10:55:58] [info] dataprovider: processing param_id="PS4", seq_id=GATAGATGG
+[20211111 10:55:59] [info] service time (0.051451s, 19.436/s)
+[20211111 10:55:59] [info] service time (0.050167s, 19.933/s)
+[20211112 14:12:51] [info] if_loggedin: granting access to /view2 to generic user at 93.158.161.74
+[20211116 08:01:22] [info] if_loggedin: granting access to /data2 to generic user at 185.25.194.148
+[20211116 08:01:22] [info] dataprovider: processing param_id="PS1", seq_id=(A_5 G_5 T_5 C_5 T)_15
+[20211116 08:01:22] [info] service time (0.21018s, 4.758/s)
+[20211116 08:01:37] [info] if_loggedin: granting access to /data2 to generic user at 185.25.194.148
+[20211116 08:01:37] [info] dataprovider: processing param_id="PS4", seq_id=(A_5 G_5 T_5 C_5 T)_15
+[20211116 08:01:37] [info] if_loggedin: granting access to /data2 to generic user at 185.25.194.148
+[20211116 08:01:37] [info] dataprovider: processing param_id="PS4", seq_id=(A_5 G_5 T_5 C_5 T)_15
+[20211116 08:01:38] [info] service time (0.197146s, 5.072/s)
+[20211116 08:01:38] [info] service time (0.209354s, 4.777/s)
+[20211116 08:01:49] [info] if_loggedin: granting access to /data2 to generic user at 185.25.194.148
+[20211116 08:01:49] [info] dataprovider: processing param_id="PS4", seq_id=(a_5 g_5 t_5 c_5 g)_2 a_5 g_5 t_5 c_5 [g](a_5 g_5 t_5 c_5 g)_2
+[20211116 08:01:49] [info] service time (0.087489s, 11.430/s)
+[20211117 10:16:18] [info] if_loggedin: granting access to /view2 to generic user at 110.249.201.179
+[20211117 22:12:50] [info] if_loggedin: granting access to /view2 to generic user at 110.249.202.20
+[20211118 16:05:44] [info] if_loggedin: granting access to /data2 to generic user at 78.56.231.154
+[20211118 16:05:44] [info] dataprovider: processing param_id="PS4", seq_id=ATGCGA
+[20211118 16:05:44] [info] service time (0.060755s, 16.460/s)
+[20211118 16:05:53] [info] if_loggedin: granting access to /data2 to generic user at 78.56.231.154
+[20211118 16:05:53] [info] dataprovider: processing param_id="PS4", seq_id=ATGCGATGCAATGCCG
+[20211118 16:05:53] [info] service time (0.069026s, 14.487/s)
+[20211118 16:06:58] [info] if_loggedin: granting access to /data2 to generic user at 78.56.231.154
+[20211118 16:06:58] [info] dataprovider: processing param_id="PS4", seq_id=CGGGCATGCA
+[20211118 16:06:58] [info] service time (0.043285s, 23.103/s)
+[20211123 17:43:38] [info] if_loggedin: granting access to /data2 to generic user at 128.178.14.96
+[20211123 17:43:38] [info] dataprovider: processing param_id="PS4", seq_id=ATATA
+[20211123 17:43:39] [info] service time (0.112814s, 8.864/s)
+[20211123 17:44:08] [info] if_loggedin: granting access to /data2 to generic user at 128.178.14.96
+[20211123 17:44:08] [info] dataprovider: processing param_id="PS4", seq_id=GACGACTCATCATCATACGCGCA
+[20211123 17:44:08] [info] service time (0.079193s, 12.627/s)
+[20211124 20:51:01] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211124 20:51:01] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211124 20:51:01] [info] service time (0.005057s, 197.746/s)
+[20211124 20:51:01] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211124 20:51:01] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211124 20:51:01] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211124 20:51:01] [info] service time (0.000825s, 1212.121/s)
+[20211124 20:51:01] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211127 20:16:45] [info] if_loggedin: granting access to /view2 to generic user at 52.81.120.164
+[20211201 08:56:36] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211201 08:56:36] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211201 08:56:36] [info] service time (0.000997s, 1003.009/s)
+[20211201 08:56:36] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211201 08:56:36] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211201 08:56:36] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211201 08:56:36] [info] service time (0.00636s, 157.233/s)
+[20211201 08:56:36] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211201 10:52:59] [info] if_loggedin: granting access to /view2 to generic user at 185.191.171.7
+[20211201 14:02:47] [info] if_loggedin: granting access to /view2 to generic user at 52.80.196.63
+[20211201 14:03:32] [info] if_loggedin: granting access to /view2 to generic user at 219.151.146.12
+[20211203 08:25:53] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211203 08:25:53] [info] dataprovider: processing param_id=PS4, seq_id=Gggggg
+[20211203 08:25:53] [info] service time (0.056369s, 17.740/s)
+[20211207 21:41:46] [info] if_loggedin: granting access to /data2 to generic user at 164.73.209.251
+[20211207 21:41:46] [info] dataprovider: processing param_id="PS4", seq_id=gcatgcga
+[20211207 21:41:46] [info] service time (0.061019s, 16.388/s)
+[20211208 11:26:56] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211208 11:26:56] [info] dataprovider: processing param_id=PS4, seq_id=aaaaaAGGGGAAAAAAGGGGAAAAAAGGGGAAAAAAGGGGAAAAAAGGGGAAAAAAGGGG
+[20211208 11:26:56] [info] service time (0.073623s, 13.583/s)
+[20211208 11:45:08] [info] if_loggedin: granting access to /view2 to generic user at 66.249.65.221
+[20211210 12:35:49] [info] if_loggedin: granting access to /view2 to generic user at 66.249.79.105
+[20211212 12:01:59] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211212 12:01:59] [info] dataprovider: processing param_id=PS4, seq_id=Gggggggg
+[20211212 12:01:59] [info] service time (0.066596s, 15.016/s)
+[20211212 15:41:34] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211212 15:41:34] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211212 15:41:34] [info] service time (0.0018s, 555.556/s)
+[20211212 15:41:34] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211212 15:41:34] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20211212 15:41:34] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20211212 15:41:34] [info] service time (0.001038s, 963.391/s)
+[20211212 15:41:34] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20211213 02:21:27] [info] if_loggedin: granting access to /data2 to generic user at 167.57.115.160
+[20211213 02:21:27] [info] dataprovider: processing param_id="PS4", seq_id=AGATGCATCCATGGGGGTACCGCCAGCATTTCGGAAAAAAACCACGCTAAGATC
+[20211213 02:21:27] [info] service time (0.089583s, 11.163/s)
+[20211213 08:42:11] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211213 08:42:11] [info] dataprovider: processing param_id=PS4, seq_id=Gggggggg
+[20211213 08:42:11] [info] service time (0.102194s, 9.785/s)
+[20211213 08:43:09] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20211213 08:43:09] [info] dataprovider: processing param_id=PS4, seq_id=(Agc)_10
+[20211213 08:43:09] [info] service time (0.055313s, 18.079/s)
+[20211213 09:37:43] [info] if_loggedin: granting access to /data2 to generic user at 165.225.94.185
+[20211213 09:37:43] [info] dataprovider: processing param_id="PS4", seq_id=gggagggct
+[20211213 09:37:43] [info] service time (0.053131s, 18.821/s)
+[20211213 19:00:14] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20211213 19:00:14] [info] dataprovider: processing param_id="PS4", seq_id=Aaattt
+[20211213 19:00:14] [info] service time (0.057168s, 17.492/s)
+[20211213 19:00:39] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20211213 19:00:39] [info] dataprovider: processing param_id="PS4", seq_id=Gggaaaccccc
+[20211213 19:00:39] [info] service time (0.047517s, 21.045/s)
+[20211213 19:01:16] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20211213 19:01:16] [info] dataprovider: processing param_id="PS4", seq_id=Aaaaaa
+[20211213 19:01:16] [info] service time (0.03975s, 25.157/s)
+[20211213 20:50:38] [info] if_loggedin: granting access to /data2 to generic user at 186.54.53.119
+[20211213 20:50:38] [info] dataprovider: processing param_id="PS4", seq_id=GATACCTGGAATCGAGTCGACGTGC
+[20211213 20:50:38] [info] service time (0.073842s, 13.542/s)
+[20211213 20:52:07] [info] if_loggedin: granting access to /data2 to generic user at 186.54.53.119
+[20211213 20:52:07] [info] dataprovider: processing param_id="PS4", seq_id=CGCGCGCAAAAAAAAAAAAAAACGCCGCGAAAAAAAAA
+[20211213 20:52:07] [info] service time (0.048177s, 20.757/s)
+[20211214 05:31:03] [info] if_loggedin: granting access to /data2 to generic user at 103.21.126.78
+[20211214 05:31:03] [info] dataprovider: processing param_id="PS4", seq_id=1BNA
+[20211214 05:31:03] [info] service time (0.021726s, 46.028/s)
+[20211214 05:31:09] [info] if_loggedin: granting access to /data2 to generic user at 103.21.126.78
+[20211214 05:31:09] [info] dataprovider: processing param_id="PS4", seq_id=1BNA
+[20211214 05:31:09] [info] service time (0.019668s, 50.844/s)
+[20211214 13:25:20] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 13:25:20] [info] dataprovider: processing param_id="PS4", seq_id=TTTTTTTTTTTGGTAG GGTCCATCACATAAGGGATGAACTCACA
+[20211214 13:25:20] [info] service time (0.067918s, 14.724/s)
+[20211214 13:26:51] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 13:26:51] [info] dataprovider: processing param_id="PS4", seq_id=TTTTTTTTTTTGGTAG GGTCCATTTTTTTTTTTCACATAAGGGATTTTTTTTTTTGAACTCACA
+[20211214 13:26:51] [info] service time (0.057154s, 17.497/s)
+[20211214 13:49:51] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 13:49:51] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaccggaaaaaaccggaaaaaat
+[20211214 13:49:51] [info] service time (0.082275s, 12.154/s)
+[20211214 13:50:32] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 13:50:32] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccgg
+[20211214 13:50:32] [info] service time (0.057956s, 17.254/s)
+[20211214 13:50:59] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 13:50:59] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccgg
+[20211214 13:51:00] [info] service time (0.610802s, 1.637/s)
+[20211214 14:02:44] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:02:44] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccggaaaaaaccgg
+[20211214 14:02:45] [info] service time (0.903157s, 1.107/s)
+[20211214 14:06:40] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:06:40] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggccccaaaaaaaaaaagggggcccc
+[20211214 14:06:40] [info] service time (0.359129s, 2.785/s)
+[20211214 14:11:15] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:11:15] [info] dataprovider: processing param_id="PS4", seq_id=aaaaagggggaaaaaggggg
+[20211214 14:11:15] [info] service time (0.049766s, 20.094/s)
+[20211214 14:12:33] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:12:33] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaaaaagggggggggg
+[20211214 14:12:33] [info] service time (0.045669s, 21.897/s)
+[20211214 14:14:11] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:14:11] [info] dataprovider: processing param_id="PS4", seq_id=aaaaagggggaaaaaggggg
+[20211214 14:14:11] [info] service time (0.040986s, 24.399/s)
+[20211214 14:14:22] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:14:22] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaaaaagggggggggg
+[20211214 14:14:22] [info] service time (0.053351s, 18.744/s)
+[20211214 14:14:50] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:14:50] [info] dataprovider: processing param_id="PS4", seq_id=aaaaagggggaaaaaggggg
+[20211214 14:14:50] [info] service time (0.057595s, 17.363/s)
+[20211214 14:16:02] [info] if_loggedin: granting access to /data2 to generic user at 193.197.73.9
+[20211214 14:16:02] [info] dataprovider: processing param_id="PS4", seq_id=aaaaaaaaaagggggggggg
+[20211214 14:16:02] [info] service time (0.048343s, 20.686/s)
+[20211214 21:06:04] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20211214 21:06:04] [info] dataprovider: processing param_id=PS4, seq_id=aaaatttt
+[20211214 21:06:04] [info] service time (0.043733s, 22.866/s)
+[20211222 06:08:12] [info] if_loggedin: granting access to /view2 to generic user at 66.249.76.120
+[20211231 07:01:43] [info] if_loggedin: granting access to /view2 to generic user at 40.77.167.5
+[20220101 09:28:05] [info] if_loggedin: granting access to /view2 to generic user at 66.249.75.221
+[20220101 20:31:40] [info] if_loggedin: granting access to /view2 to generic user at 66.249.73.33
+[20220101 20:51:06] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220101 20:51:06] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220101 20:51:06] [info] service time (0.025936s, 38.556/s)
+[20220101 20:51:06] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220101 20:51:06] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220101 20:51:06] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220101 20:51:06] [info] service time (0.001869s, 535.045/s)
+[20220101 20:51:06] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220102 06:31:15] [info] if_loggedin: granting access to /view2 to generic user at 66.249.73.36
+[20220102 17:31:33] [info] if_loggedin: granting access to /view2 to generic user at 66.249.73.33
+[20220104 03:40:16] [info] if_loggedin: granting access to /view2 to generic user at 185.191.171.33
+[20220105 16:38:45] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.88
+[20220106 11:19:47] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.5
+[20220106 22:37:26] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.88
+[20220107 12:02:50] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.2
+[20220108 03:50:06] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.100
+[20220109 02:01:23] [info] if_loggedin: granting access to /data2 to generic user at 136.152.143.71
+[20220109 02:01:23] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220109 02:01:23] [info] service time (0.126361s, 7.914/s)
+[20220109 17:12:56] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20220109 17:12:56] [info] dataprovider: processing param_id="PS4", seq_id=Aaattt
+[20220109 17:12:56] [info] service time (0.055254s, 18.098/s)
+[20220109 17:13:00] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20220109 17:13:00] [info] dataprovider: processing param_id="PS4", seq_id=Aaattt
+[20220109 17:13:00] [info] service time (0.038237s, 26.153/s)
+[20220109 17:13:14] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20220109 17:13:14] [info] dataprovider: processing param_id="PS4", seq_id=Aaattt
+[20220109 17:13:14] [info] service time (0.052146s, 19.177/s)
+[20220109 17:13:22] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20220109 17:13:22] [info] dataprovider: processing param_id="PS4", seq_id=Acacac
+[20220109 17:13:22] [info] service time (0.048685s, 20.540/s)
+[20220110 06:45:42] [info] if_loggedin: granting access to /view2 to generic user at 66.249.79.97
+[20220110 15:23:16] [info] if_loggedin: granting access to /data2 to generic user at 88.222.32.73
+[20220110 15:23:16] [info] dataprovider: processing param_id="PS4", seq_id=AATTTTTGGGGGG
+[20220110 15:23:16] [info] service time (0.042445s, 23.560/s)
+[20220111 12:46:59] [info] if_loggedin: granting access to /data2 to generic user at 158.129.173.102
+[20220111 12:46:59] [info] dataprovider: processing param_id="PS4", seq_id=AGATGCATCCATGGGGGTACCGCCAGCATTTCGGAAAAAAACCACGCTAAGATC
+[20220111 12:46:59] [info] service time (0.053305s, 18.760/s)
+[20220111 12:47:20] [info] if_loggedin: granting access to /data2 to generic user at 158.129.173.102
+[20220111 12:47:20] [info] dataprovider: processing param_id="PS1", seq_id=AGATGCATCCATGGGGGTACCGCCAGCATTTCGGAAAAAAACCACGCTAAGATC
+[20220111 12:47:20] [info] service time (0.056433s, 17.720/s)
+[20220111 12:47:23] [info] if_loggedin: granting access to /data2 to generic user at 158.129.173.102
+[20220111 12:47:23] [info] dataprovider: processing param_id="PS2", seq_id=AGATGCATCCATGGGGGTACCGCCAGCATTTCGGAAAAAAACCACGCTAAGATC
+[20220111 12:47:23] [info] service time (0.056721s, 17.630/s)
+[20220111 12:47:31] [info] if_loggedin: granting access to /data2 to generic user at 158.129.173.102
+[20220111 12:47:31] [info] dataprovider: processing param_id="PS4", seq_id=AGATGCATCCATGGGGGTACCGCCAGCATTTCGGAAAAAAACCACGCTAAGATC
+[20220111 12:47:31] [info] service time (0.061599s, 16.234/s)
+[20220112 06:13:09] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.5
+[20220112 19:08:46] [info] if_loggedin: granting access to /view2 to generic user at 66.249.75.225
+[20220116 16:33:14] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:33:14] [info] dataprovider: processing param_id="PS4", seq_id=A_10
+[20220116 16:33:14] [info] service time (0.119121s, 8.395/s)
+[20220116 16:34:14] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:34:14] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220116 16:34:14] [info] service time (0.045837s, 21.816/s)
+[20220116 16:34:20] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:34:20] [error] no seq_id or param_id, returning dummy response
+[20220116 16:34:20] [info] service time (0.0016s, 625.000/s)
+[20220116 16:34:20] [info] dataprovider: processing param_id="PS4", seq_id=
+[20220116 16:34:20] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220116 16:34:21] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:34:21] [error] no seq_id or param_id, returning dummy response
+[20220116 16:34:21] [info] service time (0.000694s, 1440.922/s)
+[20220116 16:34:21] [info] dataprovider: processing param_id="PS4", seq_id=
+[20220116 16:34:21] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220116 16:36:54] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:36:54] [info] dataprovider: processing param_id="PS1", seq_id=AT_10
+[20220116 16:36:54] [info] service time (0.027425s, 36.463/s)
+[20220116 16:37:12] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:37:12] [info] dataprovider: processing param_id="PS4", seq_id=AT_10
+[20220116 16:37:12] [info] service time (0.043497s, 22.990/s)
+[20220116 16:37:13] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:37:13] [info] dataprovider: processing param_id="PS4", seq_id=AT_10
+[20220116 16:37:13] [info] service time (0.053615s, 18.651/s)
+[20220116 16:38:04] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:38:04] [info] dataprovider: processing param_id="PS4", seq_id=T_10
+[20220116 16:38:04] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:38:04] [info] dataprovider: processing param_id="PS4", seq_id=T_10
+[20220116 16:38:04] [info] service time (0.050615s, 19.757/s)
+[20220116 16:38:04] [info] service time (0.04036s, 24.777/s)
+[20220116 16:38:06] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:38:06] [info] dataprovider: processing param_id="PS4", seq_id=T_10
+[20220116 16:38:06] [info] service time (0.052589s, 19.015/s)
+[20220116 16:38:08] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:38:08] [info] dataprovider: processing param_id="PS1", seq_id=T_10
+[20220116 16:38:08] [info] service time (0.026789s, 37.329/s)
+[20220116 16:38:09] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:38:09] [info] dataprovider: processing param_id="PS1", seq_id=T_10
+[20220116 16:38:09] [info] service time (0.038493s, 25.979/s)
+[20220116 16:38:09] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:38:09] [info] dataprovider: processing param_id="PS1", seq_id=T_10
+[20220116 16:38:09] [info] service time (0.03116s, 32.092/s)
+[20220116 16:38:09] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:38:09] [info] dataprovider: processing param_id="PS1", seq_id=T_10
+[20220116 16:38:10] [info] service time (0.038222s, 26.163/s)
+[20220116 16:39:36] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:39:36] [info] dataprovider: processing param_id="PS4", seq_id=T_10
+[20220116 16:39:36] [info] service time (0.050762s, 19.700/s)
+[20220116 16:39:57] [info] if_loggedin: granting access to /data2 to generic user at 84.226.37.142
+[20220116 16:39:57] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220116 16:39:57] [info] service time (0.084647s, 11.814/s)
+[20220116 16:53:01] [info] if_loggedin: granting access to /data2 to generic user at 185.25.195.61
+[20220116 16:53:01] [info] dataprovider: processing param_id="PS4", seq_id=ctcgcgcgcg
+[20220116 16:53:01] [info] service time (0.049037s, 20.393/s)
+[20220116 17:17:44] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:17:44] [info] dataprovider: processing param_id="PS4", seq_id=g_24
+[20220116 17:17:44] [info] service time (0.067685s, 14.774/s)
+[20220116 17:20:46] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:20:46] [info] dataprovider: processing param_id="PS4", seq_id=G_8
+[20220116 17:20:46] [info] service time (0.054908s, 18.212/s)
+[20220116 17:20:53] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:20:53] [info] dataprovider: processing param_id="PS4", seq_id=G_8
+[20220116 17:20:53] [info] service time (0.038347s, 26.078/s)
+[20220116 17:20:54] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:20:54] [info] dataprovider: processing param_id="PS4", seq_id=G_8
+[20220116 17:20:55] [info] service time (0.0488150000000001s, 20.486/s)
+[20220116 17:21:33] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:21:33] [info] dataprovider: processing param_id="PS4", seq_id=G_8
+[20220116 17:21:33] [info] service time (0.060189s, 16.614/s)
+[20220116 17:22:51] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:22:51] [error] no seq_id or param_id, returning dummy response
+[20220116 17:22:51] [info] service time (0.001174s, 851.789/s)
+[20220116 17:22:51] [info] dataprovider: processing param_id="PS4", seq_id=
+[20220116 17:22:51] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220116 17:22:59] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:22:59] [error] no seq_id or param_id, returning dummy response
+[20220116 17:22:59] [info] service time (0.00082s, 1219.512/s)
+[20220116 17:22:59] [info] dataprovider: processing param_id="PS4", seq_id=
+[20220116 17:22:59] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220116 17:23:17] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220116 17:23:17] [info] dataprovider: processing param_id="PS4", seq_id=Atcgggggg
+[20220116 17:23:17] [info] service time (0.047869s, 20.890/s)
+[20220117 03:35:15] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:35:15] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220117 03:35:15] [info] service time (0.067081s, 14.907/s)
+[20220117 03:35:55] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:35:55] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220117 03:35:55] [info] service time (0.04905s, 20.387/s)
+[20220117 03:35:55] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:35:55] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220117 03:35:55] [info] service time (0.044399s, 22.523/s)
+[20220117 03:36:20] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:36:20] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A
+[20220117 03:36:20] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:36:20] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A
+[20220117 03:36:20] [info] service time (0.020124s, 49.692/s)
+[20220117 03:36:20] [info] service time (0.024653s, 40.563/s)
+[20220117 03:36:23] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:36:23] [info] dataprovider: processing param_id="PS4", seq_id=ACTG_5A
+[20220117 03:36:23] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:36:23] [info] dataprovider: processing param_id="PS4", seq_id=ACTG_5A
+[20220117 03:36:23] [info] service time (0.043142s, 23.179/s)
+[20220117 03:36:23] [info] service time (0.064592s, 15.482/s)
+[20220117 03:37:05] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:37:05] [info] dataprovider: processing param_id="PS4", seq_id=ACTG_5
+[20220117 03:37:05] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:37:05] [info] dataprovider: processing param_id="PS4", seq_id=ACTG_5
+[20220117 03:37:05] [info] service time (0.041811s, 23.917/s)
+[20220117 03:37:05] [info] service time (0.051466s, 19.430/s)
+[20220117 03:37:09] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:37:09] [info] dataprovider: processing param_id="PS4", seq_id=ACTG_5A
+[20220117 03:37:09] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:37:09] [info] dataprovider: processing param_id="PS4", seq_id=ACTG_5A
+[20220117 03:37:09] [info] service time (0.054808s, 18.246/s)
+[20220117 03:37:09] [info] service time (0.055951s, 17.873/s)
+[20220117 03:42:12] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220117 03:42:12] [info] dataprovider: processing param_id="PS4", seq_id=CGCGAATTCGCG
+[20220117 03:42:12] [info] service time (0.047535s, 21.037/s)
+[20220117 06:47:57] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 06:47:57] [info] dataprovider: processing param_id=PS4, seq_id=Ggggv
+[20220117 06:47:57] [info] service time (0.025215s, 39.659/s)
+[20220117 06:48:08] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 06:48:08] [info] dataprovider: processing param_id=PS4, seq_id=Ggggccc
+[20220117 06:48:08] [info] service time (0.04903s, 20.396/s)
+[20220117 06:48:15] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 06:48:15] [info] dataprovider: processing param_id=PS4, seq_id=Ggggccc
+[20220117 06:48:15] [info] service time (0.039593s, 25.257/s)
+[20220117 06:48:16] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 06:48:16] [info] dataprovider: processing param_id=PS4, seq_id=Ggggccc
+[20220117 06:48:16] [info] service time (0.039066s, 25.598/s)
+[20220117 06:48:39] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 06:48:39] [info] dataprovider: processing param_id=PS4, seq_id=Ggggccc
+[20220117 06:48:39] [info] service time (0.042742s, 23.396/s)
+[20220117 06:49:13] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 06:49:13] [info] dataprovider: processing param_id=PS4, seq_id=Aaaaas
+[20220117 06:49:13] [info] service time (0.020036s, 49.910/s)
+[20220117 06:49:18] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 06:49:18] [info] dataprovider: processing param_id=PS4, seq_id=Aaaaa
+[20220117 06:49:18] [info] service time (0.045704s, 21.880/s)
+[20220117 09:54:24] [info] if_loggedin: granting access to /data2 to generic user at 178.193.150.214
+[20220117 09:54:24] [info] dataprovider: processing param_id="PS4", seq_id=ggggg
+[20220117 09:54:24] [info] service time (0.039237s, 25.486/s)
+[20220118 13:29:41] [info] if_loggedin: granting access to /data2 to generic user at 128.178.14.95
+[20220118 13:29:41] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220118 13:29:41] [info] service time (0.118394s, 8.446/s)
+[20220118 13:30:13] [info] if_loggedin: granting access to /data2 to generic user at 128.178.14.95
+[20220118 13:30:13] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220118 13:30:13] [info] service time (0.048887s, 20.455/s)
+[20220119 06:54:55] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.129
+[20220119 16:10:18] [info] if_loggedin: granting access to /data2 to generic user at 178.199.133.215
+[20220119 16:10:18] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220119 16:10:18] [info] service time (0.07318s, 13.665/s)
+[20220119 16:10:18] [info] if_loggedin: granting access to /data2 to generic user at 178.199.133.215
+[20220119 16:10:18] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220119 16:10:18] [info] service time (0.042014s, 23.802/s)
+[20220119 16:10:24] [info] if_loggedin: granting access to /data2 to generic user at 178.199.133.215
+[20220119 16:10:24] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220119 16:10:24] [info] service time (0.062462s, 16.010/s)
+[20220119 16:10:27] [info] if_loggedin: granting access to /data2 to generic user at 178.199.133.215
+[20220119 16:10:27] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220119 16:10:27] [info] service time (0.049726s, 20.110/s)
+[20220119 16:10:40] [info] if_loggedin: granting access to /data2 to generic user at 178.199.133.215
+[20220119 16:10:40] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220119 16:10:40] [info] service time (0.041525s, 24.082/s)
+[20220120 14:34:18] [info] if_loggedin: granting access to /data2 to generic user at 158.129.173.102
+[20220120 14:34:18] [info] dataprovider: processing param_id="PS4", seq_id=AGATGCATCCATGGGGGTACCGCCAGCATTTCGGAAAAAAACCACGCTAAGATC    
+[20220120 14:34:18] [info] service time (0.052055s, 19.210/s)
+[20220121 07:12:15] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.97
+[20220121 19:54:13] [info] if_loggedin: granting access to /data2 to generic user at 62.251.31.178
+[20220121 19:54:13] [info] dataprovider: processing param_id=PS4, seq_id=aaaaa
+[20220121 19:54:13] [info] service time (0.043657s, 22.906/s)
+[20220122 00:03:33] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:03:33] [info] dataprovider: processing param_id="PS4", seq_id=GCATAAATAAATAAATGC
+[20220122 00:03:33] [info] service time (0.043625s, 22.923/s)
+[20220122 00:06:19] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:06:19] [info] dataprovider: processing param_id="PS4", seq_id=GCAAAAAAAAAAAAAAGC
+[20220122 00:06:19] [info] service time (0.045243s, 22.103/s)
+[20220122 00:12:12] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:12:12] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220122 00:12:12] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:12:12] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220122 00:12:12] [info] service time (0.043026s, 23.242/s)
+[20220122 00:12:12] [info] service time (0.051547s, 19.400/s)
+[20220122 00:12:14] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:12:14] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220122 00:12:14] [info] service time (0.041973s, 23.825/s)
+[20220122 00:12:15] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:12:15] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220122 00:12:15] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:12:15] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220122 00:12:15] [info] service time (0.050616s, 19.757/s)
+[20220122 00:12:15] [info] service time (0.085284s, 11.726/s)
+[20220122 00:12:15] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:12:15] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220122 00:12:15] [info] service time (0.049894s, 20.042/s)
+[20220122 00:13:23] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:13:23] [info] dataprovider: processing param_id="PS4", seq_id=GCCGAGCGAGCGAGCGGC
+[20220122 00:13:23] [info] service time (0.047485s, 21.059/s)
+[20220122 00:14:23] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220122 00:14:23] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220122 00:14:23] [info] service time (0.043692s, 22.887/s)
+[20220122 00:14:34] [info] if_loggedin: granting access to /data3 to generic user at 101.143.3.242
+[20220122 00:14:34] [info] processing seq_id: GCGAAGGAAGGAAGGAGC
+[20220122 00:14:34] [info] processing param_id: "PS4"
+[20220122 00:14:34] [info] service time (0.11861s, 8.431/s)
+[20220122 00:14:34] [info] if_loggedin: granting access to /data3 to generic user at 101.143.3.242
+[20220122 00:14:34] [error] no seq_id or param_id, returning dummy response
+[20220122 00:14:34] [info] service time (0.000843s, 1186.240/s)
+[20220122 00:14:34] [info] processing seq_id: 
+[20220122 00:14:34] [info] processing param_id: "PS4"
+[20220122 00:14:34] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220122 00:14:34] [info] if_loggedin: granting access to /data3 to generic user at 101.143.3.242
+[20220122 00:14:34] [error] no seq_id or param_id, returning dummy response
+[20220122 00:14:34] [info] service time (0.000626s, 1597.444/s)
+[20220122 00:14:34] [info] processing seq_id: 
+[20220122 00:14:34] [info] processing param_id: "PS4"
+[20220122 00:14:34] [info] if_loggedin: granting access to /data3 to generic user at 101.143.3.242
+[20220122 00:14:34] [error] no seq_id or param_id, returning dummy response
+[20220122 00:14:34] [info] service time (0.001452s, 688.705/s)
+[20220122 00:14:34] [info] processing seq_id: 
+[20220122 00:14:34] [info] processing param_id: "PS4"
+[20220122 00:14:34] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220122 00:14:35] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220122 14:13:10] [info] if_loggedin: granting access to /view2 to generic user at 207.46.13.206
+[20220122 21:46:03] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220122 21:46:03] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220122 21:46:03] [info] service time (0.011103s, 90.066/s)
+[20220122 21:46:03] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220122 21:46:03] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220122 21:46:03] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220122 21:46:03] [info] service time (0.000709s, 1410.437/s)
+[20220122 21:46:03] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220124 01:12:11] [info] if_loggedin: granting access to /data2 to generic user at 101.143.3.242
+[20220124 01:12:11] [info] dataprovider: processing param_id="PS4", seq_id=GCGAAGGAAGGAAGGAGC
+[20220124 01:12:11] [info] service time (0.077137s, 12.964/s)
+[20220124 04:36:01] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220124 04:36:01] [info] dataprovider: processing param_id="PS4", seq_id=CGCGA
+[20220124 04:36:01] [info] service time (0.042615s, 23.466/s)
+[20220126 21:52:07] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220126 21:52:07] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220126 21:52:07] [info] service time (0.001036s, 965.251/s)
+[20220126 21:52:07] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220126 21:52:07] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220126 21:52:07] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220126 21:52:07] [info] service time (0.001352s, 739.645/s)
+[20220126 21:52:07] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220128 11:26:19] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:26:19] [info] dataprovider: processing param_id="PS4", seq_id=AAAAAAAAAAAAAAA
+[20220128 11:26:19] [info] service time (0.077941s, 12.830/s)
+[20220128 11:27:09] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:27:09] [info] dataprovider: processing param_id="PS4", seq_id=TTATGACGTTATTCTCGCGTGATTGTGCGAGACACGGCTACCTTACCGCGCGGCGCTCGATCGGTTGAACTCGATCACGCCTGGTCTTCGAAGTTAGCACATCGAGCGGGCAACGTGTACATATTTACCTCCGCAATCGATGCGCA
+[20220128 11:27:09] [info] service time (0.14821s, 6.747/s)
+[20220128 11:27:54] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:27:54] [info] dataprovider: processing param_id="PS4", seq_id=CGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCG
+[20220128 11:27:54] [info] service time (0.120659s, 8.288/s)
+[20220128 11:28:11] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:28:11] [info] dataprovider: processing param_id="PS4", seq_id=AATTATATATATATATATTATATAGGCGCGCG
+[20220128 11:28:11] [info] service time (0.047371s, 21.110/s)
+[20220128 11:28:11] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:28:11] [info] dataprovider: processing param_id="PS4", seq_id=AATTATATATATATATATTATATAGGCGCGCG
+[20220128 11:28:11] [info] service time (0.076774s, 13.025/s)
+[20220128 11:28:34] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:28:34] [info] dataprovider: processing param_id="PS4", seq_id=AATTATATATATATATATTATATAGCCCCCCCCCCCCCGGGGGGGGGGGGAAAAAAAAGCGCGCG
+[20220128 11:28:34] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:28:34] [info] dataprovider: processing param_id="PS4", seq_id=AATTATATATATATATATTATATAGCCCCCCCCCCCCCGGGGGGGGGGGGAAAAAAAAGCGCGCG
+[20220128 11:28:34] [info] service time (0.054827s, 18.239/s)
+[20220128 11:28:34] [info] service time (0.107775s, 9.279/s)
+[20220128 11:28:50] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:28:50] [info] dataprovider: processing param_id="PS4", seq_id=AATCCTTTAACGGTCCTCGTGCGATCCTCCAGAAGCCGTCTTATGTGGGCCACGCGACGTTACTCTGCGGGCAACGTATCGACGATGATAATGCGTAGGCGCGCTACCAGTTGCCGTTCGACTCGCGCTTGCGAGGGCCCGCCTAT
+[20220128 11:28:50] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:28:50] [info] dataprovider: processing param_id="PS4", seq_id=AATCCTTTAACGGTCCTCGTGCGATCCTCCAGAAGCCGTCTTATGTGGGCCACGCGACGTTACTCTGCGGGCAACGTATCGACGATGATAATGCGTAGGCGCGCTACCAGTTGCCGTTCGACTCGCGCTTGCGAGGGCCCGCCTAT
+[20220128 11:28:50] [info] service time (0.09675s, 10.336/s)
+[20220128 11:28:50] [info] service time (0.13931s, 7.178/s)
+[20220128 11:29:23] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:29:23] [info] dataprovider: processing param_id="PS4", seq_id=CGGGATCCTAATGACCAAGGAAAGCATGATTCTTCACACCGAGTTCATCCCTTATGTGATGGACCCTATACGCGGCCGCCCTGGAGAATCCCGGTGCCGAGGCCGCTCAATTGGTCGTAGACAGCTCTAGCACCGCTTAAACGCACGTACGCGCTGTCCCCCGCGTTTTAACCGCCAAGGGGATTACTCCCTAGTCTCCAGGCACGTGTCAGATATATACATCCTGTGCATGTATTGAACAGCGACCTTGCCGGTGCCAGTCGGATAGTGTTCCGAGCTCCC
+[20220128 11:29:23] [info] if_loggedin: granting access to /data2 to generic user at 193.219.42.44
+[20220128 11:29:23] [info] dataprovider: processing param_id="PS4", seq_id=CGGGATCCTAATGACCAAGGAAAGCATGATTCTTCACACCGAGTTCATCCCTTATGTGATGGACCCTATACGCGGCCGCCCTGGAGAATCCCGGTGCCGAGGCCGCTCAATTGGTCGTAGACAGCTCTAGCACCGCTTAAACGCACGTACGCGCTGTCCCCCGCGTTTTAACCGCCAAGGGGATTACTCCCTAGTCTCCAGGCACGTGTCAGATATATACATCCTGTGCATGTATTGAACAGCGACCTTGCCGGTGCCAGTCGGATAGTGTTCCGAGCTCCC
+[20220128 11:29:23] [info] service time (0.14148s, 7.068/s)
+[20220128 11:29:23] [info] service time (0.200282s, 4.993/s)
+[20220128 22:42:07] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.47
+[20220131 00:58:04] [info] if_loggedin: granting access to /view2 to generic user at 66.249.66.193
+[20220201 03:36:39] [info] if_loggedin: granting access to /view2 to generic user at 185.191.171.15
+[20220203 01:33:47] [info] if_loggedin: granting access to /view2 to generic user at 66.249.79.77
+[20220204 06:46:24] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:46:24] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220204 06:46:24] [info] service time (0.116169s, 8.608/s)
+[20220204 06:47:17] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:47:17] [info] processing seq_id: (ACTG_5A)_2 [C] A G_10 T
+[20220204 06:47:17] [info] processing param_id: "PS4"
+[20220204 06:47:17] [info] service time (0.095109s, 10.514/s)
+[20220204 06:47:17] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:47:17] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:47:17] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:47:17] [error] no seq_id or param_id, returning dummy response
+[20220204 06:47:17] [info] service time (0.001909s, 523.834/s)
+[20220204 06:47:17] [info] processing seq_id: 
+[20220204 06:47:17] [error] no seq_id or param_id, returning dummy response
+[20220204 06:47:17] [error] no seq_id or param_id, returning dummy response
+[20220204 06:47:17] [info] processing param_id: "PS4"
+[20220204 06:47:17] [info] service time (0.002016s, 496.032/s)
+[20220204 06:47:17] [info] service time (0.002214s, 451.671/s)
+[20220204 06:47:17] [info] processing seq_id: 
+[20220204 06:47:17] [info] processing seq_id: 
+[20220204 06:47:17] [info] processing param_id: "PS4"
+[20220204 06:47:17] [info] processing param_id: "PS4"
+[20220204 06:47:17] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220204 06:47:17] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220204 06:47:17] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220204 06:47:39] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:39] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 06:47:39] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:39] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 06:47:40] [info] service time (0.042975s, 23.269/s)
+[20220204 06:47:40] [info] service time (0.062872s, 15.905/s)
+[20220204 06:47:44] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:44] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)
+[20220204 06:47:44] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:44] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)
+[20220204 06:47:44] [info] service time (0.023754s, 42.098/s)
+[20220204 06:47:44] [info] service time (0.025373s, 39.412/s)
+[20220204 06:47:46] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:46] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)
+[20220204 06:47:46] [info] service time (0.024634s, 40.594/s)
+[20220204 06:47:50] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:50] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 06:47:50] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:50] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 06:47:50] [info] service time (0.050033s, 19.987/s)
+[20220204 06:47:50] [info] service time (0.055202s, 18.115/s)
+[20220204 06:47:51] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:51] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 06:47:51] [info] service time (0.042794s, 23.368/s)
+[20220204 06:47:51] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:51] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 06:47:51] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.237
+[20220204 06:47:51] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 06:47:51] [info] service time (0.04261s, 23.469/s)
+[20220204 06:47:51] [info] service time (0.040551s, 24.660/s)
+[20220204 06:48:01] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:48:01] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:48:01] [error] no seq_id or param_id, returning dummy response
+[20220204 06:48:01] [error] no seq_id or param_id, returning dummy response
+[20220204 06:48:01] [info] service time (0.000843s, 1186.240/s)
+[20220204 06:48:01] [info] service time (0.000823s, 1215.067/s)
+[20220204 06:48:01] [info] processing seq_id: 
+[20220204 06:48:01] [info] processing seq_id: 
+[20220204 06:48:01] [info] processing param_id: "PS4"
+[20220204 06:48:01] [info] processing param_id: "PS4"
+[20220204 06:48:01] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:48:01] [info] processing seq_id: (ACTG_5A)_2
+[20220204 06:48:01] [info] processing param_id: "PS4"
+[20220204 06:48:01] [info] if_loggedin: granting access to /data3 to generic user at 130.54.130.237
+[20220204 06:48:01] [error] no seq_id or param_id, returning dummy response
+[20220204 06:48:01] [info] service time (0.000541s, 1848.429/s)
+[20220204 06:48:01] [info] processing seq_id: 
+[20220204 06:48:01] [info] processing param_id: "PS4"
+[20220204 06:48:01] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220204 06:48:01] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220204 06:48:01] [warn] Mojo::Reactor::EV: Timer failed: Connection already closed at /opt/perlbrew/perls/perl-5.20.2/lib/site_perl/5.20.3/Mojo/EventEmitter.pm line 15.
+[20220204 06:48:02] [info] service time (0.053771s, 18.597/s)
+[20220204 08:22:28] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220204 08:22:28] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2
+[20220204 08:22:28] [info] service time (0.048028s, 20.821/s)
+[20220204 08:29:04] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220204 08:29:04] [info] dataprovider: processing param_id="PS4", seq_id=CGCGAATTCGCG
+[20220204 08:29:04] [info] if_loggedin: granting access to /data2 to generic user at 130.54.130.233
+[20220204 08:29:04] [info] dataprovider: processing param_id="PS4", seq_id=CGCGAATTCGCG
+[20220204 08:29:04] [info] service time (0.042058s, 23.777/s)
+[20220204 08:29:04] [info] service time (0.056254s, 17.777/s)
+[20220205 09:09:38] [info] if_loggedin: granting access to /view2 to generic user at 3.108.225.144
+[20220206 06:38:14] [info] if_loggedin: granting access to /view2 to generic user at 66.249.75.228
+[20220209 06:33:42] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.100
+[20220209 13:30:15] [info] if_loggedin: granting access to /data2 to generic user at 128.178.14.95
+[20220209 13:30:15] [info] dataprovider: processing param_id="PS4", seq_id=(ACTG_5A)_2 [C] A G_10 T
+[20220209 13:30:15] [info] service time (0.046031s, 21.724/s)
+[20220210 14:02:41] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:02:41] [info] dataprovider: processing param_id="PS4", seq_id=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[20220210 14:02:41] [info] service time (0.060587s, 16.505/s)
+[20220210 14:02:49] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:02:49] [info] dataprovider: processing param_id="PS3", seq_id=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[20220210 14:02:49] [info] service time (0.04119s, 24.278/s)
+[20220210 14:02:55] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:02:55] [info] dataprovider: processing param_id="PS3", seq_id=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[20220210 14:02:55] [info] service time (0.060833s, 16.438/s)
+[20220210 14:04:10] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:04:10] [info] dataprovider: processing param_id="PS4", seq_id=GGGAAAAGGGGAAAAGGGCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[20220210 14:04:10] [info] service time (0.055898s, 17.890/s)
+[20220210 14:04:10] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:04:10] [info] dataprovider: processing param_id="PS4", seq_id=GGGAAAAGGGGAAAAGGGCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[20220210 14:04:10] [info] service time (0.072107s, 13.868/s)
+[20220210 14:04:17] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:04:17] [info] dataprovider: processing param_id="PS4", seq_id=GGGAAAAGGGGAAAAGGGC
+[20220210 14:04:17] [info] service time (0.042662s, 23.440/s)
+[20220210 14:06:20] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:06:20] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAATTTTT)10
+[20220210 14:06:20] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:06:20] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAATTTTT)10
+[20220210 14:06:20] [info] service time (0.023143s, 43.210/s)
+[20220210 14:06:20] [info] service time (0.024201s, 41.321/s)
+[20220210 14:06:22] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:06:22] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAATTTTT)10
+[20220210 14:06:22] [info] service time (0.0203s, 49.261/s)
+[20220210 14:06:35] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:06:35] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAATTTTT)_10
+[20220210 14:06:35] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:06:35] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAATTTTT)_10
+[20220210 14:06:36] [info] service time (0.10424s, 9.593/s)
+[20220210 14:06:36] [info] service time (0.124711s, 8.019/s)
+[20220210 14:06:51] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:06:51] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGGTTTTT)_10
+[20220210 14:06:51] [info] service time (0.071735s, 13.940/s)
+[20220210 14:07:16] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:16] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGTTTTTT)_10
+[20220210 14:07:16] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:16] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGTTTTTT)_10
+[20220210 14:07:16] [info] service time (0.141848s, 7.050/s)
+[20220210 14:07:16] [info] service time (0.158455s, 6.311/s)
+[20220210 14:07:22] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:22] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:22] [info] dataprovider: processing param_id="PS4", seq_id=(GGGTTTTTTT)_10
+[20220210 14:07:22] [info] dataprovider: processing param_id="PS4", seq_id=(GGGTTTTTTT)_10
+[20220210 14:07:22] [info] service time (0.061775s, 16.188/s)
+[20220210 14:07:22] [info] service time (0.067172s, 14.887/s)
+[20220210 14:07:29] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:29] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:29] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGGTTTTT)_10
+[20220210 14:07:29] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGGTTTTT)_10
+[20220210 14:07:29] [info] service time (0.119954s, 8.337/s)
+[20220210 14:07:29] [info] service time (0.139138s, 7.187/s)
+[20220210 14:07:39] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:39] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGGTTTTT)_30
+[20220210 14:07:39] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:07:39] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGGTTTTT)_30
+[20220210 14:07:39] [info] service time (0.167564s, 5.968/s)
+[20220210 14:07:39] [info] service time (0.215964s, 4.630/s)
+[20220210 14:09:02] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:02] [info] dataprovider: processing param_id="PS4", seq_id=(AAAATTTT)_30
+[20220210 14:09:02] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:02] [info] dataprovider: processing param_id="PS4", seq_id=(AAAATTTT)_30
+[20220210 14:09:02] [info] service time (0.143247s, 6.981/s)
+[20220210 14:09:02] [info] service time (0.179339s, 5.576/s)
+[20220210 14:09:14] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:14] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGTTTT)_30
+[20220210 14:09:14] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:14] [info] dataprovider: processing param_id="PS4", seq_id=(GGGGTTTT)_30
+[20220210 14:09:14] [info] service time (0.13656s, 7.323/s)
+[20220210 14:09:14] [info] service time (0.168301s, 5.942/s)
+[20220210 14:09:21] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:21] [info] dataprovider: processing param_id="PS4", seq_id=(CCCCTTTT)_30
+[20220210 14:09:21] [info] service time (0.121564s, 8.226/s)
+[20220210 14:09:34] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:34] [info] dataprovider: processing param_id="PS4", seq_id=(CCCCCTTTTT)_30
+[20220210 14:09:34] [info] service time (0.169959s, 5.884/s)
+[20220210 14:09:44] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:44] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAATTTTT)_30
+[20220210 14:09:44] [info] service time (0.159208s, 6.281/s)
+[20220210 14:09:49] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:09:49] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAAATTTTT)_30
+[20220210 14:09:49] [info] service time (0.234761s, 4.260/s)
+[20220210 14:10:01] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:10:01] [info] dataprovider: processing param_id="PS4", seq_id=(AAAAAGTTTTT)_30
+[20220210 14:10:01] [info] service time (0.1625s, 6.154/s)
+[20220210 14:13:21] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:13:21] [info] dataprovider: processing param_id="PS4", seq_id=GCGGAAAATGTCAGAAGTCCATTTCTGTCAAACCCCCCAAAAATCCAGTACGACCGAAAGGAAAGCGGCGGAATACACTGAAAACACCATAAACACACCCCACCAAACCCAGAAGCGACCAAGGCAGGAAAGCAACCCCCAAAGTACAAACCAGCGACTCAGACCCCAAATCACCTAGGAAAACCCCTGTCCAGCACTCCCGGAGGCAAACCCCGTCCCCGAAATCGGGCTAGACCAAACCACCCGCCAAACCCCCTGCCAGGAGGCCTAAAATTCCAACCGAAAATCGCGGTTACTTTTTTGGAGCCCGAAAACCACCCAAAATCAAGGAAAAATGGAAAAAATGCCAAAAAATAGCGAAAATACCCCGAAAATTGGCAAAAATTACAAAAAATAGCGAATTTCCCTGAATTTTAGGCGAAAAAACCCCCGAAAAGGCCAAAAACGCACTGAAAATCAAAATCTGAACGTCTACGCCTCTGCTAGAGTCTGTCTACCACCCGGGTCGGTTAAATATGTCGGCCGTATTAAATCACATGACAAAATCATGCGATGAGGTTAGGAAAGGGAAAGACAATGTCTTTCCGCGATCACCATCCTATATCTGTTGCTTGACCCCCTCTGTCTC
+[20220210 14:13:21] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:13:21] [info] dataprovider: processing param_id="PS4", seq_id=GCGGAAAATGTCAGAAGTCCATTTCTGTCAAACCCCCCAAAAATCCAGTACGACCGAAAGGAAAGCGGCGGAATACACTGAAAACACCATAAACACACCCCACCAAACCCAGAAGCGACCAAGGCAGGAAAGCAACCCCCAAAGTACAAACCAGCGACTCAGACCCCAAATCACCTAGGAAAACCCCTGTCCAGCACTCCCGGAGGCAAACCCCGTCCCCGAAATCGGGCTAGACCAAACCACCCGCCAAACCCCCTGCCAGGAGGCCTAAAATTCCAACCGAAAATCGCGGTTACTTTTTTGGAGCCCGAAAACCACCCAAAATCAAGGAAAAATGGAAAAAATGCCAAAAAATAGCGAAAATACCCCGAAAATTGGCAAAAATTACAAAAAATAGCGAATTTCCCTGAATTTTAGGCGAAAAAACCCCCGAAAAGGCCAAAAACGCACTGAAAATCAAAATCTGAACGTCTACGCCTCTGCTAGAGTCTGTCTACCACCCGGGTCGGTTAAATATGTCGGCCGTATTAAATCACATGACAAAATCATGCGATGAGGTTAGGAAAGGGAAAGACAATGTCTTTCCGCGATCACCATCCTATATCTGTTGCTTGACCCCCTCTGTCTC
+[20220210 14:13:21] [info] service time (0.406925s, 2.457/s)
+[20220210 14:13:21] [info] service time (0.492537s, 2.030/s)
+[20220210 14:13:34] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:13:34] [info] dataprovider: processing param_id="PS3", seq_id=GCGGAAAATGTCAGAAGTCCATTTCTGTCAAACCCCCCAAAAATCCAGTACGACCGAAAGGAAAGCGGCGGAATACACTGAAAACACCATAAACACACCCCACCAAACCCAGAAGCGACCAAGGCAGGAAAGCAACCCCCAAAGTACAAACCAGCGACTCAGACCCCAAATCACCTAGGAAAACCCCTGTCCAGCACTCCCGGAGGCAAACCCCGTCCCCGAAATCGGGCTAGACCAAACCACCCGCCAAACCCCCTGCCAGGAGGCCTAAAATTCCAACCGAAAATCGCGGTTACTTTTTTGGAGCCCGAAAACCACCCAAAATCAAGGAAAAATGGAAAAAATGCCAAAAAATAGCGAAAATACCCCGAAAATTGGCAAAAATTACAAAAAATAGCGAATTTCCCTGAATTTTAGGCGAAAAAACCCCCGAAAAGGCCAAAAACGCACTGAAAATCAAAATCTGAACGTCTACGCCTCTGCTAGAGTCTGTCTACCACCCGGGTCGGTTAAATATGTCGGCCGTATTAAATCACATGACAAAATCATGCGATGAGGTTAGGAAAGGGAAAGACAATGTCTTTCCGCGATCACCATCCTATATCTGTTGCTTGACCCCCTCTGTCTC
+[20220210 14:13:34] [info] service time (0.391384s, 2.555/s)
+[20220210 14:13:49] [info] if_loggedin: granting access to /data2 to generic user at 192.76.8.75
+[20220210 14:13:49] [info] dataprovider: processing param_id="PS4", seq_id=GCGGAAAATGTCAGAAGTCCATTTCTGTCAAACCCCCCAAAAATCCAGTACGACCGAAAGGAAAGCGGCGGAATACACTGAAAACACCATAAACACACCCCACCAAACCCAGAAGCGACCAAGGCAGGAAAGCAACCCCCAAAGTACAAACCAGCGACTCAGACCCCAAATCACCTAGGAAAACCCCTGTCCAGCACTCCCGGAGGCAAACCCCGTCCCCGAAATCGGGCTAGACCAAACCACCCGCCAAACCCCCTGCCAGGAGGCCTAAAATTCCAACCGAAAATCGCGGTTACTTTTTTGGAGCCCGAAAACCACCCAAAATCAAGGAAAAATGGAAAAAATGCCAAAAAATAGCGAAAATACCCCGAAAATTGGCAAAAATTACAAAAAATAGCGAATTTCCCTGAATTTTAGGCGAAAAAACCCCCGAAAAGGCCAAAAACGCACTGAAAATCAAAATCTGAACGTCTACGCCTCTGCTAGAGTCTGTCTACCACCCGGGTCGGTTAAATATGTCGGCCGTATTAAATCACATGACAAAATCATGCGATGAGGTTAGGAAAGGGAAAGACAATGTCTTTCCGCGATCACCATCCTATATCTGTTGCTTGACCCCCTCTGTCTC
+[20220210 14:13:49] [info] service time (0.364741s, 2.742/s)
+[20220210 21:57:58] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220210 21:57:58] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220210 21:57:58] [info] service time (0.00589s, 169.779/s)
+[20220210 21:57:58] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220210 21:57:58] [info] if_loggedin: granting access to /data/usr to generic user at 128.178.166.36
+[20220210 21:57:58] [error] cannot read /home/debruin/cgdna_web/data/usr.json : No such file or directory
+[20220210 21:57:58] [info] service time (0.000871s, 1148.106/s)
+[20220210 21:57:58] [error] Can't call method "getlines" on an undefined value at /home/debruin/cgdna_web/script/../lib/CgdnaWeb/Controller/DataProvider.pm line 31.
+
+[20220211 03:38:51] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.100
+[20220213 03:14:39] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.97
+[20220214 05:32:25] [info] if_loggedin: granting access to /view2 to generic user at 66.249.64.100
+[20220214 20:20:05] [info] if_loggedin: granting access to /data2 to generic user at 37.0.49.242
+[20220214 20:20:05] [info] dataprovider: processing param_id="PS4", seq_id= (ACTG_5A)_2 [C] A G_10 T 
+[20220214 20:20:05] [info] service time (0.049176s, 20.335/s)
+[20220215 13:34:58] [info] Starting zero downtime software upgrade
+[20220215 13:34:58] [info] Listening at "http://*:3457"
+[20220215 13:34:58] [info] Manager 7353 started
+[20220215 13:34:58] [info] Upgrade successful, stopping 700
+[20220215 13:34:58] [info] Creating process id file "/home/debruin/cgdna_web/script/hypnotoad.pid"
+[20220215 13:35:01] [info] Manager 700 stopped
+[20220215 13:37:48] [info] Manager 7353 stopped

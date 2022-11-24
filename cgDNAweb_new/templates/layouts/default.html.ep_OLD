@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="cgDNAweb shows you the shape of the DNA sequence you have entered.">
+        <!--<title><% title %></title>-->
+        <title>cgDNAweb</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"></link>
+        <link rel="stylesheet"  href="stylesheet.css">
+        <!-- <link rel="stylesheet" href="stylesheet_mob.css"> -->
+        
+    </head>
+
+    <body>
+        <!--<script src="js/FileSaver.js"></script>-->
+        <script src="js/zip.js/WebContent/zip.js"></script>
+        <script src="js/zip.js/WebContent/zip-ext.js"></script>
+        <script src="js/zip.js/WebContent/zip-fs.js"></script>
+        <script src="js/zip.js/WebContent/inflate.js"></script>
+        <script src="js/zip.js/WebContent/deflate.js"></script>
+        <script src="js/sprintf.js"></script>
+        <!-- <script src="js/tstachl-slidr.css-b27b63b/slidr.min.css"></script> -->
+
+        <input type="checkbox" id="slide_header">
+        <main>
+            <!-- begin page content -->
+            <%= content %>
+            <!-- end page content -->
+        </main>
+    
+    </body>
+</html>

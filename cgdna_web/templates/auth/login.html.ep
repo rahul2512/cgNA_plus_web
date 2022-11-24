@@ -1,0 +1,5 @@
+% title 'Site login';
+% layout 'default';
+
+%= include 'auth/loginform'
+

@@ -1,0 +1,1156 @@
+@charset "UTF-8";
+.noselect {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+html, body, main {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto 3rem 1fr;
+  grid-template-areas: "header" "navbar" "content";
+}
+
+.input {
+  display: none;
+}
+
+/*===============================================================*/
+/* HEADER ITSELF */
+/*===============================================================*/
+header {
+  grid-area: header;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-template-columns: max-content 5fr;
+  grid-template-areas: "logo slider" "links slider";
+  z-index: 90;
+  align-items: center;
+  background-color: #2089df;
+}
+@media screen and (max-width: 1100px) {
+  header {
+    grid-template-rows: 8fr 9fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logo links" "slider slider";
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    grid-template-rows: 2fr 0.9fr 2.6fr;
+    grid-template-areas: "logo" "links" "slider";
+  }
+}
+header .logo_wrapper {
+  grid-area: logo;
+  background-color: #2089df;
+  z-index: 200;
+  font-family: "Abril Fatface", cursive;
+  font-size: clamp(2rem, 80%, 3rem);
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+header .logo_wrapper h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 0;
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: 15px 15px #1A6EB2;
+}
+header .logo_wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  text-shadow: 2px 2px #1A6EB2;
+}
+header .links {
+  grid-area: links;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 100%;
+}
+header .links a > img {
+  max-width: 70px;
+  cursor: pointer;
+}
+header .input_wrapper {
+  grid-area: slider;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+@media screen and (max-width: 1100px) {
+  header .input_wrapper {
+    width: 100vw;
+  }
+}
+
+#getting_started_button {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 10vmax;
+  height: 2.5vmax;
+  background: #FF5B15;
+  color: #ffffff;
+  z-index: 300;
+  border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+  font-size: 1.8vmax;
+}
+#getting_started_button:hover {
+  background: #FF7A42;
+}
+#getting_started_button:active {
+  background: #FF9B71;
+}
+#getting_started_button > span {
+  display: table;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#start_instructions {
+  white-space: nowrap;
+  grid-area: content;
+  display: flex;
+  justify-content: space-evenly;
+  visibility: hidden;
+  flex-direction: column;
+  z-index: 5000;
+  height: 100%;
+  width: 100%;
+}
+#start_instructions p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3vmax;
+  margin: 0 auto;
+}
+#start_instructions p:first-child:before, #start_instructions p:first-child:after {
+  font-size: 7vmax;
+  font-family: "FontAwesome";
+  content: "";
+}
+#start_instructions .compatibility_message {
+  white-space: normal;
+  margin: 0 auto;
+  width: clamp(30ch, 80vw, 70ch);
+  font-size: 1.3vmax;
+  text-align: justify;
+  align-self: flex-end;
+}
+#start_instructions > .sequence {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: clamp(2rem, 7vw, 4rem);
+}
+#start_instructions > .sequence > .ua:before {
+  font-size: 3vmax;
+  position: absolute;
+  top: 100%;
+  font-family: "FontAwesome";
+  content: "";
+}
+#start_instructions > .sequence > #instr_seq_paren:after {
+  position: absolute;
+  top: 100%;
+  transform: translate(-90%, 300%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1vmax;
+  content: "Parentheses to repeat subsequences";
+}
+#start_instructions > .sequence > #instr_seq_repeat:after {
+  position: absolute;
+  top: 100%;
+  transform: translate(-150%, 300%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1vmax;
+  content: "Repeats with _#";
+}
+#start_instructions > .sequence > .da:before {
+  font-size: 3vmax;
+  position: absolute;
+  bottom: 80%;
+  font-family: "FontAwesome";
+  content: "";
+}
+#start_instructions > .sequence > #instr_seq_brackets:after {
+  position: absolute;
+  transform: translate(-70%, -300%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1vmax;
+  content: "3D view is centered on the bracketed basepair";
+}
+
+/*===========================================================================*/
+/*  TABS                                                                     */
+/*===========================================================================*/
+#radio_3dview:checked ~ div.canvas_content {
+  background: #ffffff;
+  display: block;
+}
+
+#radio_3dview:checked ~ div.canvas_content > #start_instructions {
+  background: #ffffff;
+  visibility: visible;
+  display: flex;
+}
+
+#radio_3dview:checked ~ div.canvas_content > button.settings_button {
+  display: block;
+}
+
+#radio_plots:checked ~ div.canvas_content > button.settings_button,
+#radio_contact:checked ~ div.canvas_content > button.settings_button,
+#radio_about:checked ~ div.canvas_content > button.settings_button {
+  display: none;
+}
+
+#radio_plots:checked ~ div.canvas_content > .settings_menu,
+#radio_contact:checked ~ div.canvas_content > .settings_menu,
+#radio_about:checked ~ div.canvas_content > .settings_menu {
+  display: none;
+}
+
+#radio_plots:checked ~ #plots_content {
+  background: #ffffff;
+  display: grid;
+}
+
+#radio_contact:checked ~ #contact_content {
+  background: #ffffff;
+  display: grid;
+}
+
+#radio_stiff:checked ~ #stiff_content {
+  background: #ffffff;
+  display: grid;
+}
+
+#radio_compare:checked ~ #compare_content {
+  background: #ffffff;
+  display: grid;
+}
+
+#radio_about:checked ~ #about_content {
+  background: #ffffff;
+  display: grid;
+}
+
+#radio_3dview:checked ~ nav #label_3dview,
+#radio_3dview:checked ~ nav #label_settings,
+#radio_plots:checked ~ nav #label_plots,
+#radio_contact:checked ~ nav #label_contact,
+#radio_about:checked ~ nav #label_about {
+  background-color: #2089df;
+  color: #F7FFFF;
+}
+
+.canvas_content {
+  grid-area: content;
+  overflow-y: hidden;
+}
+.canvas_content > .settings_button {
+  display: none;
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50vw;
+  padding: 0;
+  z-index: 10;
+}
+@media screen and (max-width: 800px) {
+  .canvas_content > .settings_button {
+    right: 3rem;
+    bottom: 3rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .canvas_content > .settings_button::before {
+    font-size: 0.8rem;
+    font-family: "FontAwesome";
+    content: "";
+  }
+}
+.canvas_content > .settings_button::before {
+  font-size: 2rem;
+  font-family: "FontAwesome";
+  content: "";
+}
+.canvas_content button.settings_button.settings_active {
+  background: white;
+  border-color: white;
+  border-radius: 50vw;
+  border-width: 0px;
+}
+.canvas_content .settings_menu.settings_active {
+  display: block;
+}
+.canvas_content .settings_menu {
+  display: none;
+  position: absolute;
+  right: 4.8rem;
+  bottom: 4.8rem;
+  border-color: blue;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  width: min-content;
+  color: #A6D0F2;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+  text-align: left;
+  background-color: #ffffff;
+  color: #023762;
+  margin: 0;
+  border-top: 2px solid #A6D0F2;
+  border-left: 2px solid #A6D0F2;
+  border-bottom: 2px solid #A6D0F2;
+  border-right: 2px solid #A6D0F2;
+}
+.canvas_content .settings_menu > span {
+  white-space: pre;
+}
+.canvas_content .settings_menu > li {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content {
+  grid-area: content;
+  display: none;
+  overflow-y: scroll;
+}
+
+.plot-content {
+  width: 90vw;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-content {
+  margin: 0 auto;
+  width: clamp(calc(35ch - 2rem), calc(70ch - 2rem), calc(100vw - 2rem));
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 30px;
+  line-height: 1.5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text-content > ul {
+  display: block;
+}
+.text-content > ul > li {
+  list-style: none;
+  border-left: 3px solid #469CE4;
+  padding-left: 10px;
+}
+.text-content dl {
+  border-left: 2px solid #469CE4;
+  padding-left: 10px;
+}
+.text-content dl dt {
+  font-style: italic;
+}
+
+.page-title {
+  padding-top: 50px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.page-subtitle {
+  width: 100%;
+  padding-top: 50px;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: left;
+}
+
+nav {
+  grid-area: navbar;
+  display: flex;
+  width: 100vw;
+  background-color: #1A6EB2;
+  color: #F7FFFF;
+}
+nav > .label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  width: clamp(120px, 16vw, 180px);
+  color: #A6D0F2;
+}
+nav > .label:hover {
+  background-color: #A6CBEE;
+  color: #eeeeee;
+}
+nav > .label > span {
+  white-space: pre;
+}
+nav #slide_label {
+  margin-left: auto;
+  width: 3rem;
+  background-color: #055597;
+  color: #ffffff;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 2rem;
+}
+nav #slide_label:hover {
+  background-color: #A6CBEE;
+}
+nav #slide_label::before {
+  font-family: "FontAwesome";
+  content: "";
+}
+nav .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  width: clamp(120px, 16vw, 180px);
+  color: #A6D0F2;
+  -moz-transition: transform 300ms linear;
+  -webkit-transition: transform 300ms linear;
+  -o-transition: transform 300ms linear;
+  transition: transform 300ms linear;
+}
+nav .dropdown > span {
+  white-space: pre;
+}
+nav .dropdown:hover, nav .dropdown:focus {
+  background-color: #A6CBEE;
+  color: #eeeeee;
+}
+nav .dropdown:hover > ul, nav .dropdown:focus > ul {
+  display: block;
+  transform: translateY(3rem);
+}
+nav .dropdown ul {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+  text-align: left;
+  background-color: #ffffff;
+  color: #023762;
+  z-index: 100;
+  margin: 0;
+  border-top: 2px solid #A6D0F2;
+  border-left: 2px solid #A6D0F2;
+  border-bottom: 2px solid #A6D0F2;
+  border-right: 2px solid #A6D0F2;
+}
+nav .dropdown ul li {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav .dropdown ul li:hover {
+  background-color: #055597;
+  color: white;
+}
+
+#label_3dview > span:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+@media screen and (min-width: 1000px) {
+  #label_3dview > span:after {
+    content: "3D View";
+  }
+}
+@media screen and (max-width: 1000px) {
+  #label_3dview > span:after {
+    content: "";
+  }
+}
+
+#label_plots > span:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+@media screen and (min-width: 1000px) {
+  #label_plots > span:after {
+    content: " 2D Plots";
+  }
+}
+@media screen and (max-width: 1000px) {
+  #label_plots > span:after {
+    content: "";
+  }
+}
+
+#label_about > span:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+@media screen and (min-width: 1000px) {
+  #label_about > span:after {
+    content: "Get started";
+  }
+}
+@media screen and (max-width: 1000px) {
+  #label_about > span:after {
+    content: "";
+  }
+}
+
+#label_compare > span:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+@media screen and (min-width: 1000px) {
+  #label_compare > span:after {
+    content: "Examples";
+  }
+}
+@media screen and (max-width: 1000px) {
+  #label_compare > span:after {
+    content: "";
+  }
+}
+
+#label_contact > span:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+@media screen and (min-width: 1000px) {
+  #label_contact > span:after {
+    content: "How to cite";
+  }
+}
+@media screen and (max-width: 1000px) {
+  #label_contact > span:after {
+    content: "";
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #label_exports {
+    display: none;
+  }
+}
+#label_exports > span:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+@media screen and (min-width: 1000px) {
+  #label_exports > span:after {
+    content: "Exports";
+  }
+}
+@media screen and (max-width: 1000px) {
+  #label_exports > span:after {
+    content: "";
+  }
+}
+
+#label_stiff > span:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+@media screen and (min-width: 1000px) {
+  #label_stiff > span:after {
+    content: "cgNA+ model";
+  }
+}
+@media screen and (max-width: 1000px) {
+  #label_stiff > span:after {
+    content: "";
+  }
+}
+
+/*===============================================================*/
+/* SLIDING HEADER */
+/*===============================================================*/
+#slide_header {
+  display: none;
+}
+#slide_header:checked ~ main nav #slide_label::before {
+  font-family: "FontAwesome";
+  content: "";
+}
+#slide_header:checked ~ main {
+  grid-template-rows: 0 3rem 1fr;
+}
+#slide_header:checked ~ main > header * {
+  transform: translateY(-40vh);
+}
+#slide_header:checked ~ main header {
+  height: 0px;
+}
+
+.search_wrapper {
+  position: relative;
+  width: 90%;
+  height: 3rem;
+  margin: 0 auto;
+  display: grid;
+  height: 3rem;
+  border-width: 3px;
+  border-color: #70b2e9;
+  border-style: solid;
+  border-radius: 50vh;
+  background-color: white;
+  grid-template-columns: 1fr 100px 120px;
+  grid-template-areas: "seq_input paramsets go";
+}
+@media screen and (max-width: 700px) {
+  .search_wrapper {
+    grid-template-columns: 1fr 1fr 100px 120px;
+    gap: 0.5rem;
+    grid-template-areas: "seq_input seq_input seq_input seq_input" ". . paramsets go";
+  }
+}
+.search_wrapper > div.text_wrapper {
+  position: relative;
+  width: 100%;
+  grid-area: seq_input;
+}
+.search_wrapper > div.text_wrapper > input.field {
+  font-family: "Montserrat", sans-serif;
+  color: #023762;
+  font-size: 1.7rem;
+  text-indent: 20px;
+  background-color: transparent;
+  line-height: normal;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 50vh 0px 0px 50vh;
+  max-height: 3rem;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 700px) {
+  .search_wrapper > div.text_wrapper > input.field {
+    height: 3rem;
+  }
+}
+.search_wrapper > div.text_wrapper > .remove_seq_button {
+  display: block;
+  opacity: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  position: absolute;
+  top: 30%;
+  right: 1rem;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 50vh 50vh 50vh 50vh;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  z-index: 300;
+  -webkit-transition: opacity 10ms linear;
+  -moz-transition: opacity 10ms linear;
+  -ms-transition: opacity 10ms linear;
+  -o-transition: opacity 10ms linear;
+  transition: opacity 10ms linear;
+}
+.search_wrapper > div.text_wrapper > .remove_seq_button:hover {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+.search_wrapper > div.text_wrapper > .remove_seq_button:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.6rem;
+  font-family: "FontAwesome";
+  content: "";
+}
+.search_wrapper .params_dropdown_wrapper {
+  display: grid;
+  grid-area: paramsets;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #023762;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #469CE4;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  border-right: 2px;
+}
+@media screen and (max-width: 700px) {
+  .search_wrapper .params_dropdown_wrapper {
+    height: 2.6rem;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+  }
+}
+.search_wrapper .params_dropdown_wrapper:hover {
+  background-color: #A6CBEE;
+}
+.search_wrapper .params_dropdown_wrapper:hover > .params_dropdown {
+  z-index: 1000;
+  background: #055597;
+  display: inline-block;
+}
+.search_wrapper .params_dropdown_wrapper input[type=radio] {
+  display: none;
+}
+.search_wrapper .params_dropdown_wrapper .params_dd_label {
+  justify-self: center;
+  align-self: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.search_wrapper .params_dropdown_wrapper .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper .params_dd_label:after {
+  font-family: "FontAwesome";
+  content: "";
+  vertical-align: middle;
+  padding-left: 0.5rem;
+}
+.search_wrapper .params_dropdown_wrapper .params_dropdown {
+  display: none;
+  position: absolute;
+  float: right;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+  text-align: left;
+  background-color: #ffffff;
+  color: #023762;
+  border-top: 2px solid #A6D0F2;
+  border-left: 2px solid #A6D0F2;
+  border-bottom: 2px solid #A6D0F2;
+  border-right: 2px solid #A6D0F2;
+  width: 10rem;
+  z-index: 100;
+  margin: 0;
+  transform: translateY(2.7rem);
+  top: 0px;
+  left: 0px;
+}
+.search_wrapper .params_dropdown_wrapper .params_dropdown li {
+  width: 100%;
+  list-style: none;
+  padding-left: 0.5rem;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+.search_wrapper .params_dropdown_wrapper .params_dropdown li:hover {
+  background-color: #055597;
+  color: white;
+}
+.search_wrapper .params_dropdown_wrapper .params_dropdown li:hover {
+  background: #055597;
+  color: #ffffff;
+}
+.search_wrapper .params_dropdown_wrapper #input1_radio_ps1:checked ~ .params_dd_label:before {
+  content: "PS1";
+}
+.search_wrapper .params_dropdown_wrapper #input1_radio_ps2:checked ~ .params_dd_label:before {
+  content: "PS2";
+}
+.search_wrapper .params_dropdown_wrapper #input1_radio_ps3:checked ~ .params_dd_label:before {
+  content: "PS3";
+}
+.search_wrapper .params_dropdown_wrapper #input1_radio_ps4:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper #input1_radio_ps_plus1:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper #input2_radio_ps1:checked ~ .params_dd_label:before {
+  content: "PS1";
+}
+.search_wrapper .params_dropdown_wrapper #input2_radio_ps2:checked ~ .params_dd_label:before {
+  content: "PS2";
+}
+.search_wrapper .params_dropdown_wrapper #input2_radio_ps3:checked ~ .params_dd_label:before {
+  content: "PS3";
+}
+.search_wrapper .params_dropdown_wrapper #input2_radio_ps4:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper #input2_radio_ps_plus1:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper #input3_radio_ps1:checked ~ .params_dd_label:before {
+  content: "PS1";
+}
+.search_wrapper .params_dropdown_wrapper #input3_radio_ps2:checked ~ .params_dd_label:before {
+  content: "PS2";
+}
+.search_wrapper .params_dropdown_wrapper #input3_radio_ps3:checked ~ .params_dd_label:before {
+  content: "PS3";
+}
+.search_wrapper .params_dropdown_wrapper #input3_radio_ps4:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper #input3_radio_ps_plus1:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper #input4_radio_ps1:checked ~ .params_dd_label:before {
+  content: "PS1";
+}
+.search_wrapper .params_dropdown_wrapper #input4_radio_ps2:checked ~ .params_dd_label:before {
+  content: "PS2";
+}
+.search_wrapper .params_dropdown_wrapper #input4_radio_ps3:checked ~ .params_dd_label:before {
+  content: "PS3";
+}
+.search_wrapper .params_dropdown_wrapper #input4_radio_ps4:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper .params_dropdown_wrapper #input4_radio_ps_plus1:checked ~ .params_dd_label:before {
+  content: "PS4";
+}
+.search_wrapper button {
+  grid-area: go;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  height: 100%;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 0px 50vh 50vh 0px;
+  background-color: #469ce4;
+  color: #F7FFFF;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+}
+@media screen and (max-width: 700px) {
+  .search_wrapper button {
+    border-radius: 0;
+  }
+}
+.search_wrapper button:hover {
+  background-color: #70b2e9;
+}
+.search_wrapper button > i {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  font-size: 2rem;
+  transform: translateY(-50%);
+}
+
+#slide_wrapper {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+#slide_wrapper > input[type=radio] {
+  display: none;
+}
+
+#input_slider {
+  align-self: end;
+  width: 400%;
+  z-index: 100;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: margin-left 800ms;
+  -moz-transition: margin-left 800ms;
+  -ms-transition: margin-left 800ms;
+  -o-transition: margin-left 800ms;
+  transition: margin-left 800ms;
+}
+@media screen and (max-width: 700px) {
+  #input_slider {
+    height: 100%;
+  }
+}
+
+.slide {
+  display: grid;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.active_slide {
+  align-self: end;
+  display: flex;
+  transform: translateY(-40px);
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 150px;
+}
+@media screen and (max-width: 1101px) {
+  .active_slide {
+    transform: translateY(-20px);
+  }
+}
+.active_slide > label {
+  border-radius: 50vh;
+  height: 10px;
+  width: 10px;
+  margin: 5px 8px;
+  background: #F7FFFF;
+}
+.active_slide > label:hover {
+  background: #A6D0F2;
+  cursor: pointer;
+}
+
+#input1_radio:checked ~ .active_slide > label:nth-child(1) {
+  background: #FFD142;
+}
+#input1_radio:checked ~ #input_slider {
+  margin-left: 0;
+}
+
+#input2_radio:checked ~ .active_slide > label:nth-child(2) {
+  background: #FFD142;
+}
+#input2_radio:checked ~ #input_slider {
+  margin-left: -100%;
+}
+
+#input3_radio:checked ~ .active_slide > label:nth-child(3) {
+  background: #FFD142;
+}
+#input3_radio:checked ~ #input_slider {
+  margin-left: -200%;
+}
+
+#input4_radio:checked ~ .active_slide > label:nth-child(4) {
+  background: #FFD142;
+}
+#input4_radio:checked ~ #input_slider {
+  margin-left: -300%;
+}
+
+header > .top_wrapper > .input_wrapper > #input_username {
+  display: block;
+  float: both;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+header > .top_wrapper > .input_wrapper > #input_password {
+  display: block;
+  float: both;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+header > .top_wrapper > .input_wrapper > #login_submit {
+  display: block;
+  float: both;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.chart_table {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "rot1 rot2 rot3" "trans1 trans2 trans3";
+  margin: 0 auto;
+}
+@media screen and (max-width: 1100px) {
+  .chart_table {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "rot1 trans1" "rot2 trans2" "rot3 trans3";
+  }
+}
+@media screen and (max-width: 800px) {
+  .chart_table {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "rot1" "rot2" "rot3" "trans1" "trans2" "trans3";
+  }
+}
+
+.rot1 {
+  grid-area: rot1;
+}
+
+.rot2 {
+  grid-area: rot2;
+}
+
+.rot3 {
+  grid-area: rot3;
+}
+
+.trans1 {
+  grid-area: trans1;
+}
+
+.trans2 {
+  grid-area: trans2;
+}
+
+.trans3 {
+  grid-area: trans3;
+}
+
+.chart {
+  z-index: 1;
+}
+
+/*===============================================================*/
+/*  Context menu                                                 */
+/*===============================================================*/
+#contextdiv {
+  width: 300;
+  height: 300;
+  z-index: 20;
+  position: absolute;
+  display: none;
+  background: #A6D0F2;
+}
+
+.cmenu-item {
+  display: block;
+}
+.cmenu-item a {
+  display: block;
+  width: auto;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 2px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.cmenu-item a:hover {
+  background-color: #055597;
+  cursor: pointer;
+}
+
+/*===============================================================*/
+/*  INFO ABOUT INPUT                                             */
+/*===============================================================*/
+.input-info-popup {
+  display: none;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  z-index: 1000;
+}
+
+/*===============================================================*/
+/*  INFO ABOUT DNA                                               */
+/*===============================================================*/
+#dna-info-popup {
+  width: 10rem;
+  z-index: 20;
+  position: absolute;
+  display: none;
+}
+#dna-info-popup > ul {
+  list-style: none;
+  padding-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  line-height: 1.5rem;
+}
+
+/*===============================================================*/
+/*  Arrow box from cssarrowplease                                */
+/*===============================================================*/
+.arrow_box {
+  position: relative;
+  background: #ffffff;
+  border: 4px solid #5bb2f5;
+}
+
+.arrow_box:after, .arrow_box:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ffffff;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.arrow_box:before {
+  border-color: rgba(91, 178, 245, 0);
+  border-bottom-color: #5bb2f5;
+  border-width: 16px;
+  margin-left: -16px;
+}
+
+/*============================================================*/
+/*  Table                                                     */
+/*============================================================*/
+tr > td {
+  border-bottom: 1px solid #c8c8c8;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+tr:last-child > td {
+  border-bottom: 0;
+}

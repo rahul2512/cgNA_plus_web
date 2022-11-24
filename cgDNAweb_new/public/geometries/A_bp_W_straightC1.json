@@ -1,0 +1,89 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "D5588358-E3B7-489E-9F69-9F1A3BA50F71",
+			"type": "BoxBufferGeometry",
+			"width": 3.78,
+			"height": 6.5,
+			"depth": 0.25,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "9503BE64-3B97-4D4E-93BE-A79F756CECF0",
+			"type": "BoxBufferGeometry",
+			"width": 3.78,
+			"height": 4.38,
+			"depth": 0.25,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "A6BD0845-CD84-4656-ABE6-4220DD8EFB25",
+			"type": "MeshToonMaterial",
+			"color": 9830424,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"stencilWrite": false,
+			"stencilWriteMask": 255,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilFuncMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680
+		},
+		{
+			"uuid": "9E028664-9244-4808-B898-2556A9804896",
+			"type": "MeshToonMaterial",
+			"color": 3368601,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"stencilWrite": false,
+			"stencilWriteMask": 255,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilFuncMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680
+		}],
+	"object": {
+		"uuid": "4551F765-0656-45B1-80EA-F32B536ED679",
+		"type": "Group",
+		"name": "A_bp_W",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "661ACBFF-3565-4858-B824-3A73A4C0F1A1",
+				"type": "Mesh",
+				"name": "A",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.603684,2.185474,0,1],
+				"geometry": "D5588358-E3B7-489E-9F69-9F1A3BA50F71",
+				"material": "A6BD0845-CD84-4656-ABE6-4220DD8EFB25"
+			},
+			{
+				"uuid": "E9EADF47-D164-4A02-A08E-5E3EFF85F4D4",
+				"type": "Mesh",
+				"name": "T",
+				"layers": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.605777,-3.260972,0,1],
+				"geometry": "9503BE64-3B97-4D4E-93BE-A79F756CECF0",
+				"material": "9E028664-9244-4808-B898-2556A9804896"
+			}]
+	}
+}

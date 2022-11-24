@@ -1,0 +1,1065 @@
+% title 'cgdna view1';
+% layout 'default';
+
+<script defer src="cgDNAweb.js"></script>
+
+<input type="radio" id="radio_3dview" name="tab" class="input" checked="checked">
+<input type="radio" id="radio_plots" name="tab" class="input">
+<input type="radio" id="radio_contact" name="tab" class="input">
+<input type="radio" id="radio_stiff" name="tab" class="input">
+<input type="radio" id="radio_compare" name="tab" class="input">
+<input type="radio" id="radio_about" name="tab" class="input">
+
+
+<header id="header">
+    <div class="logo_wrapper">
+        <h1 class="noselect"> cgNA+web </h1>
+        <h2 class="noselect"> A web-based viewer for the cgNA+ model</h2>
+    </div>
+    <div class="links">
+        <a href="https://epfl.ch/">
+            <img src="/images/EPFL-Logo-NEW.svg" alt="EPFL logo" width=70px>
+        </a>
+        <a href="http://lcvmwww.epfl.ch/">
+            <img src="/images/LCVMMlogo_nobackground.svg" alt="LCVMM logo">
+        </a>
+        <a href="http://lcvmwww.epfl.ch/research/cgDNA/">
+            <img id="cgDNAlogo" src="/images/cgDNA_logo_small_new.png" alt="cgDNA logo">
+        </a>
+    </div>
+
+    <div class="input_wrapper">
+        <div id="slide_wrapper">
+
+            <input type="radio" name="controls" id="input1_radio" checked="checked">
+            <input type="radio" name="controls" id="input2_radio">
+            <input type="radio" name="controls" id="input3_radio">
+            <input type="radio" name="controls" id="input4_radio">
+
+            <div id="input_slider">
+                <div class="slide" id="slide1">
+                    <div class="search_wrapper">
+
+                        <div class="text_wrapper">
+                            <input type="text" class="field" id="seq_input1" spellcheck="false" contenteditable="true" placeholder="Type Sequence...">
+                            <div id="remove_seq_button1" class="remove_seq_button"></div>
+                        </div>
+
+                        <div class="params_dropdown_wrapper">
+                            <input type="radio" id="input1_radio_ps_plus2" name="paramset"/>
+                            <input type="radio" id="input1_radio_ps_plus3" name="paramset"/>
+                            <input type="radio" id="input1_radio_ps_plus4" name="paramset"/>
+                            <input type="radio" id="input1_radio_ps_plus1" name="paramset"/>
+                            <input type="radio" id="input1_radio_ps_plus5" name="paramset"/>
+
+                            <span class="params_dd_label"></span>
+                            <ul class="params_dropdown noselect">
+                                <li> <label for="input1_radio_ps_plus2">DNA PS2<br>(recommended)</label> </li>
+                                <li> <label for="input1_radio_ps_plus3">RNA PS2</label> </li>
+                                <li> <label for="input1_radio_ps_plus4">DRH PS2</label> </li>
+                                <li> <label for="input1_radio_ps_plus1">DNA PS1<br></label> </li>
+                                <li> <label for="input1_radio_ps_plus5">cgDNA <br>(old model)</label> </li>
+
+                            </ul>
+                        </div>
+                        <button type="submit" id="submit_seq1">Go <i id="loading1" class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i></button>
+                    </div>
+                </div> <!-- /slide1 -->
+
+                <div class="slide" id="slide2">
+                    <div class="search_wrapper">
+
+                        <div class="text_wrapper">
+                            <input type="text" class="field" id="seq_input2" spellcheck="false" contenteditable="true" placeholder="Type Sequence...">
+                            <div id="remove_seq_button2" class="remove_seq_button"></div>
+                        </div>
+
+                        <div class="params_dropdown_wrapper">
+
+                            <input type="radio" id="input2_radio_ps_plus2" name="paramset"/>
+                            <input type="radio" id="input2_radio_ps_plus3" name="paramset"/>
+                            <input type="radio" id="input2_radio_ps_plus4" name="paramset"/>
+                            <input type="radio" id="input2_radio_ps_plus1" name="paramset"/>
+                            <input type="radio" id="input2_radio_ps_plus5" name="paramset"/>
+
+                            <span class="params_dd_label"></span>
+                            <ul class="params_dropdown noselect">
+                                <li> <label for="input2_radio_ps_plus2">DNA PS2<br>(recommended)</label> </li>
+                                <li> <label for="input2_radio_ps_plus3">RNA PS2</label> </li>
+                                <li> <label for="input2_radio_ps_plus4">DRH PS2</label> </li>
+                                <li> <label for="input2_radio_ps_plus1">DNA PS1<br></label> </li>
+                                <li> <label for="input2_radio_ps_plus5">cgDNA <br>(old model)</label> </li>
+
+                            </ul>
+                        </div>
+                        <button type="submit" id="submit_seq2">Go <i id="loading2" class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i></button>
+                    </div>
+                </div> <!-- /slide2 -->
+
+                <div class="slide" id="slide3">
+                    <div class="search_wrapper">
+
+                        <div class="text_wrapper">
+                            <input type="text" class="field" id="seq_input3" spellcheck="false" contenteditable="true" placeholder="Type Sequence...">
+                            <div id="remove_seq_button3" class="remove_seq_button"></div>
+                        </div>
+
+                        <div class="params_dropdown_wrapper">
+
+
+                            <input type="radio" id="input3_radio_ps_plus2" name="paramset"/>
+                            <input type="radio" id="input3_radio_ps_plus3" name="paramset"/>
+                            <input type="radio" id="input3_radio_ps_plus4" name="paramset"/>
+                            <input type="radio" id="input3_radio_ps_plus1" name="paramset"/>
+                            <input type="radio" id="input3_radio_ps_plus5" name="paramset"/>
+
+                            <span class="params_dd_label"></span>
+                            <ul class="params_dropdown noselect">
+                                <li> <label for="input3_radio_ps_plus2">DNA PS2<br>(recommended)</label> </li>
+                                <li> <label for="input3_radio_ps_plus3">RNA PS2</label> </li>
+                                <li> <label for="input3_radio_ps_plus4">DRH PS2</label> </li>
+                                <li> <label for="input3_radio_ps_plus1">DNA PS1<br></label> </li>
+                                <li> <label for="input3_radio_ps_plus5">cgDNA <br>(old model)</label> </li>
+
+
+                            </ul>
+                        </div>
+                        <button type="submit" id="submit_seq3">Go <i id="loading3" class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i></button>
+                    </div>
+                </div> <!-- /slide3 -->
+
+
+                <div class="slide" id="slide4">
+                    <div class="search_wrapper">
+
+                        <div class="text_wrapper">
+                            <input type="text" class="field" id="seq_input4" spellcheck="false" contenteditable="true" placeholder="Type Sequence...">
+                            <div id="remove_seq_button4" class="remove_seq_button"></div>
+                        </div>
+
+                        <div class="params_dropdown_wrapper">
+
+                            <input type="radio" id="input4_radio_ps_plus2" name="paramset"/>
+                            <input type="radio" id="input4_radio_ps_plus3" name="paramset"/>
+                            <input type="radio" id="input4_radio_ps_plus4" name="paramset"/>
+                            <input type="radio" id="input4_radio_ps_plus1" name="paramset"/>
+                            <input type="radio" id="input4_radio_ps_plus5" name="paramset"/>
+
+                            <span class="params_dd_label"></span>
+                            <ul class="params_dropdown noselect">
+                                <li> <label for="input4_radio_ps_plus2">DNA PS2<br>(recommended)</label> </li>
+                                <li> <label for="input4_radio_ps_plus3">RNA PS2</label> </li>
+                                <li> <label for="input4_radio_ps_plus4">DRH PS2</label> </li>
+                                <li> <label for="input4_radio_ps_plus1">DNA PS1<br></label> </li>
+                                <li> <label for="input4_radio_ps_plus5">cgDNA <br>(old model)</label> </li>
+
+
+                            </ul>
+                        </div>
+                        <button type="submit" id="submit_seq4">Go <i id="loading4" class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i></button>
+                    </div>
+                </div> <!-- /slide4 -->
+
+            </div>
+
+            <div class="active_slide noselect">
+                <label for="input1_radio"></label>
+                <label for="input2_radio"></label>
+                <label for="input3_radio"></label>
+                <label for="input4_radio"></label>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<!-- NAVBAR -->
+<nav class="noselect">
+    <label for="radio_3dview" class="label" id="label_3dview">
+    <span> </span>
+    </label>
+    <label for="radio_plots" class="label" id="label_plots">
+        <span> </span>
+    </label>
+    <label for="radio_about" class="label" id="label_about">
+        <span> </span>
+    </label>
+    <label for="radio_compare" class="label" id="label_compare">
+        <span> </span>
+    </label>
+    <label for="radio_contact" class="label" id="label_contact">
+        <span> </span>
+    </label>
+    <div class="dropdown" id="label_exports">
+        <span> </span>
+        <ul>
+            <li id="download_coords_pdb">Atom coords as .pdb</li>
+            <li id="download_coords_fra">Frames as .fra/.pfra</li>
+            <li id="download_coords_bp_fra">BP frames as .fra</li>
+            <li id="download_charts_svg">2D plots as .svg</li>
+            <li id="download_charts_txt">Shapes as .txt</li>
+            <li id="download_stiff_csc">Stiffness matrix as .csc/.json</li>
+        </ul>
+    </div>
+    <label for="radio_stiff" class="label" id="label_stiff">
+        <span> </span>
+    </label> 
+  <label for="slide_header" id="slide_label"></label>
+</nav>
+
+<!--VIEWER -->
+    <div class="canvas_content" id="3dview_content">
+        <ul class="settings_menu">
+                <li>
+                    Background<br>
+                        <input type="radio" name="bgcolour" id="bg_white" value="white" checked> <label for="bg_white">Light</label><br>
+                        <input type="radio" name="bgcolour" id="bg_black" value="black"> <label for="bg_black">Dark</label><br>
+                </li>
+                <li>
+                    Show<br>
+                        <input type="checkbox" name="basetype" id="type_base" value="base" checked> <label for="type_base">base boxes</label><br>
+                        <input id="check_backbone" type="checkbox" checked> <label for="check_backbone">phosphate group</label><br>
+                        <input type="checkbox" name="basetype" id="type_basepair" value="basepair"> <label for="type_basepair">basepair boxes</label><br>
+                        <input type="checkbox" name="basetype" id="type_atoms" value="atoms"> <label for="type_atoms">atoms</label><br>
+                        <!--<input id="check_backbone" type="checkbox" checked> <label for="check_backbone">phosphates</label><br>-->
+
+                        <input id="check_baseframes" type="checkbox"> <label for="check_baseframes">base frames</label><br>
+                        <input id="check_basepairframes" type="checkbox"> <label for="check_basepairframes">basepair frames</label><br>
+                        <!--<input id="check_phosphateframes" type="checkbox"> <label for="check_phosphateframes">phosphate frames</label><br> -->
+                        <input id="check_grid" type="checkbox"> <label for="check_grid">Grid</label><br>
+                        <input id="check_disk" type="checkbox" checked> <label for="check_disk">Disk</label><br>
+                </li>
+                <li>
+                        <button type="submit" id="submit_viewer_settings">Refresh</button>
+                </li>
+        </ul>
+
+        <!--stuff to be seen before loading javascript-->
+        <div id="start_instructions">
+            <p> Enter a sequence in text box above. Example: </p>
+            <p class="sequence"> <b>(</b>ACTG<b>_5</b>A<span class="ua" id="instr_seq_paren"><b>)_2</b></span> <b>[</b><span class="da" id = "instr_seq_brackets">C</span><b>]</b> A G<span class="ua" id="instr_seq_repeat"><b>_10</b></span> T </p>
+	    <p> </p>
+	    <p class="compatibility_message"> Pick a parameter set for any of dsDNA, dsRNA, or DRH (in each case, PS2 is recommended, 
+if the input window panel turns red, see the Get Started panel for sequence syntax restrictions). </p>
+            <label id="getting_started_button" for="radio_about"><span>Get started</span></label>
+            <p class="compatibility_message">
+            cgNA+web is an updated version of the original cgDNAweb site. More details of modifications can be found in the Get Started pane. For any user-required backward compatibility requirements the original version can still be found <a href="/view2">here</a>.
+            </p>
+        </div>
+    </div>
+
+<!--PLOTS -->
+    <div class="content" id="plots_content">
+
+        <div class="plot-content">
+            <h1 class="page-title">Internal Coordinates</h1>
+            <h3> Rotation plots units </h3>
+            <input type="radio" name="chart_coords" id="coords_c+" value="degrees" checked> <label for="coords_c+">In degrees</label><br>
+            <input type="radio" name="chart_coords" id="coords_cg" value="internal"> <label for="coords_cg">In cgDNA internal coordinates</label><br>
+            <br>
+            <button type="submit" id="submit_plots_settings">Refresh</button>
+
+            <h2 class="page-subtitle">Inter basepair coordinates</h2>
+            <div id="chart_table_inters" class="chart_table">
+                <div id="tilt"  class="chart rot1"></div>
+                <div id="roll"  class="chart rot2"></div>
+                <div id="twist" class="chart rot3"></div>
+                <div id="shift" class="chart trans1"></div>
+                <div id="slide" class="chart trans2"></div>
+                <div id="rise"  class="chart trans3"></div>
+            </div>
+            <h2 class="page-subtitle">Intra basepair coordinates</h2>
+            <div id="chart_table_intras" class="chart_table">
+                <div id="buckle"    class="chart rot1"></div>
+                <div id="propeller" class="chart rot2"></div>
+                <div id="opening"   class="chart rot3"></div>
+                <div id="shear"   class="chart trans1"></div>
+                <div id="stretch" class="chart trans2"></div>
+                <div id="stagger" class="chart trans3"></div>
+            </div>
+            <h2 class="page-subtitle">5' base-phosphate coordinates</h2>
+            <div id="chart_table_5phos" class="chart_table">
+                <div id="phos_w_eta1" class="chart rot1"></div>
+                <div id="phos_w_eta2" class="chart rot2"></div>
+                <div id="phos_w_eta3" class="chart rot3"></div>
+                <div id="phos_w_w1" class="chart trans1"></div>
+                <div id="phos_w_w2" class="chart trans2"></div>
+                <div id="phos_w_w3" class="chart trans3"></div>
+            </div>
+            <h2 class="page-subtitle">3' base-phosphate coordinates</h2>
+            <div id="chart_table_3phos" class="chart_table">
+                <div id="phos_c_eta1" class="chart rot1"></div>
+                <div id="phos_c_eta2" class="chart rot2"></div>
+                <div id="phos_c_eta3" class="chart rot3"></div>
+                <div id="phos_c_w1" class="chart trans1"></div>
+                <div id="phos_c_w2" class="chart trans2"></div>
+                <div id="phos_c_w3" class="chart trans3"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="content" id="compare_content">
+        <div class="text-content">
+            <h2 class="page-subtitle"> Some examples explaining how to use cgNA+web  </h2>
+
+<b>Example-1</b>
+Strong and nonlocal sequence-dependence of the ground state shape are easily observed,
+especially in the 2D Plots pane.
+For example try comparing the  19 bp fragments A_9 A [A] A_8, A_9 T [A] A_8, A_9 C [A] A_8, and A_9 G [A] A_8,
+which all only differ in the composition of one base. Note also, that even for the uniform poly(A) sequence A_9 A [A] A_8 = A_19
+(where the first input format allows centring of the 3D view on the 11th base pair) the local ground state configuration
+is (as it should be) different between the interior and regions close to the ends, with differences
+sometimes still visible three or four base pairs or more from an end.
+</p>
+
+
+<p>
+<b>Example-2</b>
+Another example of strong and nonlocal sequence-dependence of the ground state is to compare the change in
+the groundstate on asymmetric methylation or hydroxymethylation of CpG step (asymmetric when only one C in CpG step is modified).
+Note that this asymmetric modification of CpG step is arguably a smaller chemical change than a point mutation.
+For example, try comparing the four sequences GCGGTG[C]GCTTTGC, GCGGTG[M]GCTTTGC, GCGGTG[H]GCTTTGC, and GCGGTG[A]GCTTTGC,
+which all only differ in the composition of one base.
+Once again, a strong nonlocal sequence-dependence in the groundstate can be observed
+with methylation and hydroxymethylation of CpG step resulting in a similar change in the groundstate.
+</p>
+
+              <p> <b>Example-3</b> Strong intrinsic bends can be observed for some sequences, e.g. with phased A-tracts such as </p>
+              <div style="text-align:center"> GC(T_6GCGCG)_6[G](T_6GCGCG)_6GC </div>
+              <p>Then the effect of epigenetic modifications of CpG steps can be
+                 seen as even strong bend on the groundstate of the same sequence by simply replacing CG by MN</p>
+              <div style="text-align:center"> GC(T_6GMNMN)_6[G](T_6GMNMN)_6GC </div>
+
+<p><b>Example-4</b>
+Another interesting example is to compare the same sequence but for various dsNAs. For instance, poly(AT).
+Type GC(AT)_100GC in three different input forms but choose three different parameter sets, one for each kind of
+dsNAs supported by cgNA+web. Note that the choosing "RNA PS2" will internally convert T to U and "DRH PS2" only accepts
+input sequence in {A,T,C,G} as the DNA strand is chosen as the reading strand.
+Comparing the 3D structures for these three dsNAs, one can observe few standard characteristics of these dsNAs.
+For dsDNA (owing to the B-form geometry), the base-pairs are almost centred over the helical axis in contrast to dsRNA (which
+prefers A-form geometry), base-pairs are displaced away from the central helical axis
+and are closer to the major groove resulting in a ribbon-like helix
+with a more open cylindrical core. Whereas, DRH is somewhere in between
+dsDNA and dsRNA structure with a narrow open cylindrical core.
+Then all three 3D structures are intrinsically straight with different
+helical axis and are of different lengths. The total length of the 3D structures is in the
+order dsDNA > DRH > dsRNA related to their B-form, mixed A-B
+form, and A-form geometry. On average, the observed rise in A-form helices
+is significantly smaller than B-form helices.
+In the same example, it is also interesting to look at the 2D plots (try smaller sequences for easy visulation)
+ in which one can observe striking differences in the cgNA+ internal coordinates due to A/B form geometry.
+</p>
+
+<p><b>Example-5</b>
+And the sometimes significant consequences of reconstructing the same sequence with different parameter sets
+can be observed by comparing reconstructions of a single sequence with two different parameter sets,
+e.g. reconstructing the same dsDNA sequence with parameter sets DNA PS2 and cgDNA (old model) will provide a comparison
+between ground state reconstruction between the cgDNA (implicit phosphates) and cgNA+ (explicit phosphates) models.
+Moreover, for dsDNA, we have provided two cgNA+ parameter sets (DNA PS1 and DNA PS2) trained on the identical training sequences but
+simulated using two different MD protocols (details of the MD protocol are described below in Parameter sets section).
+See cgNA+ vs MD pane to visualize how accurate is cgNA+ model when compared with the corresponding MD estimates, in particular,
+accurately capturing the small differences between the two different MD protocols.
+</p>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="content" id="stiff_content">
+        <div class="text-content">
+
+ <h2 class="page-subtitle">The cgNA+ model</h2>
+ <p>
+cgNA+ is a sequence-dependent, coarse-grain, model for double stranded nucleic acids (dsNA),
+which includes an explicit description of bases and phosphate groups,
+each approximated as a rigid body. For a complete description of the model see
+the <a href="https://lcvmwww.epfl.ch/research/cgDNA/">cgDNA website</a>,
+and the publications described there, particularly the PhD thesis of A. Patelli and R. Sharma.
+Briefly, given an arbitrary input sequence in the standard alphabet {A,T,C,G,U} and non-standard
+alphabets for epigenetically modified CpG steps {MN, MG, CN, HK, HG, CK},
+(along the reading, or Watson, strand in the 5'-3' direction)
+with one of the provided parameter sets appropriate to chosen sequence,
+the cgNA+ model predicts a Gaussian (or multi-variate normal) probability density function
+(or PDF) for the dsNA configuration expressed in internal dsNA coordinates
+(more specifically a version of the standard Curves+ helicoidal coordinates for the relative
+rigid body displacements between bases, and an additional three translation and three rotation coordinates
+for the relative rigid body displacement between the base and phosphate group making up each nucleotide).
+The cgNA+ coarse-grain model is itself a slightly finer-grain evolution from the prior
+cgDNA coarse-grain model, which did not include an explicit treatment of the phosphate groups.</p>
+
+            <h1 class="page-subtitle"> Comparison of cgNA+ predictions with Molecular Dynamics simulations  </h1>
+
+            <p> cgNA+ parameter sets are trained on extensive atomistic MD simulations using state-of-the-art MD simulation protocol, and the model accurately captures the underlying sequence-dependent mechanics of dsNAs. The model have been tested throughly for numerous diverse sequences including A-tracts, CpG islands, random sequences, poly(A), and poly(AT).  </p>
+<p>
+Here, in Figure 1, we have shown results for one random sequence GCATTACGCTCCGGAGCGTAATGC
+that is outside the training library and contains all dimer
+steps at least once on the reading strand.
+Firstly, one can observe a strong sequence dependence
+in the groundstate coordinates, and more importantly, the cgNA+ model
+accurately captures this underlying sequence dependence in the groundstate
+of various kinds of dsNAs. Notably, the error between MD and model (dashed
+versus solid lines) is always significantly smaller than the variation along the
+sequence. Some of the interesting features of various dsNAs can also be
+observed; for instance, slide and twist for DRH are in between dsDNA and
+dsRNA. The phosphate coordinate η2 for dsRNA and dsDNA are strikingly
+different (can be attributed to the general A- and B-form of dsRNA and
+dsDNA, respectively) whereas η2 Watson phosphate rotational coordinate
+(i.e. DNA strand of DRH) is close to pure dsDNA while the same coordinate
+for Crick phosphates (i.e. RNA strand of DRH) is close to pure dsRNA.
+</p>
+<img src="/images/cgNAweb_compare_MD_CG_1.png" alt="Compare cgNA+ predictions with MD" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+<p> <b> Figure 1 </b>
+For the ground states of a 24mer sequence GCATTACGCTCCGGAGCGTAATGC (not in the training library and containing all dinucleotide steps), with versions
+for dsDNA (blue), dsRNA (green) and DRH (red), plots of (a) the η2 rotation coordinate
+for Watson-strand phosphates, (b) η2 for Crick-strand phosphates, (c) slide, and (d) twist,
+with solid lines being the cgNA+ model predictions, and dashed line data being taken
+directly from atomistic MD simulation. In all cases the error between MD observations
+and cgNA+ predictions is negligible compared to variation with sequence. (Data for other
+coordinates and other sequences entirely analogous.)
+</p>
+<p>
+cgNA+ parameter sets, trained on extensive atomistic MD simulations
+using state-of-the-art MD simulation protocol, accurately
+captures the underlying sequence-dependent mechanics of dsNAs (see Figure 1);
+however, it should be noted that different MD protocols may lead to different
+atomistic equilibrium distributions, which also get reflected in cgNA+
+parameter sets. In Figure 2, we have plotted the average shape of a dsDNA
+sequence observed in MD simulations but using two different MD protocols
+(MD1 and MD2) along with the corresponding cgNA+ predictions
+(the parameter sets are available as ‘DNA PS1’ and ‘DNA PS2’ on the cgNA+web)
+trained on the same training sequences but simulated with different MD
+protocols. The differences between the two MD protocols are in the water
+model, ion model, and length of the MD simulations for each training
+sequence which are SPC/E, Dang, and 3 μs for MD1 and TIP3P, Joung and
+Cheatham ion model, and 10 μs for MD2. More details on the MD protocol are provided in Get Started pane.
+For this particular sequence, the
+average shape observed in two MD simulations is considerably different, but
+the corresponding cgNA+ predictions are almost indistinguishable from the
+underlying MD estimates.
+</p>
+<img src="/images/cgNAweb_compare_MD_CG_2.png" alt="Compare cgNA+ predictions with MD" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+<p> <b> Figure 2 </b> Plots of (a) Propeller, (b) Stretch, (c) Twist, and (d) w2 for Crick Phosphate
+for a dsDNA sequence (GCCTAACCCTGCGCAGGGTTAGGC) along the average shape
+observed in MD simulations using two different MD protocols (MD1 and MD2) and cgNA+
+predictions for the two corresponding parameter sets PS1 and PS2. The differences for the
+two protocols is larger than the error between cgNA+ predictions and MD observation.
+Other coordinates similar. </p>
+
+<p> More examples can be found in</p>
+<p><b>cgNA+: A sequence-dependent coarse-grain model of double-stranded nucleic acids.</b><br>
+R. Sharma, EPFL Thesis #9792, Under the supervision of J. H. Maddocks<br>
+Download the PDF <a href="https://lcvmwww.epfl.ch/publications/data/phd/18/PhD_thesis_final.pdf">here</a>.<br>
+</p>
+
+
+
+
+              <h2 class="page-subtitle">Stiffness matrices</h2>
+              <img src="/images/Banded_stiff_web_1.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 3 </b>
+Sparsity pattern in observed stiffness matrix in MD simulation of a dsDNA sequence GCTTAGTTCAAATTTGAACTAAGC
+(only half sequence is shown as the sequence is a palindrome).
+The green stencils correspond to the nearest-neighbor interactions approximation.
+The dimension of the stiffness matrix is 558 X 558 (24n-18 where n=24 for this sequence) and  x and y labels are the coordinate index.
+</p>
+
+              <img src="/images/Banded_stiff_web_2.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 4 </b>
+Zoom-in image of the above matrix corresponding to the central tetramer. The green stencils
+correspond to the nearest-neighbor interactions approximation.
+</p>
+
+
+              <p>
+The cgNA+ model predicts both a ground state configuration and a banded stiffness matrix for each input sequence. 
+However cgNA+web focuses on visualising the ground state shape in various ways, and only 
+provides the stiffness matrix via download of a file with its numerical entries. This data may then be post-processed as wished. 
+One possibility is to make plots of the eigenvalues of the stiffness matrix, as indicated in the figure below 
+(in the scaling with translation variables in Angstroms and rotations in 1/5th radians). 
+Another is to download and use the .txt ground state shape and associated .csc/.json stiffness matrix as inputs 
+to a Monte Carlo simulation code for sampling the cgNA+ Gaussian PDF in order to compute various expectations of interest, 
+e.g. sequence-dependent persistence lengths as described in [6]. 
+However, for extensive post-processing simulations it is probably more efficient to install and use the 
+available cgNA+ <a href="https://github.com/rahul2512/cgNA_plus_Matlab">Matlab/Octave</a> or  
+<a href="https://github.com/rahul2512/cgNA_plus">Python</a> scripts directly rather than using the cgNA+web interface. </p>
+
+              <img src="/images/web_eig_plots_dna_PS2.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 5 </b> 
+The cgNA+ stiffness matrix for a sequence of length n has 24n-18 eigenvalues, all
+real and positive, which can be sorted in ascending order and plotted against their index
+(scaled to always lie in [0,1] to facilitate comparison of spectra for sequences of different
+lengths). Spectra (computed using ‘DNA PS2’ parameter set) are here compared for four
+dsDNA sequences A_300 (blue), (AT)_150 (green), the Widom 601 positioning sequence
+(magenta) and the A-tract sequence (A_5G_5T_5C_5T)_15 (red). The two insets on the right
+are magnifications of the lower and upper parts of the spectra.
+</p>
+              <img src="/images/web_eig_plots_hyb_PS2.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 6 </b>
+ The cgNA+ stiffness matrix for a sequence of length n has 24n-18 eigenvalues, all
+real and positive, which can be sorted in ascending order and plotted against their index
+(scaled to always lie in [0,1] to facilitate comparison of spectra for sequences of different
+lengths). Spectra (computed using ‘DRH PS2’ parameter set) are here compared for
+four DRH sequences A_300 (blue), (AT)_150 (green), the Widom 601 positioning sequence
+(magenta) and the A-tract sequence (A_5G_5T_5C_5T)_15 (red). The two insets on the right
+are magnifications of the lower and upper parts of the spectra.
+</p>
+              <img src="/images/web_eig_plots_rna_PS2.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 7 </b>
+The cgNA+ stiffness matrix for a sequence of length n has 24n-18 eigenvalues, all
+real and positive, which can be sorted in ascending order and plotted against their index
+(scaled to always lie in [0,1] to facilitate comparison of spectra for sequences of different
+lengths). Spectra (computed using ‘RNA PS2’ parameter set) are here compared for four
+dsRNA sequences A_300 (blue), (AU)_150 (green), the Widom 601 positioning sequence
+(magenta) and the A-tract sequence (A_5G_5U_5C_5U)_15 (red). The two insets on the right
+are magnifications of the lower and upper parts of the spectra.
+</p>          
+              <img src="/images/web_eig_plots_compare_NA.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 8 </b>
+The cgNA+ stiffness matrix for a sequence of length n has 24n-18 eigenvalues, all
+real and positive, which can be sorted in ascending order and plotted against their index
+(scaled to always lie in [0,1] to facilitate comparison of spectra for sequences of different
+lengths). Spectra are here compared for (CG)_150 for its dsDNA (DNA PS2, green), dsRNA
+(blue), and DRH (red) versions. The two insets on the right are magnifications of the lower
+and upper parts of the spectra.
+</p>          
+              <img src="/images/web_eig_plots_compare_MN_pattern.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 9 </b>
+The cgNA+ stiffness matrix for a sequence of length n has 24n-18 eigenvalues, all
+real and positive, which can be sorted in ascending order and plotted against their index
+(scaled to always lie in [0,1] to facilitate comparison of spectra for sequences of different
+lengths). Spectra are here compared for (CG)_150 (green), (MN)_150 (blue), (MG)_150 (red),
+(HK)_150 (magenta), and (HG)_150 (cyan). The two insets on the right are magnifications
+of the lower and upper parts of the spectra.
+</p>          
+              <img src="/images/web_eig_plots_dna_PS1.png" alt="Stiffness spectra" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+              <p><b>Figure 10 </b>
+The cgNA+ stiffness matrix for a sequence of length n has 24n-18 eigenvalues, all
+real and positive, which can be sorted in ascending order and plotted against their index
+(scaled to always lie in [0,1] to facilitate comparison of spectra for sequences of different
+lengths). Spectra (computed using ‘DNA PS2’ parameter set) are here compared for four
+dsDNA sequences A_300 (blue), (AT)_150 (green), the Widom 601 positioning sequence
+(magenta) and the A-tract sequence (A_5G_5T_5C_5T)_15 (red). The two insets on the right
+are magnifications of the lower and upper parts of the spectra.
+</p>          
+
+
+<h2 class="page-subtitle">Persistence length spectra</h2>
+<p>
+Another interesting observable to look at is persistence length which is a 
+popular and traditional quantification of the NA rigidity defined as the 
+length scale over which correlations in the direction of tangent along a polymer centerline are lost. 
+More appropriate definition in the context of sequence-dependence was introduced in Mitchel et. al 
+by factoring out the intrinsic shape contribution from the apparent persistent length (ℓp) to define 
+sequence-dependent dynamic persistence length (ℓd) which solely quantifies the intrinsic rigidity of the NA. 
+Even though it is possible to run MC simulation in the  <a href="https://github.com/rahul2512/cgNA_plus">Python</a>  and 
+<a href="https://github.com/rahul2512/cgNA_plus_Matlab">Matlab/Octave</a> version, 
+for heavier computations we recommend  <a href="https://github.com/rahul2512/cgNA_plus_mc">C++ code</a>  
+</p>
+
+<p>
+In this section, we have presented the observed persistence length spectra for millions of dsNA fragments computed 
+using <a href="https://github.com/rahul2512/cgNA_plus_mc">cgNA+mc C++ code</a>.
+In Figure 7, the top panel plot the spectra for sequence-dependent apparent persistent length (ℓp) and dynamic persistence length (ℓd) 
+while the bottom panel presents histograms for sequence-wise difference in persistence lengths of dsRNA and DRH from dsDNA.
+The computations were performed for 2 million random sequences of length 220 base-pairs and each computation involved 0.1 million MD samples. 
+Note that the persistence length predicted by the cgNA+ model is, in general, 
+considerably higher than the experimental consensus of 150 bps for dsDNA fragments. 
+But more importantly, as rigorously demonstrated in Mitchel et. al
+the trends in sequence-dependent persistence lengths of dsDNA are
+similar to those observed in the experiments. 
+Notably, for shorter sequences (24mer) (refer to A. Patelli's thesis for details), 
+the tangent-tangent correlation observed 
+in the MD simulations is incredibly close to cgNA+ predictions implying that
+this discrepancy is not inherent to the model.
+There can be several reasons for this discrepancy
+of persistence lengths given by cgNA+ tools. Firstly, in experiments, the salt concentration is
+relatively higher, and often divalent counter ions are used as opposed to mono-valent ions under
+physiological concentrations in the MD simulations (used to train the cgNA+ model), which
+have a significant effect on the persistence length of dsDNA (or dsNA).
+Moreover, the parameterization of DNA in various MD forcefields might be stiffer.
+</p>
+
+<img src="/images/web_persistence_length_spectra.png" alt="Compare cgNA+ predictions with MD" style="display: block; margin-left: auto; margin-right: auto; width: 80%;">
+<p> <b> Figure 11 </b>
+Top: Histogram for dynamic (ℓd) and apparent (ℓp) persistence lengths for ≈ 2 million
+random sequences (of length 220 bp) and all poly-dimers (110 repeats) for dsDNA, dsRNA, and
+DRH. Bottom: Histogram for sequence-wise difference in persistence lengths of dsRNA and
+DRH from dsDNA.
+</p>
+
+<p>
+In Figure 8, we have plotted the persistence length of all poly-dimers for various dsNA fragments.
+</p>
+<img src="/images/dimer_persistence_length.png" alt="Compare cgNA+ predictions with MD" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+<p> <b> Figure 12 </b>
+Dynamic (ℓd) and apparent (ℓp) persistence lengths for all independent poly-dimers
+((XY)110 embedded in GC ends) for dsDNA, dsRNA, and DRH.
+</p>
+
+
+
+              <h2 class="page-subtitle">Relevant citations</h2>
+
+<p>[1]<b> cgNA+web: A web based visual interface to the cgNA+ sequence dependent statistical mechanics model of double-stranded nucleic acids. </b><br>
+R. Sharma, A. S. Patelli, L. De Bruin, and J.H. Maddocks (Submitted)
+</p>
+
+<p>[2] <b>cgNA+: A sequence-dependent coarse-grain model of double-stranded nucleic acids.</b><br>
+R. Sharma, EPFL Thesis #9792 (2022)<br>
+Download the PDF <a href="https://lcvmwww.epfl.ch/publications/data/phd/18/PhD_thesis_final.pdf">here</a>.<br>
+</p>
+
+                    <p>[3] <b>A sequence-dependent coarse-grain model of B-DNA with explicit  description of bases and phosphate groups parametrised from large
+                              scale Molecular Dynamics simulations</b><br>
+                          A.S. Patelli <br>
+                          EPFL PhD Thesis #9552 (2019) <br>
+                          PDF available <a href="https://lcvmwww.epfl.ch/publications/data/phd/15/EPFL_TH9552.pdf">here</a><br>
+                          </p>
+
+                  <p>[4] <b>cgDNAweb: a web interface to the cgDNA sequence-dependent coarse-grain model of double-stranded DNA.</b><br>
+                          L. De Bruin, J.H. Maddocks <br>
+                      Nucleic Acids Research 46, issue W1 (2018), p. W5-W10<br>
+                      DOI:<a href="https://doi.org/10.1093/nar/gky351">10.1093/nar/gky351</a><br>
+                      </p>
+
+                    <p>[5] <b>Absolute versus relative entropy parameter estimation in a coarse-grain model of DNA</b><br>
+                        O. Gonzalez, M. Pasi, D. Petkevičiūtė, J. Glowacki, J.H. Maddocks <br>
+                        Multiscale Modeling and Simulation 15, no. 3 (2017), p. 1073 - 1107 <br>
+                        DOI:<a href="https://doi.org/10.1137/16M1086091">10.1137/16M1086091</a><br>
+                        </p>
+
+                    <p>[6] <b>Sequence-Dependent Persistence Lengths of DNA</b><br>
+                       J.S. Mitchell, J. Glowacki, A.E. Grandchamp, R.S. Manning, J.H. Maddocks <br>
+                       Journal of Chemical Theory and Computation 13 (2017), p. 1539-1555 <br>
+                       DOI:<a href="https://doi.org/10.1021/acs.jctc.6b00904">10.1021/acs.jctc.6b00904</a><br>
+                       </p>
+
+
+                    <p>[7] <b>cgDNA: a software package for the prediction of sequence-dependent coarse-grain free energies of B-form DNA</b><br>
+                        D. Petkevičiūtė, M. Pasi, O. Gonzalez, J.H. Maddocks <br>
+                        Nucleic Acids Research 42, no. 20 (2014), p. e153 <br>
+                        DOI:<a href="https://doi.org/10.1093/nar/gku825">10.1093/nar/gku825</a><br>
+                        </p>
+
+                    <p>[8] <b>μABC: a systematic microsecond molecular dynamics study of tetranucleotide sequence effects in B-DNA</b><br>
+                        M. Pasi, J.H. Maddocks, D. Beveridge, T.C. Bishop, D.A. Case, T. Cheatham III, P.D. Dans, B. Jayaram, F. Lankas, C. Laughton, J. Mitchell, R. Osman, M. Orozco, A. Pérez, D. Petkevičiūtė, N. Spackova, J. Sponer, K. Zakrzewska, R. Lavery <br>
+                        Nucleic Acids Research 42, no. 19 (2014), p. 12272–12283 <br>
+                        DOI:<a href="https://doi.org/10.1093/nar/gku855">10.1093/nar/gku855</a><br>
+                        </p>
+
+                    <p>[9] <b>A sequence-dependent rigid-base model of DNA</b><br>
+                        O. Gonzalez, D. Petkevičiūtė, J.H. Maddocks<br>
+                        Journal of Chemical Physics 138, no. 5 (2013), p. 055122 1-28<br>
+                        DOI:<a href="https://doi.org/10.1063/1.4789411">10.1063/1.4789411</a><br>
+                        </p>
+
+        </div>
+    </div>
+
+
+    <div class="content" id="contact_content">
+        <div class="text-content">
+            <h1 class="page-title">How to cite</h1>
+            <p>If you use this website in relation to any publication please cite:
+
+                    <p> <b>cgNA+web: A web based visual interface to the cgNA+ sequence dependent statistical mechanics model of double-stranded nucleic acids</b><br>
+                        R. Sharma, A. S. Patelli, L. De Bruin, and J.H. Maddocks <br>
+                        Submitted <br>
+                        </p>
+
+                    <p> The cgNA+web site is an evolution from a pre-cursor site (still available at <a href="https://cgdnaweb.epfl.ch/view2">https://cgdnaweb.epfl.ch/view2</a>) and is described in:</p>
+                    <p> <b>cgDNAweb: a web interface to the cgDNA sequence-dependent coarse-grain model of double-stranded DNA.</b><br>
+                        L. De Bruin, J.H. Maddocks <br>
+                        Nucleic Acids Research 46, issue W1 (2018), p. W5-W10<br>
+                        DOI:<a href="https://doi.org/10.1093/nar/gky351">10.1093/nar/gky351</a><br>
+                        </p>
+
+<p> The current updated cgNA+web version is an interface to the enhanced coarse-grain model cgNA+ of sequence-dependent statistical mechanics of double-stranded nucleic acids. cgNA+ includes parameter sets for dsDNA in an epigenetic sequence alphabet, dsRNA, and DNA:RNA hybrid as described in detail in</p>
+<p><b>cgNA+: A sequence-dependent coarse-grain model of double-stranded nucleic acids.</b><br>
+R. Sharma, EPFL Thesis #9792, Under the supervision of J. H. Maddocks<br>
+Download the PDF <a href="https://lcvmwww.epfl.ch/publications/data/phd/18/PhD_thesis_final.pdf">here</a>.<br>
+</p>
+
+<p>The extended cgNA+ parameter sets are built on the cgDNA+ model, which itself extends the original cgDNA model by the inclusion of an explicit description of phosphate groups. The cite for the cgDNA+ model itself is:</p>
+            <p> <b>A sequence-dependent coarse-grain model of B-DNA with explicit description of bases and phosphate groups parametrised from large scale Molecular Dynamics simulations.</b><br>
+    A. S. Patelli, EPFL Thesis #9522, Under the supervision of J. H. Maddocks<br>
+    Download the PDF <a href="https://lcvmwww.epfl.ch/publications/data/phd/15/EPFL_TH9552.pdf">here</a>.<br>
+    </p>
+
+            <p>More generally the cgDNA family of models has its own <a href="http://lcvmwww.epfl.ch/research/cgDNA/">web page</a>, which includes citations to all other related codes and articles.</p>
+
+            <h1 class="page-title">Contact</h1>
+            <p>Prof. John H. Maddocks<br>
+            MATH-FSB-EPFL, Station 8<br>
+            Swiss Federal Institute of Technology<br>
+            CH-1015 Lausanne<br>
+            @: john (dot) maddocks (at) epfl (dot) ch<br>
+            <br><br>
+
+            <h1 class="page-title">Credits</h1>
+                    <p>
+Original code by L. de Bruin (debruin (at) lorentz (dot) leidenuniv (dot) nl), and P. Voirol (philippe.voirol (at) epfl (dot) ch), with the help of A. S. Patelli (alessandro.patelli (at) epfl (dot) ch) and R. Sharma (rahul.sharma (at) epfl (dot) ch) for later enhancements. Original concept by J. H. Maddocks, site designed and developed jointly. Thanks also to other members of the LCVMM, particularly T. Zwahlen, R. Singh, and Masters students at the EPFL for testing and debugging the site.</p>
+
+            <p>Development of the web site was financially supported by the EPFL and the Swiss National Science Foundation under Award 200020 143613/1 and 200020-18218 to JHM.</p>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="content" id="about_content">
+        <div class="text-content">
+            <h1 class="page-title">Getting started</h1>
+
+<p>
+cgNA+web is an interface to allow interactive visualisation of the sequence-dependent ground state, 
+or free energy minimizing, configuration of a nucleic acid double helical fragment as predicted by the cgNA+ model. 
+cgNA+web is an evolution from the prior, analogous, interface <a href="/view2">cgDNAweb</a>.
+</p>
+
+<p>
+The cgNA+web interface is primarily aimed at visualising the sequence-dependent minimum free energy,
+or ground state, configuration in the Gaussian equilibrium distribution that is predicted by the cgNA+ model (see cgNA+ model panel for more details).
+The ground state can be visualised either in the 2D Plots pane, as graphs of the internal coordinates
+along the sequence, or in the 3D View pane as the 3D configuration visualised at various levels of detail.
+</p>
+
+<h2 class="page-subtitle">How to use cgNA+web</h2>
+<p>
+Fill in a dsNA sequence in the input form of the header at the top of the web page 
+(try starting by typing a 10-20 bp long fragment, or you can copy paste much longer sequences; 
+up to 3Kbp or so are feasible on a contemporary laptop). Hard limits for the website 
+to function, are that the input sequences need 
+to be at least four basepairs long and less than 3Kbp. 
+The input format is either a string of nucleotides from the {A,C,G,T/U} alphabet or modified CpG steps {MN, MG, CN, HK, HG, CK} alphabets, 
+(upper or lower case, which can be mixed, and with or without spaces).
+However, the input must respect the following rules for various dsNA parameter sets:
+</p>
+
+<p> 
+ - <b>DNA PS2</b>: input sequence must be a string from {A,T,C,G} alphabet or modified 
+<br>  &nbsp; CpG steps {MN, MG, CN, HK, HG, CK} alphabets but modified CpG steps
+<br>  &nbsp; can not be terminal base-pair step and hydroxymethylated and methylated steps
+<br>  &nbsp; can not be adjacent to each other, e.g. MNHK, HKMN, etc not allowed but 
+<br>  &nbsp; MNMN, HKHG, etc allowed.  <br>
+ - <b>RNA PS2</b>: input sequence must be a string from {A,T/U,C,G} alphabet but then T 
+<br>  &nbsp; will be internally modified to U <br>
+- <b>DRH PS2</b>: input sequence must be a string from {A,T,C,G} alphabet with GC 
+<br>  &nbsp; ends, if not, then cgNA+web will add GC end(s) to the input sequence<br> 
+- <b>DNA PS1</b>: input sequence must be a string from {A,T,C,G} alphabet <br>
+- <b>cgDNA</b>: input sequence must be a string from {A,T,C,G} alphabet
+</p>
+
+<p>
+where A, T, C, G, U are standard alphabets nucleic bases representing Adenine, Thymine, Cytosine, Guanine, and Uracil,
+while M and H represent methylated C and hydroxymethylated C, respectively
+and H and K represent G when the complementary C is methylated and hydroxymethylated, respectively.
+So, for example, one can type 'A atCG c' for a linear fragment or, for tandem repeats, 
+a sequence between parentheses, and a number after an underscore, e.g. A_12 for the homopolymer poly(A) of 
+length 12 or (AG)_100 for the alternating  poly(AG) molecule with 200 basepairs.
+For each dsNA, we recommend using the PS2 parameter set, 
+which we regard as the current state of the art.
+The default setting is DNA PS2 (for dsDNA including epigenetic base modifications) 
+and one has to then choose the parameter set for other kind of dsNAs from the dropdown menu. 
+</p>
+
+<p>
+The input characters are all considered to be ASCII, and 
+in principle carriage returns, newlines, spaces, and tabs may be included in the input 
+and are all ignored. Attention to copy pasting from PDF documents where other hidden characters may be 
+included, and cause rejection of the input. The border of the input form turns red when the input is rejected, 
+either because of length constraints, unrecognised characters or unmatched parentheses.
+</p>
+
+<p>
+Then click "Go", and inspect the Output in either the 3D View or 2D Plots panes.
+</p>
+
+<p>
+cgNA+web can visualise superpositions of ground states for up to four different cases simultaneously, 
+e.g. ground states of different sequences of the same dsNA, or analogous sequences of different dsNAs, 
+or differences for the same sequence with different parameter sets (this feature is 
+currently only available for dsDNA) can be compared. To make multiple sequence inputs, 
+use the arrow keys to switch to another input form, or click one of the white dots. 
+A maximum of four sequences can be visualised at one time, but each of the four sequences 
+can be modified and re-plotted individually (the sequence input in the form box is deleted by 
+clicking the x button, along with its associated plots and visualisations). Specific base pair 
+frames of different sequences will be aligned in the 3D viewer whenever a particular nucleotide is
+ wrapped in square brackets in the input sequence, e.g. A_6 [T] A_6. In this case, the viewer will have 
+the basepair with base T on the reading strand at the centre of the view. Note that there can be 
+at most one set of brackets [ ] per sequence; therefore it is not possible to use this syntax 
+within tandem repeats. No explicit [ ] in the input sequence defaults to the first base pair frame being taken for centring.</p>
+
+              <h1 class="page-title">Some documentation</h1>
+
+<p>
+Given the input sequence, and a selected parameter set from the dropdown menu next to the 
+sequence input, you can view the ground state of the dsNA in the '3D View' tab 
+or in the '2D Plots' tab. Once a sequence or sequences have been entered, the arrow on the 
+right of the darker blue navigation bar can be used to show or hide the the header 
+panel for more or less viewing space.
+</p>
+
+<h2 class="page-subtitle">Viewer controls</h2>
+The controls for the 3D viewer are mainly mouse-based:
+<dl>
+<dt><b>Rotate</b></dt>
+<dd>left click and drag, or single finger drag on mobile.</dd>
+                  <dt><b>Zoom</b></dt>
+                  <dd>middle mouse click, scroll, or pinch on mobile.</dd>
+                  <dt><b>Pan</b></dt>
+                  <dd>shift+left click and drag, or triple finger drag on mobile.</dd>
+                  <dt><b>Context menu</b></dt>
+                  <dd>Accessed by right click or command+click on macOS, the viewer context menu gives access to:<dl>
+                      <dt><b>Center on this base</b></dt>
+                      <dd>Rotates and translates the dsNA such that the base frame of the selected base coincides with the origin.</dd>
+                      <dt><b>Center on this base pair</b></dt>
+                      <dd>Rotates and translates the dsNA such that the base pair frame of the selected base coincides with the origin.</dd>
+                      <dt><b>Look at center/origin</b></dt>
+                      <dd>Rotates the camera such that the origin is centred in the viewport.</dd>
+                      </dl>
+  		             </dd>
+              </dl>
+
+<p>
+Selecting the gear icon in the 3D view pane provides various viewing options. 
+The cgNA+ model assumes rigid bases and rigid phosphate groups. 
+Each base can be visualised as its individual (heavy) atoms, or as a (red) frame 
+(i.e. an origin and three orthonormal vectors embedded in the base according to Curves+ conventions), 
+or as a box surrounding the base atoms, colour coded for sequence, and differently sized for purines and pyrimidines. 
+The Curves+ base pair, which is an appropriate average of the two associated rigid bases, 
+can also be visualised as either a (grey) frame or a surrounding bicolour box. 
+Similarly each phosphate group can be visualised as a tetrahedron, or with its component atoms 
+drawn in idealised relative positions. The cgNA+ model treats sugar rings only implicitly, so they cannot be visualised 
+explicitly in cgNA+web. (When a cgDNA, not cgNA+, paramset is selected in cgNA+web 
+there is no explicit treatment of phosphates, and the backbones are visualised via a simple numerical 
+interpolation of the base frame positions.) When any base or phosphate is selected 
+with the mouse, an inset window reports the strand location and composition of the base in 
+the associated nucleotide. The 3D view is centred on the basepair frame selected by [ ] in 
+the input sequence, and this frame is highlighted by a larger RGB frame.
+</p>
+
+<p>
+Sufficiently long sequences eventually can become unwieldy to manipulate interactively in the 3D viewer, 
+particularly when visualising individual atoms, and depending on the particular hardware being used. 
+However long length-scale ground states for sequences of the order of 3Kbp in length can still be 
+reconstructed with cgNA+web and nontrivial, overall shapes observed in some sequences. For example 
+the phased A-tract tandem repeat sequence of 840=40x21 bp (a_5 g_5 t_5 c_5 g)_30 a_5 g_5 t_5 c_5 [g](a_5 g_5 t_5 c_5 g)_19 
+(here the particular syntax centres the 3D view toward the centre of the sequence) 
+can still be reconstructed via the web server and locally viewed 
+(e.g. on a 2015 Macbook Pro) to reveal a strong superhelical ground state.
+</p>
+
+              <h2 class="page-subtitle">2D plots pane</h2>
+<p>
+In this pane, the first set of 12 panels provide ground state values of the standard twelve 
+Curves+ helicoidal internal coordinates for the bases (6 inter base-pair, or junction, coordinates, 
+and 6 intra base-pair coordinates, each with three translation and three rotational degrees of freedom) 
+plotted along each input sequence. Translational coordinates are reported in Å with 
+rotational coordinates (or components of the rotational Cayley vector) reported either in degrees or 
+in cgNA+ internal units of 1/5 radians or approximately 11 degrees. 
+(This nonstandard rotational unit gives a good scaling between rotational and translational 
+stiffnesses of dsNA in the underlying Gaussian coarse-grain model.) 
+</p>
+
+<p>
+In cgNA+web the second set of 12 panels provide ground state values of the 2x6 = 12 coordinates 
+(six translation and six rotation degrees of freedom) of the relative rigid body displacement of each 
+phosphate group from the base in its nucleotide. The 5' phosphate coordinates are for the phosphate 
+group in the backbone of the reading (or Watson) strand, which for basepair n lies in the junctions 
+between the (n-1)th and nth base pair. The 3' phosphate coordinates are for the phosphate group in 
+the backbone of the complementary (or Crick) strand, which for basepair n lies in the junction between the nth and (n+1)st base pair. 
+</p>
+
+<p>
+Placing the cursor over any one of the 2D plots returns the numerical values in the plot 
+along with the local sequence context. For very long sequences the 2D plots typically become 
+less visually less useful, but the numerical data can still be accessed via the mouse cursor.
+</p>
+
+              <h2 class="page-subtitle">Parameter sets</h2>
+
+<p>
+Parameters in the cgNA+ model are estimated from large scale libraries of Molecular Dynamics (or MD) simulations. 
+Specific cgNA+ parameter sets have been estimated for dsDNA
+in both standard and epigenetically modified alphabets, for dsRNA, and for
+DRH. Each parameter set corresponds to a specific MD simulation protocol,
+capturing, for example, the species and concentration of counter ions in the
+solvent, and of course the specific MD force field (specific to the kind of dsNA), water model, etc. 
+Different MD simulation force fields and protocols may lead to different atomistic equilibrium distributions,
+which also get reflected in cgNA+ parameter sets.
+Currently, we have two different cgNA+ parameter sets for dsDNA (DNA PS1 and DNA PS2) corresponding to 
+two different MD protocols (listed below). 
+Finally, the cgNA+ model itself continues to be actively developed in various directions, 
+in particular, more parameter sets will continue to be developed, for example, a 
+parameter set that allows base-pair mismatches in dsDNA or dsDNA parameter sets trained on MD simulations 
+with updated MD protocol (by ABC) are currently being developed.
+cgNA+web will, in due course, be updated accordingly and the parameter set will be described here.
+The current cgNA+ parameter set are the following:
+</p>
+
+              <ul>
+                  <li> <b>[cgDNA] cgDNA (old model)</b><ul>
+                      <li>Palindromic sequence library</li>
+                      <li>3 microseconds of Amber MD time series</li>
+                      <li>bsc1 force field</li>
+                      <li>150mM of K+ counter-ions</li>
+                      <li>Maximum entropy/likelihood truncation</li>
+                      <li>Fitting functional: Kullback-Leibler divergence with model pdf in first argument</li>
+                      <li>Dinucleotide model with specific blocks for the dimers at the ends</li>
+                  </ul></li>
+                  <li> <b>[DNA (PS1)] DNA PS1 (cgDNA+ model)</b><ul>
+                      <li>Palindromic sequence library</li>
+                      <li>3 microseconds of Amber MD time series</li>
+                      <li>bsc1 force field and SPC/E water model </li>
+                      <li>150mM of K+ counter-ions (Dang parameters)</li>
+                      <li>Maximum entropy/likelihood truncation</li>
+                      <li>Fitting functional: Kullback-Leibler divergence with model pdf in first argument</li>
+                      <li>Dinucleotide model with specific blocks for the dimers at the ends</li>
+                  </ul></li>
+                  <li> <b>[DNA (PS2)] DNA PS2 (cgNA+ model, recommended)</b><ul>
+                      <li>Palindromic sequence library</li>
+                      <li>10 microseconds of Amber MD time series</li>
+                      <li>bsc1 force field, TIP3P water model</li>
+                      <li>150mM of K+ counter-ions (Joung and Cheatham parameters)</li>
+                      <li>Maximum entropy/likelihood truncation</li>
+                      <li>Fitting functional: Kullback-Leibler divergence with model pdf in first argument</li>
+                      <li>Dinucleotide model with specific blocks for the dimers at the ends</li>
+<li> Also, contains parameters for modified CpG steps </li>
+<li> C is referred to as M and H when methylated and hydroxymethylated, respectively and </li>
+<li> G is referred to as N and K when complementary C is methylated and hydroxymethylated, respectively </li>
+<li> Note only CpG steps can be modified i.e. allowed steps are MN, MG, CN or HK, HG, CK </li>
+<li> hydroxymethylated and methylated steps are allowed in the same sequence but not adjacent </li>
+
+                  </ul></li>
+                  <li> <b>[RNA (PS2)] RNA PS2 (cgNA+ model, recommended)</b><ul>
+                      <li>Palindromic sequence library</li>
+                      <li>10 microseconds of Amber MD time series</li>
+                      <li>OL3 force field, TIP3P water model</li>
+                      <li>150mM of K+ counter-ions (Joung and Cheatham parameters)</li>
+                      <li>Maximum entropy/likelihood truncation</li>
+                      <li>Fitting functional: Kullback-Leibler divergence with model pdf in first argument</li>
+                      <li>Dinucleotide model with specific blocks for the dimers at the ends</li>
+<li> input accepts both U and T but then internally change T to U </li>
+                  </ul></li>
+                  <li> <b>[DRH (PS2)] DNA:RNA Hybrid (DRH) PS2 (cgNA+ model, recommended)</b><ul>
+                      <li>Same sequence library but not palindromic </li>
+                      <li>10 microseconds of Amber MD time series</li>
+                      <li>bsc1 and OL3 force field for DNA and RNA strand, respectively, TIP3P water model</li>
+                      <li>150mM of K+ counter-ions (Joung and Cheatham parameters)</li>
+                      <li>Maximum entropy/likelihood truncation</li>
+                      <li>Fitting functional: Kullback-Leibler divergence with model pdf in first argument</li>
+                      <li>Dinucleotide model with specific blocks for the dimers at the ends</li>
+<li> Only accepts sequence in A, T, C, G and must be with GC ends </li>
+                  </ul></li>
+
+              </ul>
+
+              <h2 class="page-subtitle">Export pane</h2>
+              <p> It is possible to export the configuration and other data in multiple ways, by selecting an entry in the 'Export' menu.
+
+              <dl>
+                  <dt><b>Atom coordinates as .pdb</b></dt>
+                  <dd>This will download a .pdb format file with all of the heavy atoms in the DNA bases and phosphate groups. The base atoms have positions as specified by the Tsukuba convention within the base, with an analogous convention for the phosphate group atoms. Note that, due to the available character length in the PDB format specification for atom coordinates, the output generated directly here for long DNA molecules may be incorrect. Up to 300bp or so in length is a conservative estimate below which no problem will arise. Absolute coordinates of phosphate, base and basepair frame origins are still available for longer length molecules in the .fra output format. And from .fra output absolute PDB coordinates of each atom can be computed locally by suitably modifying available cgNA+ scripts.</dd>
+                  <br>
+                  <dt><b>Frames as .fra/.pfra file</b></dt>
+                  <dd>This will download a Curves+ .fra and .pfra format file describing the configuration of coordinate frames in the molecule. For both formats, the file contains one line per frame and each line contains the following columns: &lt;no of strand&gt; &lt;no of basepair&gt; &lt;d1_1&gt; &lt;d1_2&gt; &lt;d1_3&gt; &lt;d2_1&gt; &lt;d2_2&gt; &lt;d2_3&gt; &lt;d3_1&gt; &lt;d3_2&gt; &lt;d3_3&gt; &lt;r_1&gt; &lt;r_2&gt; &lt;r_3&gt; where the triples d1,d2,d3 are the (absolute, or laboratory, nondimensional) coordinates of the three vectors making up each orthonormal frame, and r is the (absolute) position of the frame (in Angstroms). The .fra file contains all the base frames while .pfra contains all the phosphate group frames.</dd>
+                  <br>
+                  <dt><b>Basepair frames as .fra file</b></dt>
+                  <dd> The same as above, but for the base-pair frames. </dd>
+                  <br>
+                  <dt><b>Shapes as .svg</b></dt>
+                  <dd>Downloads a zipped graphics file with all the plots of the internal coordinates as they are shown in the '2D Plots' tab, but without the interactivity.</dd>
+                  <br>
+                  <dt><b>Shapes as .txt</b></dt>
+      <dd>Downloads the internal configuration of the molecule as it appears in the cgDNA model. That is, a column vector containing (x_1,C_1,y_1,W_2,x_2,C_2,..., y_{n-1},W_{n-1}, x_n), where x_i, y_i, W_i, and C_i are real 6-vectors, and x_i contains the 6 intra coordinates, y_i the 6 inter coordinates, W_i the 6 reading strand base-to-phosphate coordinates, C_i the complementary strand base-to-phosphate coordinates, with translations in Angstrom, and the rotations in rad/5.</dd>
+                  <br>
+                  <dt><b>Stiffness matrix in CSC format, stored in JSON</b></dt>
+                  <dd>This will download a zipped file with all the stiffness matrices of the input sequences in compressed sparse column format in a JSON file. This can be used by <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csc_matrix.html">SciPy</a> by also using the <a href="https://docs.python.org/2/library/json.html">built in JSON decoder</a>.</dd>
+              </dl>
+
+              <!-- <p>There are currently some issues with the download functions under the Safari web browser, so we recommend using Firefox or Chrome to access this functionality. </p> -->
+
+
+                <h2 class="page-subtitle">Browser support</h2>
+                    <div class="tableContainer">
+                    <table cellspacing="0">
+                    		<tbody>
+                    			<tr>
+                    				<td>OS</td>
+                    				<td>Version</td>
+                    				<td>Chrome</td>
+                    				<td>Firefox</td>
+                    				<td>Microsoft Edge</td>
+                    				<td>Safari</td>
+                    			</tr>
+                    			<tr>
+                    				<td>Linux</td>
+                    				<td>Fedora 36</td>
+                    				<td>107.0 </td>
+                    				<td>107.0</td>
+                    				<td>n/a</td>
+                    				<td>n/a</td>
+                    			</tr>
+                    			<tr>
+                    				<td>MacOS</td>
+                    				<td>Ventura</td>
+                    				<td>107.0</td>
+                    				<td>107.0</td>
+                    				<td>n/a</td>
+                    				<td>16.1</td>
+                    			</tr>
+                    			<tr>
+                    				<td>Windows</td>
+                    				<td>11</td>
+                    				<td>107.0</td>
+                    				<td>107.0</td>
+                    				<td>105.0</td>
+                    				<td>n/a</td>
+                    			</tr>
+                    		</tbody>
+                    	</table>
+                        </div>
+
+<h2 class="page-subtitle">Resources used</h2> 
+<p>
+This website used <a href="https://threejs.org/">three.js</a> for visualisation of dsNA. 
+Plots are generated with the help of <a href="https://d3js.org/">d3.js</a>. 
+Symbols shown are from <a href="http://fontawesome.io/">Font Awesome</a>. 
+Zips are generated with <a href="https://stuk.github.io/jszip/">JSZip</a>. 
+Files are saved with <a href="https://github.com/eligrey/FileSaver.js/">FileSaver.js.</a> 
+Linear algebra calculations done with <a href="http://arma.sourceforge.net/">Armadillo</a>. 
+<a href="https://jquery.com/">jQuery</a> is also involved.</p>
+The cgNA+web code (both front- and back-end) is available <a href="https://github.com/rahul2512/cgNA_plus_web">here</a>.
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- POPUPS                                -->
+    <!-- ===================================== -->
+
+    <!-- CONTEXTMENU -->
+    <div id="contextdiv">
+        <div class="cmenu-item"><a id="center_base"><i class="fa fa-align-center fa-fw" aria-hidden="true"></i>Center on this base</a></div>
+        <div class="cmenu-item"><a id="center_bp"><i class="fa fa-align-justify fa-fw" aria-hidden="true"></i>Center on this basepair</a></div>
+        <div class="cmenu-item"><a id="view_origin"><i class="fa fa-eye fa-fw" aria-hidden="true"></i>Look at center/origin</a></div>
+        <!--<label class="cmenu-item" for="radio_plots"><a id="goto_plots"><i class="fa fa-line-chart fa-fw" aria-hidden="true"></i>Check shapes</a></label>-->
+        <!--<label class="cmenu-item" for="radio_about"><a id="goto_about"><i class="fa fa-info fa-fw" aria-hidden="true"></i>About</a></label>-->
+    </div>
+
+
+    <!-- INFO ABOUT DNA BASES -->
+    <div id="dna-info-popup" class="input-info-popup arrow_box">
+    </div>

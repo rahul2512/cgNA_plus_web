@@ -1,0 +1,53 @@
+package CgdnaWeb;
+
+use Mojo::Base 'Mojolicious';
+
+use Mojo::IOLoop::ReadWriteFork;
+
+# This method will run once at server start
+sub startup {
+  my $self = shift;
+
+  my $config = $self->plugin('Config');
+
+  $self->secrets([ $config->{secret} ]) if $config->{secret};
+
+  $self->log->format( sub {
+      my ($time, $level, @lines) = @_;
+      my @t = localtime(time);
+      return sprintf("[%04d%02d%02d %02d:%02d:%02d] [%s] %s\n",
+        $t[5] + 1900, $t[4] + 1, $t[3], $t[2], $t[1], $t[0],
+        $level,
+        join("\n", @lines),
+      );
+    }
+  );
+  $SIG{__WARN__} = sub {
+    my $m = shift;
+    chomp($m);
+    @_ = ($self->log, $m);
+    goto &Mojo::Log::warn;
+  };
+
+  
+  #$self->helper( forker => sub {
+  #my $c = shift;
+  #my $forker = Mojo::IOLoop::ReadWriteFork->new(config => $config);
+  #$forker->on('error' => sub { my ($forker, $error) = @_; warn "FORKER ERROR: $error"; });
+  #return $forker;
+  #}
+  #);
+
+  # Router
+  my $r = $self->routes;
+
+  $r->get('/view1')->to(controller => 'Viewer', action => 'view1');
+  $r->get('/data/:seq_id')->to(controller => 'DataProvider', action => 'data1');
+  $r->get('/data2/:seq_id')->to(controller => 'DataProvider', action => 'data2');
+  $r->post('/data2')->to(controller => 'DataProvider', action => 'data2');
+  $r->post('/data3')->to(controller => 'DataProvider', action => 'data3'); #Added by LdB
+  #$r->get('/charts1')->to(controller => 'Charts', action => 'charts1');
+
+}
+
+1;

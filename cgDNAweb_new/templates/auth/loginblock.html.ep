@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    $(function() { $("#wausername").focus(); });
+</script>
+ 
+% my $url = $self->tx->req->url;
+%# $url = '/view1';
+ 
+<form class="well" method="post" action="/login">
+   <input type="hidden" name="redirectedfrom" value="<%= $url %>">
+   <div class="form-group">
+     <label for="wamusername">Login name</label>
+     <input type="text" class="form-control" name="wamusername" id="wamusername" placeholder="Enter login name" autofocus>
+   </div>
+   <div class="form-group">
+     <label for="wampassword">Password</label>
+     <input type="password" class="form-control" name="wampassword" id="wampassword" placeholder="Enter password">
+   </div>
+   <br>
+   <button type="submit" class="btn btn-default">Login</button>
+</form>
+ 

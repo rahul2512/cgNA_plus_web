@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="cgDNAweb is an interface to allow interactive visualisation of the sequence-dependent ground state, or free energy minimizing, configuration of a DNA double helical fragment as predicted by the cgDNA model.">
+        <title><% title %></title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"></link>
+        <link rel="stylesheet"  href="stylesheet.css">
+        <!-- <link rel="stylesheet" href="stylesheet_mob.css"> -->
+        
+    </head>
+
+    <body>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="js/three.js"></script>
+        <script src="dnaModel.js"></script>
+        <script src="DNA.js"></script>
+        <script src="dnaView.js"></script>
+        <script src="dnaCharts.js"></script>
+        <script src="d3chart.js"></script>
+        <script src="dnaController.js"></script>
+        <script src="js/controls/OrbitControls.js"></script>
+        <script src="js/FileSaver.js"></script>
+        <script src="js/zip.js/WebContent/zip.js"></script>
+        <script src="js/zip.js/WebContent/zip-ext.js"></script>
+        <script src="js/zip.js/WebContent/zip-fs.js"></script>
+        <script src="js/zip.js/WebContent/inflate.js"></script>
+        <script src="js/zip.js/WebContent/deflate.js"></script>
+        <script src="js/sprintf.js"></script>
+        <!-- <script src="js/tstachl-slidr.css-b27b63b/slidr.min.css"></script> -->
+        <script src="js/numeric-1.2.6.min.js"></script>
+
+        <!-- begin page content -->
+        <%= content %>
+        <!-- end page content -->
+    
+    </body>
+</html>

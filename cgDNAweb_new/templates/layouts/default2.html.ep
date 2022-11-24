@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="cgDNAweb shows you the shape of the DNA sequence you have entered.">
+        <title>cgDNAweb</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"></link>
+        <link rel="stylesheet"  href="stylesheet2.css">
+    </head>
+
+    <body>
+        <input type="checkbox" id="slide_header">
+        <main>
+            <!-- begin page content -->
+            <%= content %>
+            <!-- end page content -->
+        </main>
+
+    </body>
+</html>

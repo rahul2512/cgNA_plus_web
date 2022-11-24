@@ -1,0 +1,65 @@
+Short documentation
+===================
+
+CSS
+===
+
+The website styling is done with SCSS/SASS, a CSS preprocessor. One therefore needs to only adjust the .scss files, and never touch the (generated) .css file. One compiles the SCSS/SASS with the following command:
+
+sass stylesheet.scss stylesheet.css
+
+Adding extra parametersets
+==========================
+
+To add extra parameter sets, the following needs to be done:
+    1) The file _input_slider.scss has a mixin right below the comment "//parameter set selection". If naming the new parameter set with a consecutive number, one can simply have the loop over j go for another value: add one to the value $n_seq_inputs, located at the top of the file. If another name is chosen, something else needs to be thought of, possibly typing out all possible instances again or using the more powerful mixin capabilities of SCSS. Check the documentation for this.
+    2) The script shapes_and_coords(_ps3).cpp needs to be able to parse the new value for the new parameter set. This is as easy as adding another if statement to he already existing ones.
+    3) In templates/viewer/view1.html.ep: An extra entry needs to be added to the parameter set selection dropdown for EACH seq input. This means adding an extra <li> ... </li> to <ul class="params_dropdown">. More powerful HTML preprocessors should/will be looked into.
+
+Compiling the data providing script
+===================================
+
+This binary is called make_shapes and is called somewhere in the perl script. The script itself comes from a c++ file, called shapes_and_coords.cpp, or possibly shapes_and_coords_ps3.cpp. The command to compile this script is as follows:
+
+clang++ -std=c++11 -O3 -march=native -I/opt/local/include -L/opt/local/lib rbDNA.cpp DNA_IO.cpp rbDNAutils.cpp ./shapes_and_coords_ps3.cpp -o ./make_shapes -larmadillo
+
+This assumes that the armadillo library is "installed" and accessible via the PATH. If this is not the case, then one needs to add -I/path/to/arma/lib to the command above. (armadillo is a header-only library)
+
+Program structure
+=================
+
+The viewer program is written in model-view-controller (MVC) style. The model (dnaModel.js) contains all necesssary data. The view (dnaView.js) provides the visuals to the user, and the controller (dnaController.js) provides the ability for the user to interact with the view (and possibly model).
+
+In the future, it might be good to include phophate frames in the website, to accomodate for cgDNA+. For that reason I will explain the necessary steps to complete here.
+
+First, the data structure of the DNA group in dnaView. The uppermost level is a group (THREE.Object3d) called "DNA_#" (# is a number 1--5) that contains 13 children.
+
+DNA_#
+ |
+ |-basesWatson                 -\
+ |                               \
+ |-basesCrick                     \
+ |                                 \
+ |-basepairs                        \
+ |                                   \
+ |-atomsWatson                        |- meshes
+ |                                   /
+ |-atomsCrick                       /
+ |                                 /
+ |-backboneWatson                 /
+ |                               /
+ |-backboneCrick               -/
+ |
+ |-baseFramesWatson             -\
+ |                                \
+ |-baseFramesCrick                 \
+ |                                  \
+ |-bpFrames                          \
+ |                                    |- frames
+ |-bpsFrames                         /
+ |                                  / 
+ |-phosphateFramesWatson           / 
+ |                                /
+ |-phosphateFramesCrick         -/
+
+To use phophates in the view, one needs to change the current addBackbone function from dnaView, and add individual rigid bodies, instead of the currently used tube mesh. This data also needs to be passed on to the view from the model. One will have to add a phophate mesh of some sorts, just like is done with the current base meshes.

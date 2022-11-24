@@ -1,0 +1,79 @@
+//#chart_table {
+//    display: table;
+//    @media screen and (max-width: $breakpoint_vertical_width) {
+//        display: block;
+//    }
+//    margin: 0 auto;
+//    width: 90vw;
+//}
+
+.chart_table {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "rot1 rot2 rot3"
+        "trans1 trans2 trans3";
+
+    @media screen and (max-width: 1100px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "rot1 trans1"
+            "rot2 trans2"
+            "rot3 trans3";
+    }
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+            "rot1"
+            "rot2"
+            "rot3"
+            "trans1"
+            "trans2"
+            "trans3";
+    }
+
+
+    //@media screen and (max-width: $breakpoint_vertical_width) {
+    //    display: block;
+    //}
+    margin: 0 auto;
+    //width: 90vw;
+}
+
+.rot1 {
+    grid-area: rot1;
+}
+.rot2 {
+    grid-area: rot2;
+}
+.rot3 {
+    grid-area: rot3;
+}
+.trans1 {
+    grid-area: trans1;
+}
+.trans2 {
+    grid-area: trans2;
+}
+.trans3 {
+    grid-area: trans3;
+}
+
+.chart {
+    //display: block;
+    //float: left;
+    //width: 30vw;
+    z-index: 1;
+    //@media screen and (max-width: $breakpoint_vertical_width) {
+    //    clear: both;
+    //    float: initial;
+    //    margin: 0 auto;
+    //    width: 90vw;
+    //}
+}
+

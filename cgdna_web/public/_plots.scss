@@ -1,0 +1,22 @@
+#chart_table {
+    display: table;
+    @media screen and (max-width: $breakpoint_vertical_width) {
+        display: block;
+    }
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.chart {
+    display: block;
+    float: left;
+    width: 30vw;
+    z-index: 1;
+    @media screen and (max-width: $breakpoint_vertical_width) {
+        clear: both;
+        float: initial;
+        margin: 0 auto;
+        width: 90vw;
+    }
+}
+

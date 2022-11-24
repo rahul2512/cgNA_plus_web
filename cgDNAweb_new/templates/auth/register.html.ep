@@ -1,0 +1,12 @@
+
+% title 'Site login';
+% layout 'standard';
+
+% my $url = $self->tx->req->url;
+
+<form class="well" method="post" action="/register">
+  <input type="text" class="input-small" placeholder="Username" name="username">
+  <input type="password" class="input-small" placeholder="Password" name="password">
+  <br>
+  <input type="submit" class="btn" value="Register">
+</form>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=utf-8>
+		<title>cgDNAjs: A cgDNA web viewer</title>
+		<style>
+			body { 
+                margin: 0;
+            }
+			canvas {
+                width: 400;
+                height: 100;
+            }
+            h1 {
+                font-family: verdana;
+                font-size: 50px;
+            }
+            h2 {
+                font-family: verdana;
+            }
+
+            header, footer {
+                padding: .1em;
+                color: white;
+                background-color: rgba(90,80,80,1.0);
+                clear: left;
+                text-align: center;
+            }
+            div.input {
+                padding: 1em;
+                color: white;
+                background-color: rgba(90,80,80,1.0);
+                clear: left;
+                text-align: center;
+            }
+            label {
+                font-family: verdana;
+                font-size: 30px;
+            }
+            input[type=text] {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #aaaaaa;
+                border: none;
+                color: #FFFFFF;
+                text-align: left;
+                font-size: 28px;
+                padding: 10px;
+                width: 400px;
+                margin: 5px;
+            }
+            button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #aaaaaa;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 28px;
+                padding: 10px;
+                width: 140px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+		</style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	<body>
+        <div>
+            <header>
+                <h1> cgDNAjs </h1>
+                <!-- <h2> A cgDNA web viewer</h2> -->
+            </header>
+        </div>
+        <div class="div input">
+            <label style="font-family:verdana"> Sequence
+                <input type="text" id="seq_input" value="" list="start_seqs">
+                <datalist id="start_seqs">
+                    <option label="all nucleotides" value ="ACGT">
+                    <option label="poly AT" value ="(AT)_20">
+                    <option label="A-tract" value ="(A_10 (GC)_2)_10">
+                </datalist>
+            </label>
+            <button type="submit" id="submit_seq">View</button><br>
+        </div>
+        <div id="canvas_div">
+            <canvas id="viewer"></canvas>
+        </div>
+		<script src="js/three.js"></script>
+		<script src="dnaModel.js"></script>
+		<script src="dnaView.js"></script>
+		<script src="dnaController.js"></script>
+        <script src="js/controls/OrbitControls.js"></script>
+		<!-- 
+        <script src="js/mousetrap.min.js"></script>
+        -->
+        <script src="js/numeric-1.2.6.min.js"></script>
+		<script src="cgDNAjs.js"></script>
+	</body>
+</html>

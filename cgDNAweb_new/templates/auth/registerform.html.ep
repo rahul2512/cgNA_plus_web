@@ -1,0 +1,10 @@
+
+% my $url = $self->tx->req->url;
+
+<form class="well" method="post" action="/register">
+  <input type="text" class="input-small" placeholder="First name" name="reguserfirstname">
+  <input type="text" class="input-small" placeholder="Last name" name="reguserlastname">
+  <input type="text" class="input-small" placeholder="Email" name="reguseremail">
+  <br>
+  <input type="submit" class="btn" value="Register">
+</form>

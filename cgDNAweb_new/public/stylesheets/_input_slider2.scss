@@ -1,0 +1,394 @@
+$n_seq_inputs: 4;
+$n_paramsets: 4;
+
+.search_wrapper {
+    position: relative;
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+    display: grid;
+    height: $input_field_height;
+    border-width: 3px;
+    border-color: $header_color_lightest; //#eeeeee;
+    border-style: solid;
+    border-radius: 50vh;
+    background-color: white;
+    grid-template-columns: 1fr 100px 120px;
+    grid-template-areas: "seq_input paramsets go";
+
+    @media screen and (max-width: 700px) {
+        grid-template-columns: 1fr 1fr 100px 120px;
+        gap: 0.5rem;
+        //grid-template-rows: auto;
+        grid-template-areas: "seq_input seq_input seq_input seq_input" 
+                             ". . paramsets go";
+    }
+
+    > div.text_wrapper {
+        position: relative;
+        width: 100%;
+        grid-area: seq_input;
+
+        >input.field {
+            font-family: 'Montserrat', sans-serif;
+            color: $navbar_font_color_darkest;
+            font-size: 1.7rem;
+            text-indent: 20px;
+            background-color: transparent;
+            line-height: normal;
+            border-width: 3px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 50vh 0px 0px 50vh;
+            max-height: $input_field_height;
+            border: 0;
+            //min-width: 300px;
+            height: 100%;
+            @media screen and (max-width: 700px) {
+                height: 3rem;
+            }
+            width: 100%
+        }
+
+        >.remove_seq_button {
+            display: block;
+            opacity: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+
+            position: absolute;
+            top: 30%;
+            right: 1rem;
+
+            width: 20px;
+            min-width: 20px;
+            height: 20px;
+            border-radius: 50vh 50vh 50vh 50vh;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            z-index: 300;
+
+	        -webkit-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	        -moz-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            -ms-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            -o-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+            transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+
+            &:hover {
+                color: #ff0000;
+                border-color: #ff0000;
+            }
+
+            &:before {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);//, -25px);
+                font-size: 0.6rem;
+                //margin: 0 auto;
+                font-family: 'FontAwesome';
+                content: "\f00d"
+            }
+        }
+    }
+
+    .params_dropdown_wrapper {
+        display: grid;
+        grid-area: paramsets;
+        position:relative;
+        //order: 2;
+        font-family: 'Montserrat', sans-serif;
+        color: $navbar_font_color_darkest;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: $navbar_font_color;
+        border-width: 3px;
+        border-color: white;
+        border-style: solid;
+        border-right: 2px;
+        @media screen and (max-width: 700px) {
+            height: 2.6rem;
+            border-width: 3px;
+            border-color: white;
+            border-style: solid;
+        }
+
+
+        &:hover {
+            background-color: $navbar_hover_color;
+
+            > .params_dropdown {
+                z-index: 1000;
+                background: $navbar_font_color_darker;
+                display: inline-block;
+            }
+        }
+
+        input[type=radio] {
+            display: none;
+        }
+
+        .params_dd_label {
+            justify-self: center;
+            align-self: center;
+            font-size: 1.5rem;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+
+            &:before {
+                content: "PS4";
+            }
+
+            &:after {
+                font-family: 'FontAwesome';
+                content: "\f0d7";
+                vertical-align: middle;
+                padding-left: 0.5rem;
+            }
+        }
+
+        .params_dropdown {
+            display: none;
+            position: absolute;
+            float: right;
+            list-style: none;
+            overflow: hidden;
+            padding-left: 0;
+            text-align: left;
+
+            background-color: #ffffff;
+            color: $navbar_font_color_darkest;
+
+            border-top: 2px solid $navbar_font_color_lighter;
+            border-left: 2px solid $navbar_font_color_lighter;
+            border-bottom: 2px solid $navbar_font_color_lighter;
+            border-right: 2px solid $navbar_font_color_lighter;
+
+            width: 10rem;
+        	//border: 4px solid #5bb2f5;// $navbar_font_color;
+            z-index: 100;
+
+            //need to be in this order?
+            margin: 0;
+            transform: translateY(0.9*$input_field_height);
+            top: 0px;
+            left: 0px;
+
+
+            li {
+                width: 100%;
+                list-style: none;
+                padding-left: 0.5rem;
+                padding-right: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color: white;
+
+                &:hover {
+                    background-color: $navbar_color_darkest;
+                    color: white;
+                }
+
+                &:first-child {
+                      //padding: 5px 0px;
+                }
+
+                &:last-child {
+                    //padding: 5px 0px;
+                }
+
+                &:hover {
+                    background: $navbar_font_color_darker;
+                    color: #ffffff;
+                }
+
+                label {
+                    //padding: 5px 15px;
+                }
+
+            }
+        }
+
+        //parameter set selection, parameter sets are numbered 1 through 3, may need to do something different if not numbered like this.
+        @for $i from 1 through $n_seq_inputs { //loop over inputs
+            @for $j from 1 through $n_paramsets { //loop over parameter sets
+                #input#{$i}_radio_ps#{$j}:checked ~ .params_dd_label:before {
+                    content: "PS#{$j}";
+                }
+            }
+            //add the cgDNA+ paramset
+            #input#{$i}_radio_ps_plus1:checked ~ .params_dd_label:before {
+                content: "PS4";
+            }
+        }
+    }
+
+    button {
+        grid-area: go;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6rem;
+
+        height: 100%;
+        @media screen and (max-width: 700px) {
+            border-radius: 0;
+        }
+        border-width: 3px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 0px 50vh 50vh 0px;
+        background-color: $header_color_lighter; //#dedeff;
+        color: $navbar_font_color_lightest;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        position: relative;
+
+        &:hover {
+            //background-color: rgba(175, 175, 255, 255);
+            background-color: $header_color_lightest;
+        }
+
+        > i {
+            position: absolute;
+            right: 5%;
+            top: 10%;
+            font-size: 2rem;
+            transform: translateY(-50%);//, -25px);
+        }
+    }
+}
+
+#slide_wrapper {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    //overflow: hidden;
+    > input[type=radio] {
+        display:none;
+    }
+}
+
+#input_slider {
+    //height: 60%;
+    align-self: end;
+    width: $n_seq_inputs * 100%;
+    @media screen and (max-width: 700px) {
+        height: 100%;
+    }
+    z-index: 100; //needed to have the paramset dropdown not disappear when over active_slide
+    //position: relative; //also needed to have the paramset dropdown not disappear when over active_slide
+
+    -webkit-transform: translateZ(0);
+	-webkit-transition: margin-left 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	-moz-transition: margin-left 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    -ms-transition: margin-left 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+     -o-transition: margin-left 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000);
+        transition: margin-left 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+}
+
+.slide {
+    display: grid;
+    float: left;
+    width: 100% / $n_seq_inputs;
+    height: 100%;
+}
+
+.active_slide {
+    align-self: end;
+    display: flex;
+    transform: translateY(-40px);
+    @media screen and (max-width: 1101px) {
+        transform: translateY(-20px);
+    }
+    margin: 0 auto;
+
+    //> .active_slide_positioning {
+    //display: flex;
+    justify-content: space-evenly;
+    //margin: 0 auto;
+    width: 150px;
+
+
+    > label {
+        border-radius: 50vh;
+        height: 10px;
+        width: 10px;
+        margin: 5px 8px;
+        background: $navbar_font_color_lightest; //#aaaaaa;
+
+        &:hover {
+            background: $navbar_font_color_lighter; //#444444;
+            cursor: pointer;
+        }
+    }
+}
+
+#input1_radio:checked {
+    //~ .active_slide>.active_slide_positioning>label:nth-child(1) {
+    ~ .active_slide>label:nth-child(1) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: 0;
+    }
+}
+
+#input2_radio:checked {
+    //~ .active_slide>.active_slide_positioning>label:nth-child(2) {
+    ~ .active_slide>label:nth-child(2) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: -100%;
+    }
+}
+
+#input3_radio:checked {
+    //~ .active_slide>.active_slide_positioning>label:nth-child(3) {
+    ~ .active_slide>label:nth-child(3) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: -200%;
+    }
+}
+
+#input4_radio:checked {
+    //~ .active_slide>.active_slide_positioning>label:nth-child(4) {
+    ~ .active_slide>label:nth-child(4) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: -300%;
+    }
+}
+
+//==============================================================================================================================
+//  LOGIN PAGE
+//==============================================================================================================================
+
+header > .top_wrapper > .input_wrapper {
+    > #input_username {
+        display: block;
+        float: both;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    > #input_password {
+        display: block;
+        float: both;
+        position: absolute;
+        top: 45%;
+        left: 10%;
+    }
+    > #login_submit {
+        display: block;
+        float: both;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+}

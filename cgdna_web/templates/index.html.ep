@@ -1,0 +1,63 @@
+% title 'cgdna home';
+% layout 'default';
+
+    <header id="header">
+        <div class="top_wrapper">
+            <div class="title_wrapper">
+                <h1 class="noselect"> cgDNAweb </h1>
+                <h2 class="noselect"> A web-based viewer for the cgDNA model</h2>
+                <a href="https://epfl.ch/">
+                    <img src="EPFL-Logo-CMJN.svg" alt="EPFL logo">
+                </a>
+                <a href="http://lcvmwww.epfl.ch/">
+                    <img src="LCVMMlogo_nobackground.svg" alt="LCVMM logo">
+                </a>
+                <a href="http://lcvmwww.epfl.ch/research/cgDNA/">
+                    <img src="cgDNA_logo_small.svg" alt="cgDNA logo">
+                </a>
+            </div>
+
+            <div class="input_wrapper"> 
+
+% unless ( $c->is_loggedin ) {
+%= include 'auth/loginblock'
+% }
+ 
+            </div>
+        </div>
+
+<!-- NAVBAR -->
+        <div class="nav noselect">
+        </div>
+
+
+% if ( $c->is_loggedin ) {
+    <h1> Go to visualization module  </h1>
+    <a href="/view1"> view it </a>
+% }
+
+
+    </header>
+
+<!--VIEWER -->
+    <div class="canvas_content" id="3dview_content">
+        <div id="canvas_div">
+            <canvas id="viewer"></canvas>
+        </div>
+    </div>
+
+<!--PLOTS -->
+    <div class="content" id="plots_content">
+        <div class="plot-content">
+        </div>
+    </div>
+
+    <div class="content" id="contact_content">
+        <div class="text-content">
+        </div>
+    </div>
+
+    <div class="content" id="about_content">
+        <div class="text-content">
+        </div>
+    </div>

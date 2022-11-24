@@ -1,0 +1,513 @@
+$n_seq_inputs: 4;
+$n_paramsets: 4;
+
+.search_wrapper {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-25%);//, -25px);
+    //height: 50px;
+    height: $input_field_height;
+    min-width: 650px;
+    max-width: 50vw;
+    border-width: 3px;
+    border-color: $header_color_lightest; //#eeeeee;
+    border-style: solid;
+    border-radius: 0.5*$input_field_height;
+    background-color: white;
+                
+    @media screen and (max-width: $breakpoint_vertical_width) {
+        min-width: 50px;
+        max-width: 90vw;
+    }
+    
+
+    //info-thing
+    > .input_info_wrapper {
+        position: absolute;
+        color: $navbar_font_color_lighter;
+        left: -10%;
+
+        &:hover {
+            i {
+                color: #ffffff;
+            }
+
+            .input-info-popup {
+                display: inline-block;
+                position: absolute;
+                list-style: none;
+                left: -100%;
+                padding: 5px 5px;
+                width: 200px;
+                color: $navbar_font_color_darkest;
+            }
+        }
+    }
+
+    .field {
+        font-family: 'Raleway', sans-serif;
+        color: $navbar_font_color_darkest;
+        position: relative;
+        height: 100%;
+        //width: 64%;
+        @media screen and (min-width: 1501px) {
+            width: 64%;
+        }
+        @media screen and (max-width: 1500px) {
+            width: 59%;
+        }
+        
+        float:left;
+        font-size: 1.7rem;
+        text-indent: 20px;
+        background-color: transparent;
+        line-height: normal;
+        border-width: 3px;
+        border-color: black;
+        border-style: solid;
+        //border-radius: 25px 0px 0px 25px;
+        border-radius: 0.5*$input_field_height 0px 0px 0.5*$input_field_height;
+        max-height: $input_field_height;
+        border: 0;
+        
+        &:focus ~ button {
+            background-color: $header_color_complement;
+
+            &:hover {
+                background-color: $header_color_complement_lighter;
+            }
+        }
+    }
+
+
+    .remove_seq_button {
+        display:block;
+        opacity: 0;
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+        color: $header_color_complement2_lightest;
+        background-color: $header_color_complement2;
+        
+        position: absolute;
+        top: 0px;
+        //right: 24%; 
+        @media screen and (min-width: 1501px) {
+            right: 24%;
+        }
+        @media screen and (max-width: 1500px) {
+            right: 33%;
+        }
+        
+        width: 5%;
+        min-width: 50px;
+        height: 100%;
+        border-radius: 0.5*$input_field_height 0px 0px 0.5*$input_field_height;
+        border-width: 3px;
+        border-color: white;
+        border-style: solid;
+        z-index: 300;
+
+	    -webkit-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+	    -moz-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+        -ms-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+        -o-transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+        transition: opacity 10ms linear;// cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+
+        &:hover {
+            color: #ffffff;
+        }
+
+        &:before {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-53%);//, -25px);
+            font-size: 2.5rem;
+            //margin: 0 auto;
+            font-family: 'FontAwesome';
+            content: "\f00d"
+        }
+    }
+
+    .params_dropdown_wrapper {
+        box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+        color: $navbar_font_color_darkest;
+        position: absolute;
+        top: 0px;
+        @media screen and (min-width: 1501px) {
+            right: 14.5%;
+            width: 10%;
+        }
+        @media screen and (max-width: 1500px) {
+            right: 19%;
+            width: 15%;
+        }
+        height: 100%;
+        border-width: 3px;
+
+        background: $navbar_font_color;
+        border-width: 3px;
+        border-color: white;
+        border-style: solid;
+
+
+
+        &:hover {
+            background-color: $navbar_hover_color;
+
+            > .params_dropdown {
+                background: $navbar_font_color_darker;
+                display: inline-block;
+            }
+        }
+
+        input[type=radio] {
+            display: none;
+        }
+
+        .params_dd_label {
+            position: absolute;
+            width: 100%;
+            top: 20%;
+            left: 20%;
+            font-size: 1.5rem;
+            font-family: "Raleway", sans-serif;
+            color: white;
+
+            &:before {
+                content: "PS4";
+            }
+
+            &:after {
+                //top: 20%;
+                //right: 20%;
+                position: absolute;
+                display: block;
+                top: 50%;
+                right: 35%;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                font-family: 'FontAwesome';
+                content: "\f0d7";
+                vertical-align: middle;
+                line-height: normal;
+
+            }
+        }
+        
+        .params_dropdown {
+            display: none;
+            position: absolute;
+            float: right;
+            list-style: none;
+            overflow: hidden;
+            padding-left: 0;
+            text-align: left;
+            
+            background-color: #ffffff;
+            color: $navbar_font_color_darkest;
+            
+            border-top: 2px solid $navbar_font_color_lighter;
+            border-left: 2px solid $navbar_font_color_lighter;
+            border-bottom: 2px solid $navbar_font_color_lighter;
+            border-right: 2px solid $navbar_font_color_lighter;
+            
+            display: none;
+            width: 10rem;
+        	//border: 4px solid #5bb2f5;// $navbar_font_color;
+            z-index: 100;
+
+            //need to be in this order?
+            margin: 0;
+            transform: translateY(0.9*$input_field_height);
+
+            
+            li {
+                width: 100%;
+                list-style: none;
+                padding-left: 0.5rem;
+                padding-right: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color: white;
+
+                &:hover {
+                    background-color: $navbar_color_darkest;
+                    color: white;
+                }
+                
+                &:first-child {
+                      //padding: 5px 0px;
+                }
+
+                &:last-child {
+                    //padding: 5px 0px;
+                }
+
+                &:hover {
+                    background: $navbar_font_color_darker;
+                    color: #ffffff;
+                }
+                
+                label {
+                    //padding: 5px 15px;
+                }
+                
+            }
+        }
+
+        //parameter set selection, parameter sets are numbered 1 through 3, may need to do something different if not numbered like this.
+        @for $i from 1 through $n_seq_inputs { //loop over inputs
+            @for $j from 1 through $n_paramsets { //loop over parameter sets
+                #input#{$i}_radio_ps#{$j}:checked ~ .params_dd_label:before {
+                    content: "PS#{$j}";
+                }
+            }
+        }
+    }
+
+    button {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.6rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        //width: 15%;
+        @media screen and (min-width: 1501px) {
+            width: 15%;
+        }
+        @media screen and (max-width: 1500px) {
+            width: 20%;
+        }
+        border-width: 3px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 0px 0.5*$input_field_height 0.5*$input_field_height 0px;
+        background-color: $header_color_lighter; //#dedeff;
+        color: $navbar_font_color_lightest;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+        &:hover {
+            //background-color: rgba(175, 175, 255, 255);
+            background-color: $header_color_lightest;
+        }
+
+        > i {
+            display: inline-block;
+            position: absolute;
+            right: 5%;
+            top: 10%;
+            font-size: 2rem;
+            transform: translateY(-50%);//, -25px);
+        }
+    }
+}
+
+#slide_wrapper {
+    width: 100%;
+    height: 100%;
+    //overflow: hidden;
+    > input[type=radio] {
+        display:none;
+    }
+}
+
+#input_slider {
+    position:relative;
+    display:block;
+    height: 75%;
+    width: $n_seq_inputs * 100%;
+    z-index: 100; //needed to have the paramset dropdown not disappear when over active_slide
+
+    -webkit-transform: translateZ(0);
+	-webkit-transition: all 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+	-moz-transition: all 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+    -ms-transition: all 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+     -o-transition: all 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+        transition: all 800ms;// cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+}
+
+.slide {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 100% / $n_seq_inputs;
+    height: 100%;
+}
+
+/* TODO fix and add later
+#slide_controls {
+    position: absolute;
+    margin: 10px 0 0 0;
+    width: 100%;
+    //height: 0vh;
+    height: 50px;
+
+    >label {
+        position: relative;
+        //display: none;
+        opacity: 0.5;
+        width: 30px;
+        height: 30px;
+    
+        -moz-transition:opacity 300ms;// ease-in;
+        -webkit-transition:opacity 300ms;// ease-in;
+        -o-transition:opacity 300ms;// ease-in;
+        transition:opacity 300ms;// ease-in;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+#input1_radio:checked ~ #slide_controls>label:nth-child(2):before,
+#input2_radio:checked ~ #slide_controls>label:nth-child(3):before,
+#input3_radio:checked ~ #slide_controls>label:nth-child(4):before,
+#input4_radio:checked ~ #slide_controls>label:nth-child(1):before {
+    float: right;
+    margin: 0 0 0 0;
+    font-size: 4rem;
+    display: block;
+    font-family: 'FontAwesome';
+    content: "\f054"
+}
+
+#input1_radio:checked ~ #slide_controls>label:nth-child(2),
+#input2_radio:checked ~ #slide_controls>label:nth-child(3),
+#input3_radio:checked ~ #slide_controls>label:nth-child(4),
+#input4_radio:checked ~ #slide_controls>label:nth-child(1) {
+    float: right;
+    margin: 0 0 0 0;
+    font-size: 4rem;
+    display: block;
+}
+
+#input1_radio:checked ~ #slide_controls>label:nth-child(4):before,
+#input2_radio:checked ~ #slide_controls>label:nth-child(1):before,
+#input3_radio:checked ~ #slide_controls>label:nth-child(2):before,
+#input4_radio:checked ~ #slide_controls>label:nth-child(3):before {
+    float: left;
+    margin: 0 0 0 10%;
+    font-size: 4rem;
+    display: block;
+
+    font-family: 'FontAwesome';
+    content: "\f053"
+}
+
+#input1_radio:checked ~ #slide_controls>label:nth-child(4),
+#input2_radio:checked ~ #slide_controls>label:nth-child(1),
+#input3_radio:checked ~ #slide_controls>label:nth-child(2),
+#input4_radio:checked ~ #slide_controls>label:nth-child(3){
+    float: left;
+    margin: 0 0 0 5%;
+    font-size: 4rem;
+    display: block;
+}
+*/
+
+.active_slide {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 15%;
+
+    > .active_slide_positioning {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);//, -25px);
+
+
+        > label {
+            -webkit-border-radius: 5px;
+	        -moz-border-radius: 5px;
+            border-radius: 5px;
+            position: relative;
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            margin: 5px 8px;
+            background: $navbar_font_color_lightest; //#aaaaaa;
+
+            &:hover {
+                background: $navbar_font_color_lighter; //#444444;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#input1_radio:checked {
+    ~ .active_slide>.active_slide_positioning>label:nth-child(1) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: 0;
+    }
+}
+
+#input2_radio:checked {
+    ~ .active_slide>.active_slide_positioning>label:nth-child(2) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: -100%;
+    }
+}
+
+#input3_radio:checked {
+    ~ .active_slide>.active_slide_positioning>label:nth-child(3) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: -200%;
+    }
+}
+
+#input4_radio:checked {
+    ~ .active_slide>.active_slide_positioning>label:nth-child(4) {
+        background: $header_color_complement_lighter;
+    }
+    ~ #input_slider {
+        margin-left: -300%;
+    }
+}
+
+//==============================================================================================================================
+//  LOGIN PAGE
+//==============================================================================================================================
+
+header > .top_wrapper > .input_wrapper {
+    > #input_username {
+        display: block;
+        float: both;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    > #input_password {
+        display: block;
+        float: both;
+        position: absolute;
+        top: 45%;
+        left: 10%;
+    }
+    > #login_submit {
+        display: block;
+        float: both;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+}

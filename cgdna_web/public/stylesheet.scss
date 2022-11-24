@@ -1,0 +1,631 @@
+//import andy, a sass mixin library:
+@import "./andy-master/andy";
+
+//BREAKPOINTS
+$breakpoint1_width: 540px;
+$breakpoint1_height: 700px;
+
+$breakpoint_vertical_width: 1100px;
+$breakpoint_vertical_height: 800px;
+
+$navbar_icon_appear_width: 1000px;
+//====================
+//      COLOURS
+//====================
+$header_color: #2089df; //#dedede;
+$header_color_lighter: #469ce4; //#dedede;
+$header_color_lightest: #70b2e9; //#dedede;
+$font-color: #000000;
+$navbar_color: #1A6EB2;//#cccccc;
+$navbar_color_darker: #1A6EB2;//#cccccc;
+$navbar_color_darkest: #055597;//#cccccc;
+$navbar_hover_color: #A6CBEE;//#333333;
+$navbar_hover_color2: #555555;
+$navbar_font_color: #469CE4; //#666666;
+$navbar_font_color_lighter: #A6D0F2;
+$navbar_font_color_lightest: #F7FFFF;
+$navbar_font_color_darker: #055597;
+$navbar_font_color_darkest: #023762;
+
+$header_color_complement: #FFC615;
+$header_color_complement_lighter: #FFD142;
+
+$header_color_complement2: #FF5B15;
+$header_color_complement2_lightest: #FF9B71;
+$header_color_complement2_lighter: #FF7A42;
+$header_color_complement2_darker: #FF4C00;
+$header_color_complement2_darkest: #EA4600;
+
+//====================
+//  HEIGHTS AND WIDTHS
+//====================
+
+$min_header_width: 1100px;
+$header_height: 20vh;
+$header_height_small_screen: 32vh;
+$min_header_height: 200px;
+$max_header_height: 300px;
+//$navbar_height: 45px;
+$navbar_height: 3rem;
+$slide_indicator_height: 25px;
+$padding-top-text-tabs: 20vh;
+$padding-top-text-tabs_small_screen: 32vh;
+
+$input_field_height: 3rem;
+
+.noselect {
+       -moz-user-select: none;
+        -ms-user-select: none;
+    -webkit-user-select: none;
+  -webkit-touch-callout: none;
+     -khtml-user-select: none;
+            user-select: none;
+}
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 16px;
+    @include mquery-r(600px) {
+        font-size: 15px;
+    }
+    @include mquery-r(900px) {
+        font-size: 17px;
+    }
+    @include mquery-r(1200px) {
+        font-size: 18px;
+    }
+    @include mquery-r(1500px) {
+        font-size: 18px;
+    }
+    
+}
+
+.input, {
+    display: none;
+}
+
+
+/*===============================================================*/
+/* HEADER ITSELF */
+/*===============================================================*/
+
+header {
+    position:relative;
+    float: left;
+    width: 100vw;
+    min-width: $min_header_width;
+    //min-height: $min_header_height; //use media queries, otherwise can't use slide header
+    height: $header_height;
+    @media screen and (max-height: 1100px) {
+        height: $header_height_small_screen;
+    }
+    @media screen and (max-width: $breakpoint_vertical_width) {
+        height: 1.4*$header_height_small_screen;
+        min-width: 0;
+    }
+    z-index: 90; //needed to have the params_dropdown show above the navbar
+    
+    -moz-transition: transform 300ms;// ease-in;
+    -webkit-transition: transform 300ms;// ease-in;
+    -o-transition: transform 300ms;// ease-in;
+    transition: transform 300ms;// ease-in;
+
+    background-color: $header_color;
+    background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(255,255,255,.04) 10px,
+        rgba(255,255,255,.04) 12px
+    );
+
+    .top_wrapper {
+        position: relative;
+        display: block;
+        float: left;
+        height: calc(100% - #{$navbar_height});
+        width: 100%;
+
+        .title_wrapper {
+            display: inline-block;
+            position: relative;
+            background-color: $header_color;
+            background-image: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,.04) 10px,
+                rgba(255,255,255,.04) 12px
+            );
+            float: left;
+            width: 30%;
+            height: 100%;
+            z-index: 200;
+            font-family: 'Abril Fatface', cursive;
+            text-align: center;
+
+            @media screen and (max-width: $breakpoint_vertical_width) {
+                display: block;
+                clear: both;
+                width: 100%;
+                height: 50%;
+            }
+            
+            
+            h1 {
+                display: block;
+                position: relative;
+                margin: 0 auto;
+                margin-top: 3%;
+                width: 100%;
+                //height: 30%;
+                font-size: 4rem;
+                color: #ffffff;
+                //top: 0; left: 0; bottom: 0; right: 0;
+                text-shadow: 15px 15px $navbar_color_darker;
+
+                @media screen and (max-width: $breakpoint_vertical_width) {
+                    display: inline-block;
+                    //float:left;
+                    //width: 30%;
+                    position: absolute;
+                    margin: 0;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-25%);//, -25px);
+                
+                }
+            }
+
+            h2 {
+                display: block;
+                position: relative;
+                margin: 0 auto;
+                margin-top: 2%;
+                width: 100%;
+                //height: 50%;
+                font-family: 'Raleway', sans-serif;
+                font-size: 1.5rem;
+                @media screen and (max-height: 1100px) {
+                    font-size: 1.0rem;
+                }
+                color: #ffffff;
+                //top: 0; left: 0; bottom: 0; right: 0;
+                text-shadow: 2px 2px $navbar_color_darker;
+
+                @media screen and (max-width: $breakpoint_vertical_width) {
+                    display: none;
+                    //float:right;
+                    //width: 60%;
+                    width: 0;
+                    height: 0;
+                    //margin-top: 7%;
+                }
+            }
+
+            >a >img {
+                display: inline-block;
+                width: 14%;
+                cursor: pointer;
+                padding: 5px 10px;
+                //border: 3px solid #000;
+                @media screen and (max-width: $breakpoint_vertical_width) {
+                    float:left;
+                    width: 13%;
+                }
+                border: 1px;
+            }
+
+            >a > #cgDNAlogo {
+                width: 22%;
+            }
+
+
+        }
+
+        .input_wrapper {
+            display: inline-block;
+            position: relative;
+            float: right;
+            width: 70%;
+            height: 100%;
+            z-index: 100; //needed to have the params_dropdown show above the navbar
+            @media screen and (max-width: $breakpoint_vertical_width) {
+                display: block;
+                clear:both;
+                width: 100%;
+                height: 50%;
+            }
+        }    
+    }
+}
+
+#getting_started_button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 10vmax;
+    height: 2.5vmax;
+    background: $header_color_complement2;
+    //top: 80%;
+    color: #ffffff;
+    z-index: 300;
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    font-size: 1.8vmax;
+
+    &:hover {
+        background: $header_color_complement2_lighter;
+    }
+
+    &:active {
+        background: $header_color_complement2_lightest;
+    }
+
+    > span {
+        display: table;
+        position: relative;
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+#start_instructions {
+    white-space: nowrap;
+    position: relative;
+    display: block;
+    width: 40vw;
+    height: 30vh;
+    margin: 0 auto;
+    margin-top: 7vh;
+    //left: 50%;
+    //top: 50%;
+    //-webkit-transform: translate(-50%, -50%);
+    //transform: translate(-50%, -50%);
+    //font-size: 2.6rem;
+    clear: both;
+    z-index:5000;
+
+    p {
+        position: relative;
+        clear: both;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3vmax;
+        padding-top: 10%;
+        margin: 0 auto;
+        left: 10%;
+
+        &:first-child {
+            &:before, &:after {
+                //position: absolute;
+                //left: 130%;
+                //top: 50%;
+                font-size: 7vmax;
+                font-family: 'FontAwesome';
+                content: "\f176";
+            }
+        }
+
+    }
+
+    > .sequence {
+        position: relative;
+        clear: both;
+        display: block;
+        width: 150%;
+        left:50%;
+        //top: 20%;
+        margin-top: 18%;
+        margin-bottom: 10%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 5vmax;
+
+        > .ua {
+            &:before {
+                font-size: 3vmax;
+                position: absolute;
+                top: 100%;
+                font-family: 'FontAwesome';
+                content: "\f176";
+            }
+        }
+
+        > #instr_seq_paren {
+            &:after {
+                position: absolute;
+                top: 100%;
+                //left: -50%;
+                -webkit-transform: translate(-60%, 300%);
+                transform: translate(-90%, 300%);
+                font-family: 'Raleway', sans-serif;
+                font-size: 1vmax;
+                content: 'Parentheses to repeat subsequences'
+            }
+        }
+
+        > #instr_seq_repeat {
+            &:after {
+                position: absolute;
+                top: 100%;
+                //left: -50%;
+                -webkit-transform: translate(-150%, 300%);
+                transform: translate(-150%, 300%);
+                font-family: 'Raleway', sans-serif;
+                font-size: 1vmax;
+                content: 'Repeats with _#'
+            }
+        }
+
+        > .da {
+            &:before {
+                font-size: 3vmax;
+                position: absolute;
+                bottom: 50%;
+                font-family: 'FontAwesome';
+                content: "\f175";
+            }
+        }
+        > #instr_seq_brackets {
+            &:after {
+                position: absolute;
+                bottom: 50%;
+                -webkit-transform: translate(-70%, -300%);
+                transform: translate(-70%, -300%);
+                font-family: 'Raleway', sans-serif;
+                font-size: 1vmax;
+                content: 'View is centered on the bracketed basepair'
+            }
+        }
+    }
+
+}
+
+/*===========================================================================*/
+/*  TABS                                                                     */
+/*===========================================================================*/
+
+#radio_3dview:checked ~ #3dview_content {
+    background: #ffffff;
+    display: block;
+}
+
+#radio_plots:checked ~ #plots_content {
+    background: #ffffff;
+    display: block;
+    overflow-y: scroll;
+}
+
+#radio_contact:checked ~ #contact_content {
+    background: #ffffff;
+    display: block;
+}
+
+#radio_about:checked ~ #about_content {
+    background: #ffffff;
+    display: block;
+    overflow-y: scroll;
+}
+
+#radio_3dview:checked ~ header .nav #label_3dview,
+#radio_3dview:checked ~ header .nav #label_settings,
+#radio_plots:checked ~ header .nav #label_plots,
+#radio_contact:checked ~ header .nav #label_contact,
+#radio_about:checked ~ header .nav #label_about {
+    //background: $header_color;
+    background-color: $header_color;
+    background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(255,255,255,.04) 10px,
+        rgba(255,255,255,.04) 12px
+    );
+    color: $navbar_font_color_lightest;
+    //-webkit-box-shadow: 0px 0px 40px 40px rgba(0,0,0,0.2);
+    //-moz-box-shadow: 0px 0px 40px 40px rgba(0,0,0,0.2);
+    //box-shadow: 0px 0px 40px 40px rgba(0,0,0,0.2);
+}
+
+.canvas_content {
+    width: 100vw;
+    height: 97vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 97vh;
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
+
+.plot-content {
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 90vw;
+    font-family: 'Raleway', sans-serif;
+    padding-top: $padding-top-text-tabs;
+    padding-bottom: 3rem;
+    @media screen and (max-height: 1100px) {
+        padding-top: $padding-top-text-tabs_small_screen;
+    }
+    -moz-transition:all 300ms;// ease-in;
+    -webkit-transition:all 300ms;// ease-in;
+    -o-transition:all 300ms;// ease-in;
+    transition:all 300ms;// ease-in;
+}
+
+.text-content {
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 70vw;
+    font-family: 'Raleway', sans-serif;
+    padding-top: $padding-top-text-tabs;
+    padding-bottom: 3rem;
+    @media screen and (max-height: 1100px) {
+        padding-top: $padding-top-text-tabs_small_screen;
+    }
+    -moz-transition:all 300ms;// ease-in;
+    -webkit-transition:all 300ms;// ease-in;
+    -o-transition:all 300ms;// ease-in;
+    transition:all 300ms;// ease-in;
+
+    h2 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: normal;
+    }
+
+    h3 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: normal;
+    }
+
+    > ul {
+        display: block;
+        > li {
+            list-style: none;
+            border-left: 3px solid $navbar_font_color;
+            padding-left: 10px;
+        }
+    }
+
+    dl {
+        border-left: 2px solid $navbar_font_color;
+        padding-left: 10px;
+        dt {
+            font-style: italic;
+        }
+    }
+}
+
+.page-title {
+    border-bottom: 3px double $navbar_font_color;
+    border-top: 3px double $navbar_font_color;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.page-subtitle {
+    border-bottom: 2px solid $navbar_font_color_lighter;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+@import "navbar";
+@import "input_slider";
+@import "plots";
+
+/*===============================================================*/
+/*  Context menu                                                 */
+/*===============================================================*/
+
+#contextdiv {
+    width: 300;
+    height: 300;
+    z-index: 20;
+    position: absolute;
+    display: none;
+    background: $navbar_font_color_lighter;
+}
+
+.cmenu-item {
+    display: block;
+
+    a {
+        display: block;
+        width: auto;
+        color: #FFFFFF;
+        text-align: left;
+        padding: 2px 10px;
+        text-decoration: none;
+        //transition: 0.3s;
+        font-size: 15px;
+
+        &:hover {
+            background-color: $navbar_color_darkest;
+            cursor: pointer;
+        }
+    }
+}
+
+/*===============================================================*/
+/*  INFO ABOUT INPUT                                             */
+/*===============================================================*/
+
+.input-info-popup {
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;;
+    z-index: 1000;
+}
+
+/*===============================================================*/
+/*  INFO ABOUT DNA                                               */
+/*===============================================================*/
+
+#dna-info-popup {
+    width: 10rem;
+    //height: 6rem;
+    z-index: 20;
+    position: absolute;
+    display: none;
+
+    > div {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0.1rem 0.3rem;
+    }
+}
+
+/*===============================================================*/
+/*  Arrow box from cssarrowplease                                */
+/*===============================================================*/
+
+.arrow_box {
+	position: relative;
+	background: #ffffff;
+	border: 4px solid #5bb2f5;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.arrow_box:before {
+	border-color: rgba(91, 178, 245, 0);
+	border-bottom-color: #5bb2f5;
+	border-width: 16px;
+	margin-left: -16px;
+}

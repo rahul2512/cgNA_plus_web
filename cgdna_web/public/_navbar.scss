@@ -1,0 +1,314 @@
+.nav {
+    position: relative;
+    display: block;
+    float: left;
+    height: $navbar_height;
+    width: 100%;
+    min-width: $min_header_width;
+    background-color: $navbar_color;
+    color: $navbar_font_color_lightest;
+
+    -webkit-box-shadow: 0px 30px 59px -9px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 30px 59px -9px rgba(0,0,0,0.32);
+    box-shadow: 0px 30px 59px -9px rgba(0,0,0,0.32);
+
+    @media screen and (max-width: $breakpoint_vertical_width) {
+        min-width: 0;
+    }
+    
+
+    > .label {
+        white-space: nowrap;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        float: left;
+        font-size: 1.2rem;
+        font-family: 'Raleway', sans-serif;
+        height: 100%;
+        //width: 18rem;
+        width: 16vw;
+        color: $navbar_font_color_lighter;
+
+
+        &:hover {
+            background-color: $navbar_hover_color;
+            color: #eeeeee;
+        }
+
+        > span {
+            white-space: pre;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);//, -25px);
+        }
+
+        @media screen and (max-width: $breakpoint_vertical_width) {
+            width: 11vw;
+        }
+    }
+
+    
+
+    #slide_label {
+        display: inline-block;
+        float: right;
+        height: $navbar_height;
+        width: $navbar_height;
+        background-color: $navbar_color_darkest;
+        color: #ffffff;
+        text-align: center;
+        line-height: $navbar_height;
+        font-size: 2rem;
+
+        &:hover {
+            background-color: $navbar_hover_color;
+        }
+    }
+    
+    #slide_label::before {
+        font-family: "FontAwesome";
+        content: "\f106";
+    }
+
+    .dropdown {
+        white-space: nowrap;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        float: left;
+        font-size: 1.2rem;
+        font-family: 'Raleway', sans-serif;
+        height: 100%;
+        //width: 18rem;
+        width: 16vw;
+        color: $navbar_font_color_lighter;
+
+        -moz-transition: transform 300ms linear;// ease-in;
+        -webkit-transition: transform 300ms linear;// ease-in;
+        -o-transition: transform 300ms linear;// ease-in;
+        transition: transform 300ms linear;// ease-in;
+        
+
+        > span {
+            white-space: pre;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);//, -25px);
+        }
+
+        &:hover, &:focus {
+            background-color: $navbar_hover_color;
+            color: #eeeeee;
+
+            > ul {
+                display: block;
+                transform: translateY($navbar_height);
+            }
+        }
+
+
+        ul {
+            display: none;
+            position: absolute;
+            float: right;
+            list-style: none;
+            overflow: hidden;
+            padding-left: 0;
+            text-align: left;
+            //margin-top: 20%;
+
+            background-color: #ffffff;
+            color: $navbar_font_color_darkest;
+
+            //need to be in this order?
+            margin: 0;
+            //transform: translateY($navbar_height);
+
+            border-top: 2px solid $navbar_font_color_lighter;
+            border-left: 2px solid $navbar_font_color_lighter;
+            border-bottom: 2px solid $navbar_font_color_lighter;
+            border-right: 2px solid $navbar_font_color_lighter;
+            
+            li {
+                width: 100%;
+                //margin-left: -30%;
+                padding-left: 0.5rem;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                &:hover {
+                    background-color: $navbar_color_darkest;
+                    color: white;
+                }
+            }
+
+        }
+
+    }
+}
+
+#label_3dview {
+    >span:before {
+        font-family: 'FontAwesome';
+        content: '\f06e';
+    }
+
+    @media screen and (min-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "3D View";
+        }
+    }
+    @media screen and (max-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "";
+        }
+    }
+
+    &:hover + .label {
+        background-color: $navbar_hover_color;
+        color: #eeeeee;
+    }
+    
+}
+
+#label_settings {
+    width: 4rem;
+    box-sizing: border-box;
+    border-left: 1px solid $navbar_color;
+    >span:before {
+        font-family: 'FontAwesome';
+        content: '\f0ad';
+    }
+    >span:before {
+        font-family: 'FontAwesome';
+        content: '\f0d7';
+    }
+
+    &:hover {
+        background-color: $navbar_hover_color;
+    }
+
+    //@media screen and (min-width: $navbar_icon_appear_width) {
+    //    >span:after {
+    //        content: "Settings";
+    //    }
+    //}
+    //@media screen and (max-width: $navbar_icon_appear_width) {
+    //    >span:after {
+    //        content: "";
+    //    }
+    //}
+}
+
+#label_plots {
+    >span:before {
+        font-family: 'FontAwesome';
+        content: '\f201';
+    }
+
+    @media screen and (min-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: " 2D Plots";
+        }
+    }
+    @media screen and (max-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "";
+        }
+    }
+}
+
+#label_about {
+    >span:before {
+        font-family: 'FontAwesome';
+        content: '\f129';
+    }
+
+    @media screen and (min-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "Get started";
+        }
+    }
+    @media screen and (max-width: $navbar_icon_appear_width) {
+        >span {
+            &:after {
+                content: "";
+            }
+        }
+    }
+}
+        
+#label_contact {
+    >span:before {
+        font-family: 'FontAwesome';
+        content: '\f0e0';
+    }
+
+    @media screen and (min-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "Contact";
+        }
+    }
+    @media screen and (max-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "";
+        }
+    }
+}
+
+#label_exports {
+    >span:before {
+        font-family: 'FontAwesome';
+        content: '\f019';
+    }
+
+    @media screen and (min-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "Exports";
+        }
+    }
+    @media screen and (max-width: $navbar_icon_appear_width) {
+        >span:after {
+            content: "";
+        }
+    }
+}
+
+/*===============================================================*/
+/* SLIDING HEADER */
+/*===============================================================*/
+
+#slide_header {
+    display: none;
+
+    &:checked {
+        ~header .nav #slide_label::before {
+            font-family: 'FontAwesome';
+            content: '\f107';
+        }
+
+        ~header {
+            //transform: translate3d(0, -14.2vh, 0);
+            transform: translate3d(0, calc(-#{$header_height} + #{$navbar_height}), 0);
+
+            @media screen and (max-height: 1100px) {
+                transform: translate3d(0, calc(-#{$header_height_small_screen} + #{$navbar_height}), 0);
+            }
+            
+            @media screen and (max-width: $breakpoint_vertical_width) {
+                transform: translate3d(0, calc(-#{1.4*$header_height_small_screen} + #{$navbar_height}), 0);
+            }
+            
+        }
+
+        ~.content > .text-content, ~.content > .plot-content {
+            padding-top: 80px;
+            //transform: translate3d(0, -14.2vh, 0);
+        }
+    }
+}
+

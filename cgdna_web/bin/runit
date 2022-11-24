@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# if [ -z "$PERLBREW_ROOT" ]; then
+#   export PERLBREW_ROOT=/opt/perlbrew
+#   . $PERLBREW_ROOT/etc/bashrc
+# fi
+
+set -o nounset
+set -o errexit
+ 
+HOSTPORT=*:3357
+WAPP=cgdna_web
+
+RUNHOME=/home/debruin/cgdna_web
+
+export PARAMDIR=/home/debruin/shapes
+export MOJO_LOG_LEVEL=debug
+
+cd $RUNHOME
+
+exec morbo --listen http://$HOSTPORT script/$WAPP
+
